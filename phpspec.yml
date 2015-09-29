@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Ravers
+        psr4_prefix: Ravers
+        src_path: app
