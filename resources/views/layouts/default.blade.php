@@ -31,8 +31,39 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">donate</a></li>
+              @if($title == 'Donate')
+                <li class='active'><a href="#">donate</a></li>
+              @else  
+                <li><a href="#">donate</a></li>
+              @endif
+              
+              @if($title == 'Why Water')
+                <li class='active'><a href="#">why water</a></li>
+               @else  
                 <li><a href="#">why water</a></li>
+              @endif
+
+              @if($title == 'Programs')
+                <li class='active'><a href="#">programs</a></li>
+               @else  
+                <li><a href="#">programs</a></li>
+              @endif
+              @if($title == 'DJ Birthdays')
+                <li class='active'><a href="#">dj birthday</a></li>
+               @else  
+                <li><a href="#">dj birthday</a></li>
+              @endif
+              @if($title == 'About Us')
+                <li class='active'><a href="#">about us</a></li>
+               @else  
+                <li><a href="#">about us</a></li>
+              @endif
+              @if($title == 'Blog')
+                <li class='active'><a href="#">blog</a></li>
+               @else  
+                <li><a href="#">blog</a></li>
+              @endif
+
                 <li><a href="#">why ravers</a></li>
                 <li><a href="#">programs</a></li>
                 <li><a href="#">dj birthdays</a></li>
