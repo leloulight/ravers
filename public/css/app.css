@@ -13,7 +13,7 @@ body{
 }
 
 .video{
-    background: url('../img/bg-video.png') center;
+    /*background: url('../img/bg-video.png') center;*/
     min-height: 35em;
 }
 
@@ -82,12 +82,19 @@ body{
         /*right: 300%;*/
 
     }
+
+
 }
 
 @media (max-width: 647px) {
     .fullscreen-bg {
         background: url('../img/bg-video.png') center;
     }
+
+    .video{
+    background: url('../img/bg-video.png') center;
+    min-height: 35em;
+}
 
     .fullscreen-bg__video {
         display: none;
