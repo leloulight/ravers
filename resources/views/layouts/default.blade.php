@@ -66,7 +66,7 @@
                        
                            <li><a class="texto-blanco" href="#"><strong>GET INVOLVED</strong></a></li>
                            <li><a class="texto-oscuro" href="#">Donate</a></li>
-                           <li><a class="texto-oscuro" href="#">Candy Trade</a></li>
+                           <li><a class="texto-oscuro" href="#">Kandi Trade</a></li>
                            <li><a class="texto-oscuro" href="#">Help a warrior</a></li>
                            <li><a class="texto-oscuro" href="#">DJ's Birthday Project</a></li>
                            <li><a class="texto-oscuro" href="#">International Ravers Volunteer</a></li>
@@ -107,8 +107,8 @@
                 </div>                 
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><h4>International Ravers is a 501 (c)(3) • privacy policy • ©2015 • made with ❤ in CA. </h4></div>
-                <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-offset-md-4 col-lg-2 col-offset-lg-5"> <img class="pull-rigth" src="{{  asset('img/oneclick.png')  }}" alt="One Click Peru SAC" width="100%"></div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8"><h4>International Ravers is a 501 (c)(3) • privacy policy • ©2015 • made with ❤ in CA. </h4></div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-1 col-lg-1"> <img src="{{  asset('img/oneclick.png')  }}" alt="One Click Peru SAC" width="100%"></div>
                 
                
             </div>
