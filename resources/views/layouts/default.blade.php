@@ -64,11 +64,11 @@
                 <li><a href="#">blog</a></li>
               @endif
 
-                <li><a href="#">why ravers</a></li>
+                <!-- <li><a href="#">why ravers</a></li>
                 <li><a href="#">programs</a></li>
                 <li><a href="#">dj birthdays</a></li>
                 <li><a href="#">about us</a></li>
-                <li><a href="#">blog</a></li>
+                <li><a href="#">blog</a></li> -->
                 <li class="visible-lg"><a href="#"><i class="fa fa-facebook-official fa-2x"></i></a></li>
                 <li class="visible-lg"><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
                 <li class="visible-lg"><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
