@@ -16,8 +16,8 @@ class HomeController extends Controller
 
     public function whywater()
     {
-        return 'why water';
-        //return View::make('home');
+        $title = "Why Water";
+        return View::make('water',['title' => $title]);
     }
 
     public function whyravers()
