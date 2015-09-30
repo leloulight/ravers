@@ -14,7 +14,7 @@ body{
 
 .video{
     background: url('../img/bg-video.png') center;
-    height: 35em;
+    min-height: 35em;
 }
 
 .textvideo{
