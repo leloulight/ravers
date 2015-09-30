@@ -107,7 +107,7 @@
                 </div>                 
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8"><h4>International Ravers is a 501 (c)(3) • privacy policy • ©2015 • made with ❤ in CA. </h4></div>
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7"><h4>International Ravers is a 501 (c)(3) • privacy policy • ©2015 • made with ❤ in CA. </h4></div>
                 <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-1 col-lg-1"> <img src="{{  asset('img/oneclick.png')  }}" alt="One Click Peru SAC" width="100%"></div>
                 
                
