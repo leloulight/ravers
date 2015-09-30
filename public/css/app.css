@@ -13,7 +13,7 @@ body{
 }
 
 .video{
-    background: #0000C2;
+    background: url('../img/bg-video.png') center;
     height: 35em;
 }
 
