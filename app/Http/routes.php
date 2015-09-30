@@ -11,20 +11,20 @@
 |
 */
 
-Route::get('/', 'HomeController@home');
+Route::get('/', ['as' => 'home', 'uses' => 'HomeController@home']);
 
-Route::get('/donate','HomeController@donate');
+Route::get('donate',['as' => 'donate', 'uses' => 'HomeController@donate']);
 
-Route::get('/why-water','HomeController@whywater');
+Route::get('why-water',['as' => 'water', 'uses' => 'HomeController@whywater']);
 
-Route::get('/why-ravers','HomeController@whyravers');
+Route::get('why-ravers',['as' => 'ravers', 'uses' => 'HomeController@whyravers']);
 
-Route::get('/programs','HomeController@programs');
+Route::get('programs',['as' => 'programs', 'uses' => 'HomeController@programs']);
 
-Route::get('/dj-birthdays','HomeController@djbirthdays');
+Route::get('dj-birthdays',['as' => 'dj', 'uses' => 'HomeController@djbirthdays']);
 
-Route::get('/about-us','HomeController@aboutus');
+Route::get('about-us',['as' => 'about', 'uses' => 'HomeController@aboutus']);
 
-Route::get('/blog','HomeController@blog');
+Route::get('blog',['as' => 'blog', 'uses' => 'HomeController@blog']);
 
-Route::get('/posts','PostsController@index');
+Route::get('posts','PostsController@index');

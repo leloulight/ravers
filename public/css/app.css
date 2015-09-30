@@ -31,8 +31,8 @@ body{
     color:#f9f9f9;
     font-weight: 400;
     /*position: absolute;*/
-    margin-top: 3.5em;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
 
 }
 
@@ -109,10 +109,16 @@ body{
     color: #1BC152;
 }
 
-.title-white>strong,.title-green>strong{
+.title-white>strong,{
     font-size: 36px;
     font-weight: 700;
 }
+
+.title-green>strong{
+    font-size: 24px;
+    font-weight: 700;
+}
+
 
 .shadow{
     box-shadow: 2px 2px 2px #000;
@@ -130,16 +136,25 @@ body{
     background: #1071FF;
 }
 
+.green{
+    background: #21D455;
+}
+
 .margin-bottom{
     margin-bottom: 0.8em;
 }
 
-.margin-top: {
+.margin-bottom-lg{
+    margin-bottom: 2.8em;
+}
+
+.margin-top {
     margin-top: 1.6em;
 }
 
+
 .margin-top-lg{
-    margin-top: 2em;
+    margin-top: 2.6em;
 }
 .footer{
     background: #262626;
@@ -165,5 +180,9 @@ body{
 }
 
 .vertical{
-    vertical-align: center;
+    margin-top: 6.5em;
+}
+
+.text-estandar{
+    font-size: 1.25em
 }

@@ -13,7 +13,7 @@
                 <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h2>
                 <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
 
-                <h3 class="textvideo visible-xs">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
+                <h3 class="textvideo visible-xs bg-imagen">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
 
             </div>
 
@@ -71,25 +71,25 @@
         </div>
     </div>
 
-    <div class="white margin-bo">
+    <div class="white margin-bottom">
         <div class="container">
             <h2 class="text-center title-green"><strong>Donate</strong> the same amount of<strong> water</strong> that <br>you <strong>drink</strong> in your last <strong>rave.</strong><br>(<small class="from">from</small> $0.50 per liter)</h2>
             <div class="row">
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong>#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('img/profile2.png') }}" alt="Charities" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong>#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('img/profile3.png') }}" alt="Candy Trade" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong>#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('img/profile4.png') }}" alt="Candy Trade" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong>#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
                 </div>
             </div>
         </div>
