@@ -163,3 +163,7 @@ body{
     background: url('../img/bg-water.png') center no-repeat;
     min-height: 35em;
 }
+
+.vertical{
+    vertical-align: center;
+}

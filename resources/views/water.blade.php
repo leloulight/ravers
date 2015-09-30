@@ -11,10 +11,10 @@
         <div class="container">
             <div class="row">
             	<div class="col-xs-4">
-                    <img src="{{ asset('img/gota.png') }}" alt="Water Planet" width="50%" class="center-block" >
+                    <img src="{{ asset('img/gota.png') }}" alt="Water Planet" width="50%" class="center-block vertical" >
                 </div>
                 <div class="col-xs-8">
-                    <h2 class="p_water text-left visible-lg">Planet Water</h2>
+                    <h2 class="toilet text-left visible-lg">Planet Water</h2>
                     <h3 class="toilet text-left visible-sm visible-md">Planet Water</h3>
                     <h3 class="toilet text-left visible-xs">Planet Water</h3>
                     
