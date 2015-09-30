@@ -69,11 +69,11 @@
             <h3 class="toilet text-left visible-xs">Negative Impact</h3>
             
             <p class="text-justify texto-blanco margin-bottom-lg text-estandar">
-            - "Lack of involvement of people cause 50% of projects fail"
-            <br>- People can live without food for a month but not more than a week without water.
-            <br>- More than 3.4 million people die each year from problems related to hygiene because of the misuse of water. About 99% of deaths occur in developing countries. 
-            <br>- An estimated 1.5 million children under 5 die from diarrhea worldwide, that means 4,100 children per day (172 per hour - 3 per minute)
-            <br>- Lack of access to clean water and sanitation kills children at a rate equivalent of a jumbo jet crashing every four hours. The water and sanitation  crisis claims more lives through disease than any war claims through guns</p>  
+            "Lack of involvement of people cause 50% of projects fail"
+            <br><br>People can live without food for a month but not more than a week without water.
+            <br><br>More than 3.4 million people die each year from problems related to hygiene because of the misuse of water. About 99% of deaths occur in developing countries. 
+            <br><br>An estimated 1.5 million children under 5 die from diarrhea worldwide, that means 4,100 children per day (172 per hour - 3 per minute)
+            <br><br>Lack of access to clean water and sanitation kills children at a rate equivalent of a jumbo jet crashing every four hours. The water and sanitation  crisis claims more lives through disease than any war claims through guns</p>  
           </div> 
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <img src="{{ asset('img/negative.png') }}" alt="Water Planet" width="60%" class="center-block vertical margin-bottom-lg" >
