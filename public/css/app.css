@@ -160,5 +160,6 @@ body{
 }
 
 .bg_water{
-    background: url('../img/bg-water.png') center no-repeat cover;
+    background: url('../img/bg-water.png') center no-repeat;
+    min-height: 35em;
 }
