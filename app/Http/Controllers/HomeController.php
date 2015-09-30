@@ -20,33 +20,33 @@ class HomeController extends Controller
         return View::make('water',['title' => $title]);
     }
 
-    public function whyravers()
-    {
-        return 'why ravers';
-        //return View::make('home');
-    }
-
     public function programs()
     {
-        return 'programs';
-        //return View::make('home');
+        $title = "Programs";
+        return View::make('programs',['title' => $title]);
     }
 
     public function djbirthdays()
     {
-        return 'dj birthday';
-        //return View::make('home');
+        $title = "DJs Birthdays";
+        return View::make('dj',['title' => $title]);
     }
 
     public function aboutus()
     {
-        return 'about us';
-        //return View::make('home');
+        $title = "About Us";
+        return View::make('about',['title' => $title]);
     }
 
     public function blog()
     {
-        return 'blog';
-        //return View::make('home');
+        $title = "Blog";
+        return View::make('blog',['title' => $title]);
+    }
+
+    public function donate()
+    {
+        $title = "Donate";
+        return View::make('donate',['title' => $title]);
     }
 }

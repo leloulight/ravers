@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand " href="#"><img src="{{ asset('img/logo.png') }}" alt="" height="70"></a>
+            <a class="navbar-brand " href="{{ route('home') }}"><img src="{{ asset('img/logo.png') }}" alt="" height="70"></a>
             <!-- <a class="navbar-brand hidden-lg" href="#"><img src="{{ asset('img/logo.png') }}" alt="" height="70"></a> -->
         </div>
 
@@ -32,43 +32,39 @@
 
             <ul class="nav navbar-nav navbar-right">
               @if($title == 'Donate')
-                <li class='active'><a href="#">donate</a></li>
+                <li class='active'><a href="{{ route('donate') }}">donate</a></li>
               @else  
-                <li><a href="#">donate</a></li>
+                <li><a href="{{ route('donate') }}">donate</a></li>
               @endif
               
               @if($title == 'Why Water')
-                <li class='active'><a href="{{ route('water')}}">why water</a></li>
+                <li class='active'><a href="{{ route('water') }}">why water</a></li>
                @else  
                 <li><a href="{{ route('water')}}">why water</a></li>
               @endif
 
               @if($title == 'Programs')
-                <li class='active'><a href="#">programs</a></li>
+                <li class='active'><a href="{{ route('programs') }}">programs</a></li>
                @else  
-                <li><a href="#">programs</a></li>
+                <li><a href="{{ route('programs')}}">programs</a></li>
               @endif
-              @if($title == 'DJ Birthdays')
-                <li class='active'><a href="#">dj birthday</a></li>
+              @if($title == 'DJs Birthdays')
+                <li class='active'><a href="{{ route('dj') }}">dj birthday</a></li>
                @else  
-                <li><a href="#">dj birthday</a></li>
+                <li><a href="{{ route('dj')}}">dj birthday</a></li>
               @endif
               @if($title == 'About Us')
-                <li class='active'><a href="#">about us</a></li>
+                <li class='active'><a href="{{ route('about') }}">about us</a></li>
                @else  
-                <li><a href="#">about us</a></li>
+                <li><a href="{{ route('about')}}">about us</a></li>
               @endif
               @if($title == 'Blog')
-                <li class='active'><a href="#">blog</a></li>
+                <li class='active'><a href="{{ route('blog') }}">blog</a></li>
                @else  
-                <li><a href="#">blog</a></li>
+                <li><a href="{{ route('blog') }}">blog</a></li>
               @endif
 
-                <!-- <li><a href="#">why ravers</a></li>
-                <li><a href="#">programs</a></li>
-                <li><a href="#">dj birthdays</a></li>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">blog</a></li> -->
+              
                 <li class="visible-lg"><a href="#"><i class="fa fa-facebook-official fa-2x"></i></a></li>
                 <li class="visible-lg"><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
                 <li class="visible-lg"><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>

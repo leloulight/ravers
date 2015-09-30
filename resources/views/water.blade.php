@@ -40,7 +40,7 @@
         			 <img src="{{ asset('img/mapa.png') }}" alt="Water Planet" width="100%" class="center-block margin-bottom-lg" >
         		</div>
         </div>
-        <div class="row">
+        <div class="row margin-bottom-lg">
         	<div class="col-xs-12 col-md-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
         		<p>"Africa - 345 million people without access to drinking water"</p>
         	</div>
