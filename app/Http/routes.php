@@ -17,6 +17,8 @@ Route::get('donate',['as' => 'donate', 'uses' => 'HomeController@donate']);
 
 Route::get('why-water',['as' => 'water', 'uses' => 'HomeController@whywater']);
 
+Route::get('why-ravers',['as' => 'ravers', 'uses' => 'HomeController@whyravers']);
+
 Route::get('programs',['as' => 'programs', 'uses' => 'HomeController@programs']);
 
 Route::get('dj-birthdays',['as' => 'dj', 'uses' => 'HomeController@djbirthdays']);

@@ -43,6 +43,12 @@
                 <li><a href="{{ route('water')}}">why water</a></li>
               @endif
 
+              @if($title == 'Why Ravers')
+                <li class='active'><a href="{{ route('ravers') }}">why ravers</a></li>
+               @else  
+                <li><a href="{{ route('ravers')}}">why ravers</a></li>
+              @endif
+
               @if($title == 'Programs')
                 <li class='active'><a href="{{ route('programs') }}">programs</a></li>
                @else  

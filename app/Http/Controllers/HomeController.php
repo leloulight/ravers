@@ -20,6 +20,12 @@ class HomeController extends Controller
         return View::make('water',['title' => $title]);
     }
 
+    public function whyravers()
+    {
+        $title = "Why Ravers";
+        return View::make('ravers',['title' => $title]);
+    }
+
     public function programs()
     {
         $title = "Programs";
