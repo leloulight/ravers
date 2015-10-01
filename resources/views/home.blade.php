@@ -123,7 +123,7 @@
     <div class="blue">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-6">
                     <h2 class="toilet text-left visible-lg">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h2>
                     <h3 class="toilet text-left visible-sm visible-md">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h3>
                     <h3 class="toilet text-left visible-xs">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h3>
@@ -131,7 +131,7 @@
                         <button type="button" class="btn btn-success btn-lg ">Help a Warrior</button>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <img src="{{ asset('img/toilet.jpg') }}" alt="Toilet Dignity" width="100%" class="center-block" >
                 </div>
                  
