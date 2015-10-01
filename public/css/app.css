@@ -199,7 +199,7 @@ body{
   border-right: none;
   border-left: none;
   position: relative;
-  height: 35em;
+  /*height: 35em;*/
   background: url('../img/bg-video.png') center no-repeat;
   background-size: cover;
 }

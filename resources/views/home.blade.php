@@ -40,9 +40,9 @@
                 </div>
             </div>
             
-            <div class="filter  hidden-xs"></div>
+            <div class="filter"></div>
             
-            <video autoplay loop class="fillWidth hidden-xs">
+            <video autoplay loop class="fillWidth">
                 <source src="{{ asset('video/heroes_short.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
             
