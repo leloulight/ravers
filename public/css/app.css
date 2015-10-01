@@ -201,6 +201,7 @@ body{
   position: relative;
   /*height: 35em;*/
   background: url('../img/bg-video.png') center no-repeat;
+  background-size: cover;
 }
 .no-video .video-container video,
 .touch .video-container video {
