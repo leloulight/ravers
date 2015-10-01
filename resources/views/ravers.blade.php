@@ -5,7 +5,7 @@
   <div class="bg_ravers">
   </div>
   <div class="green">
-    <div class="container">
+    <div class="container margin-bottom-lg">
       <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
           <h2 class="textvideo visible-lg">“WE ALL  TOGETHER CAN MAKE A WORLD BETTER”</h2>
           <h3 class="textvideo visible-sm visible-md">“WE ALL  TOGETHER CAN MAKE A WORLD BETTER”</h3>
