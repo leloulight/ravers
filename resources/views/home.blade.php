@@ -42,7 +42,7 @@
                     <h4 class="title-white text-center">The dignity  of a toilet, sink and a shower must be for everyone!</h4>
                 </div>
                 <div class="col-xs-12 text-center">
-                    <button type="button" class="btn btn-success btn-lg btn-custom">Donate</button>
+                    <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Donate</button></a>
                 </div>
             </div>
         </div>

@@ -101,7 +101,7 @@
 
         	<div class="col-xs-12 panel panel-default text-center">
         		<p class="text-center text-estandar">Invest in improving access to safe water contributes to economic growth. For every $ 1 invested the World Health Organization (WHO) estimates a return of $ 3- $ 34 US dollars to the global economy.</p>
-        		<button type="button" class="btn btn-success btn-lg btn-custom">Donate</button>
+        		<a href="{{ route('donate') }}"><button type="button" class="btn btn-success btn-lg btn-custom">Donate</button></a>
         	</div>
         
         </div>

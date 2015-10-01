@@ -98,7 +98,7 @@
                    <ul class="list-unstyled menu-footer">
                        
                            <li><a class="texto-blanco" href="#"><strong>GET INVOLVED</strong></a></li>
-                           <li><a class="texto-oscuro" href="#">Donate</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('donate')}}">Donate</a></li>
                            <li><a class="texto-oscuro" href="#">Kandi Trade</a></li>
                            <li><a class="texto-oscuro" href="#">Help a warrior</a></li>
                            <li><a class="texto-oscuro" href="#">DJ's Birthday Project</a></li>
