@@ -21,7 +21,7 @@ body{
     text-align: center;
     color:#f9f9f9;
     /*position: absolute;*/
-    /*margin-top: 3.5em;*/
+    margin-top: 3.5em;
     margin-bottom: 2em;
 
 }
@@ -189,7 +189,7 @@ body{
 }
 
 .text-estandar{
-    font-size: 1.25em
+    font-size: 1.25em;
 }
 
 
@@ -199,7 +199,7 @@ body{
   border-right: none;
   border-left: none;
   position: relative;
-  /*height: 35em;*/
+  height: 35em;
   background: url('../img/bg-video.png') center no-repeat;
   background-size: cover;
 }
@@ -215,7 +215,7 @@ body{
   position: relative;
   bottom: 0%;
   left: 0%;
-  height: 100%;
+  height: 35em;
   width: 100%;
   /*min-height: 35em;*/
   overflow: hidden;
@@ -235,7 +235,7 @@ body{
 .video-container .title-container {
   z-index: 1000;
   position: absolute;
-  top: 20%;
+  /*top: 20%;*/
   width: 100%;
   text-align: center;
   color: #fff;

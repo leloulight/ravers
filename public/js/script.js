@@ -24,8 +24,8 @@ $( document ).ready(function() {
 
 function scaleVideoContainer() {
 
-    var height = $(window).height();
-    var unitHeight = parseInt(height) + 'px';
+    
+    var unitHeight = '490px';
     $('.homepage-hero-module').css('height',unitHeight);
 
 }

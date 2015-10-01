@@ -26,24 +26,30 @@
 
     <div class="homepage-hero-module">
         <div class="video-container">
+            
             <div class="title-container">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 " >
-                  <h2 class=" visible-lg">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h2>
-                  <h3 class=" visible-sm visible-md">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
+                  <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h2>
+                  <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
 
-                  <h3 class="visible-xs">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
+                  <h3 class="textvideo visible-xs">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
                 </div>
 
                 <div class="col-xs-12 text-center margin-bottom-lg margin-top-lg">
                   <button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEO</button>
                 </div>
             </div>
-            <div class="filter  hidden-xs hidden-sm"></div>
-            <video autoplay loop class="fillWidth hidden-xs hidden-sm">
-                <source src="{{ asset('video/heroes_short.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
+            
+            <div class="filter  hidden-xs"></div>
+            
+            <video autoplay loop class="fillWidth hidden-xs">
+                <source src="{{ asset('video/heroes_short.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+            
             <div class="poster hidden">
                 <img src="{{ asset('img/videoframe.jpg')}}" alt="">
             </div>
+
         </div>
     </div>
 
