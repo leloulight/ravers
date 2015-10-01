@@ -1,15 +1,15 @@
 @extends('layouts.default')
 
 @section('content')
-    <div class="fullscreen-bg">
+    <!-- <div class="fullscreen-bg">
         <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
             <source src="video/heroes_short.mp4" type="video/mp4">
             
         </video>
-    </div>
-    <div class="video">
-        <div class="container">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
+    </div> -->
+    <!-- <div class="video" id="div_demo">
+        <div class="container" >
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 " >
                 <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h2>
                 <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
 
@@ -22,7 +22,29 @@
             </div>
 
         </div>
+    </div> -->
+
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="title-container">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 " >
+                <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h2>
+                <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
+
+                <h3 class="textvideo visible-xs bg-imagen">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
+
+            </div>
+            </div>
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth">
+                <source src="{{ asset('video/heroes_short.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
+            <div class="poster hidden">
+                <img src="http://www.videojs.com/img/poster.jpg" alt="">
+            </div>
+        </div>
     </div>
+
+
     <div class="c_programs">
         <div class="container">
             <h2 class="text-center title-white margin-top">Our <strong>charity</strong> programs</h2>
@@ -97,7 +119,7 @@
 
     <div class="blue">
         <div class="container">
-            <div class="row margin-bottom-lg">
+            <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <h2 class="toilet text-left visible-lg">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h2>
                     <h3 class="toilet text-left visible-sm visible-md">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h3>
