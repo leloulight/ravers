@@ -17,7 +17,7 @@
 
             </div>
 
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 text-center margin-bottom-lg">
                 <button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEO</button>
             </div>
 
@@ -26,7 +26,7 @@
     <div class="c_programs">
         <div class="container">
             <h2 class="text-center title-white margin-top">Our <strong>charity</strong> programs</h2>
-            <div class="row">
+            <div class="row margin-top-lg margin-bottom-lg">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Water accesibility program</h4>
                     <video controls poster="img/videoframe.jpg" width="100%" class="center-block shadow">
@@ -41,7 +41,7 @@
                     </video>
                     <h4 class="title-white text-center">The dignity  of a toilet, sink and a shower must be for everyone!</h4>
                 </div>
-                <div class="col-xs-12 text-center">
+                <div class="col-xs-12 text-center ">
                     <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Donate</button></a>
                 </div>
             </div>
@@ -50,8 +50,8 @@
 
     <div class="yellow">
         <div class="container">
-            <h2 class="text-center title-white"><strong>How</strong> we invest your <strong>Donations</strong></h2>
-            <div class="row">
+            <h2 class="text-center title-white margin-top-lg"><strong>How</strong> we invest your <strong>Donations</strong></h2>
+            <div class="row margin-bottom-lg">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <h3 class="title-white text-center" >EXPLORE</h3>
                     <img src="{{ asset('img/explore.png') }}" alt="Explore" width="70%" class="center-block" >
@@ -73,7 +73,7 @@
 
     <div class="white margin-bottom">
         <div class="container">
-            <h2 class="text-center title-green"><strong>Donate</strong> the same amount of<strong> water</strong> that <br>you <strong>drink</strong> in your last <strong>rave.</strong><br>(<small class="from">from</small> $0.50 per liter)</h2>
+            <h2 class="text-center title-green margin-top-lg"><strong>Donate</strong> the same amount of<strong> water</strong> that <br>you <strong>drink</strong> in your last <strong>rave.</strong><br>(<small class="from">from</small> $0.50 per liter)</h2>
             <div class="row">
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
@@ -87,7 +87,7 @@
                     <img src="{{ asset('img/profile3.png') }}" alt="Candy Trade" width="70%" class="center-block" >
                     <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-lg">
                     <img src="{{ asset('img/profile4.png') }}" alt="Candy Trade" width="70%" class="center-block" >
                     <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
                 </div>
@@ -97,7 +97,7 @@
 
     <div class="blue">
         <div class="container">
-            <div class="row">
+            <div class="row margin-bottom-lg">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <h2 class="toilet text-left visible-lg">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h2>
                     <h3 class="toilet text-left visible-sm visible-md">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h3>
