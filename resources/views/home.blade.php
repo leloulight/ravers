@@ -38,8 +38,8 @@
                   <button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEO</button>
                 </div>
             </div>
-            <div class="filter"></div>
-            <video autoplay loop class="fillWidth">
+            <div class="filter  hidden-xs hidden-sm"></div>
+            <video autoplay loop class="fillWidth hidden-xs hidden-sm">
                 <source src="{{ asset('video/heroes_short.mp4') }}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
             <div class="poster hidden">
                 <img src="{{ asset('img/videoframe.jpg')}}" alt="">

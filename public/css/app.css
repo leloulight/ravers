@@ -199,7 +199,8 @@ body{
   border-right: none;
   border-left: none;
   position: relative;
-  height: 35em;
+  /*height: 35em;*/
+  background: url('../img/bg-video.png') center no-repeat;
 }
 .no-video .video-container video,
 .touch .video-container video {
@@ -216,7 +217,7 @@ body{
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #000;
+  /*background: #000;*/
 }
 .video-container .poster img {
   width: 100%;
