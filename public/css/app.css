@@ -36,6 +36,26 @@ body{
 
 }
 
+.water{
+    text-align: left;
+    color:#f9f9f9;
+    font-weight: 400;
+    /*position: absolute;*/
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+
+}
+
+.raver-text{
+    text-align: left;
+    /*color:#f9f9f9;*/
+    font-weight: 400;
+    /*position: absolute;*/
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+
+}
+
 .c_programs{
     background: #0F70FD;
     min-height: 35em;
@@ -44,7 +64,7 @@ body{
 
 .yellow{
     background: #FDBC1B;
-    min-height: 35em;
+    /*min-height: 35em;*/
 
 }
 
@@ -114,11 +134,9 @@ body{
     font-weight: 700;
 }
 
-.title-green>strong{
+.hashtag{
     font-size: 24px;
-    font-weight: 700;
 }
-
 
 .shadow{
     box-shadow: 2px 2px 2px #000;
@@ -180,9 +198,23 @@ body{
 }
 
 .bg_ravers{
-    background: url('../img/bg-raver.jpg') center no-repeat;
+    background: url('../img/bg-ravers.jpg') center no-repeat;
+    background-size: cover;
     min-height: 35em;
 }
+
+.bg_programs{
+    background: url('../img/programas.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 35em;
+}
+
+.bg_about{
+    background: url('../img/bg-about.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 35em;
+}
+
 
 .vertical{
     margin-top: 6.5em;
@@ -215,7 +247,7 @@ body{
   position: relative;
   bottom: 0%;
   left: 0%;
-  height: 35em;
+  height: 100%;
   width: 100%;
   /*min-height: 35em;*/
   overflow: hidden;
@@ -265,3 +297,30 @@ body{
 .video-container video.fillWidth {
   width: 100%;
 }
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 250px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-caption p{
+    color: #000;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 250px;
+  /*background-color: #777;*/
+}
+
+
+
+
