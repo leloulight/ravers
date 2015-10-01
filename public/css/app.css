@@ -216,8 +216,8 @@ body{
   left: 0%;
   height: 100%;
   width: 100%;
-  min-height: 35em;
-  /*overflow: hidden;*/
+  /*min-height: 35em;*/
+  overflow: hidden;
   /*background: #000;*/
 }
 .video-container .poster img {
