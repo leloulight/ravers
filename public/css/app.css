@@ -26,6 +26,41 @@ body{
 
 }
 
+.text-blue{
+    text-align: center;
+    color:#0093F5;
+    /*position: absolute;*/
+    margin-top: 2.5em;
+    /*margin-bottom: 2em;*/
+
+}
+
+.text-program{
+    text-align: left;
+    color:#f9f9f9;
+    /*position: absolute;*/
+    margin-top: 3.5em;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+
+}
+
+.texto-lg{
+  font-size: 17px;
+}
+
+.txt-large{
+  font-size: 20px;
+}
+.textvideo_no_bottom{
+    text-align: center;
+    color:#f9f9f9;
+    /*position: absolute;*/
+    margin-top: 3em;
+    /*margin-bottom: 2em;*/
+
+}
+
 .toilet{
     text-align: left;
     color:#f9f9f9;
@@ -321,6 +356,11 @@ body{
   /*background-color: #777;*/
 }
 
+
+.margin-center{
+  margin-right: 4em;
+  margin-left: 4em;
+}
 
 
 
