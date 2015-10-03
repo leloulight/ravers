@@ -35,6 +35,22 @@ body{
 
 }
 
+.text-pink{
+    text-align: center;
+    color:#000;
+    /*position: absolute;*/
+    margin-top: 2em;
+    /*margin-bottom: 2em;*/
+
+}
+
+.text-pink strong{
+  color: #FD0052;
+}
+
+.pink{
+  color: #FD0052;
+}
 .text-program{
     text-align: left;
     color:#f9f9f9;
@@ -250,13 +266,19 @@ body{
     min-height: 35em;
 }
 
+.bg_dj{
+    background: url('../img/bg-dj.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 65em;
+}
+
 
 .vertical{
     margin-top: 6.5em;
 }
 
 .text-estandar{
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 
@@ -360,6 +382,12 @@ body{
 .margin-center{
   margin-right: 4em;
   margin-left: 4em;
+}
+
+
+.margin-center-lg{
+  margin-right: 6em;
+  margin-left: 6em;
 }
 
 
