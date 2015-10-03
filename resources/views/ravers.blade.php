@@ -50,27 +50,27 @@
     	            <div class="carousel-caption">
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/USA.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>63.9 mill.</p>
+    	              	<p class="text-center">Population<br>14.4 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Brazil.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>31.3 mill.</p>
+    	              	<p class="text-center">Population<br>3.1 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/United-kingdom.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>12.3 mill.</p>
+    	              	<p class="text-center">Population<br>3.1 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Germany.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>14.6 mill.</p>
+    	              	<p class="text-center">Population<br>2.9 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Canada.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>7.0 mill.</p>
+    	              	<p class="text-center">Population<br>1.8 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/France.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>11.7 mill.</p>
+    	              	<p class="text-center">Population<br>1.8 mill.</p>
     	              </div>
     	            </div>
     	          </div>
@@ -80,27 +80,27 @@
     	            <div class="carousel-caption">
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Italy.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>10.9 mill.</p>
+    	              	<p class="text-center">Population<br>1.6 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Japan.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>23.0 mill.</p>
+    	              	<p class="text-center">Population<br>1.2 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Spain.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>9.8 mill.</p>
+    	              	<p class="text-center">Population<br>1.0 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Australia.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>4.8 mill.</p>
+    	              	<p class="text-center">Population<br>0.9 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Russia.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>4.0 mill.</p>
+    	              	<p class="text-center">Population<br>0.8 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Netherlands.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>3.0 mill.</p>
+    	              	<p class="text-center">Population<br>0.7 mill.</p>
     	              </div>
     	            </div>
     	          </div>
@@ -110,27 +110,27 @@
     	            <div class="carousel-caption">
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Mexico.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>27.3 mill.</p>
+    	              	<p class="text-center">Population<br>0.7 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/India.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>247.1 mill.</p>
+    	              	<p class="text-center">Population<br>0.6 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/South-korea.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>10.8 mill.</p>
+    	              	<p class="text-center">Population<br>0.5 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Belgium.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>2.0 mill.</p>
+    	              	<p class="text-center">Population<br>0.5 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Czech-Republic.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>2.3 mill.</p>
+    	              	<p class="text-center">Population<br>0.5 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Sweden.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>1.7 mill.</p>
+    	              	<p class="text-center">Population<br>0.4 mill.</p>
     	              </div>
     	            </div>
     	          </div>
@@ -140,27 +140,27 @@
     	            <div class="carousel-caption">
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/China.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>7.9 mill.</p>
+    	              	<p class="text-center">Population<br>0.4 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Chile.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>1.5 mill.</p>
+    	              	<p class="text-center">Population<br>0.3 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Turkey.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>3.4 mill.</p>
+    	              	<p class="text-center">Population<br>0.3 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Denmark.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>0.9 mill.</p>
+    	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Norway.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>0.9 mill.</p>
+    	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/New-zealand.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>0.8 mill.</p>
+    	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	            </div>
     	          </div>
@@ -170,15 +170,15 @@
     	            <div class="carousel-caption">
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/Argentina.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>0.6 mill.</p>
+    	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/United-arab-emirates.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>0.8 mill.</p>
+    	              	<p class="text-center">Population<br>0.1 mill.</p>
     	              </div>
     	              <div class="col-xs-2">
     	              	<img src="{{ asset('img/flag/South-africa.png')}}" alt="flag" width="100%">
-    	              	<p class="text-center">Population<br>0.8 mill.</p>
+    	              	<p class="text-center">Population<br>0.1 mill.</p>
     	              </div>
     	            </div>
     	          </div>

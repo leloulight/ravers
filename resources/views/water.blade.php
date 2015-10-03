@@ -92,7 +92,7 @@
 					</div>
         	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         		<img src="{{ asset('img/37p.png') }}" alt="Water Planet" width="70%" class="center-block margin-top-lg margin-bottom-lg" >
-        		<p class="text-center margin-bottom-lg text-estandar">Clean water alone can reduce water – related deaths by 37%</p>
+        		<p class="text-center margin-bottom-lg text-estandar">Clean water alone can reduce water – related deaths by 37.5%</p>
 					</div>
         	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         		<img src="{{ asset('img/35p.png') }}" alt="Water Planet" width="70%" class="center-block margin-top-lg margin-bottom-lg" >

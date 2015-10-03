@@ -29,10 +29,10 @@
             
             <div class="title-container">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 " >
-                  <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h2>
-                  <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
+                  <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h2>
+                  <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h3>
 
-                  <h3 class="textvideo visible-xs">International Ravers Charity represents the EDM COMMUNITY worldwide facing the main problem in this planet now a days: WATER  SCARCITY IN DEVELOPING COUNTRIES</h3>
+                  <h3 class="textvideo visible-xs">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h3>
                 </div>
 
                 <div class="col-xs-12 text-center margin-bottom-lg margin-top-lg">
