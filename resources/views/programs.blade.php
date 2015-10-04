@@ -21,7 +21,7 @@
           <h3 class="textvideo visible-lg"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBERS OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h3>
           <h4 class="textvideo visible-sm visible-md"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBERS OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h4>
 					<h4 class="textvideo visible-xs bg-imagen"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBERS OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h4>
-          <h2 class="text-center texto-blanco">WE CAN DO ANITHING?</h2>
+          <h2 class="text-center texto-blanco" id="warriors">WE CAN DO ANITHING?</h2>
       </div>
       <div class="row margin-top-lg margin-bottom-lg">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -63,23 +63,23 @@
   </div>
 	<div class="yellow">
   	<div class="container">
-  	    <div class="row margin-bottom-lg">
-  	    	
-  	      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-            <h2 class="raver-text text-left visible-lg">VOLUNTEERING</h2>
-            <h3 class="raver-text text-left visible-sm visible-md">VOLUNTEERING</h3>
-            <h3 class="raver-text text-left visible-xs">VOLUNTEERING</h3>
-            
-            <p class="text-justify margin-bottom-lg">When you volunteer, you agree to give your time, labor, and skills as a means of helping someone else, Volunteering is a great way for a foreigner to fully immerse himself/herself into global reality and to work with local people to make a positive change in their lives. <br><br>Just let us know what kind of continent you'd like to travel and which type of causes want to support. Then different organizations may contact you and give you information about their aid programs.</p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-  	        <img src="{{ asset('img/volunteers-01.png') }}" alt="Volunteers" width="60%" class="center-block vertical" >
-  	      </div>
-  	    </div>
-  	    <div class="col-xs-12 text-left margin-bottom-lg ">
-  	        <a href="#"><button type="button" class="btn btn-primary btn-lg btn-custom">Be a volunteer,</button></a>
-  	    </div>
-  		</div>
-  	</div>	
+	    <div class="row margin-bottom-lg">
+	    	
+	      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <h2 class="raver-text text-left visible-lg">VOLUNTEERING</h2>
+          <h3 class="raver-text text-left visible-sm visible-md">VOLUNTEERING</h3>
+          <h3 class="raver-text text-left visible-xs">VOLUNTEERING</h3>
+          
+          <p class="text-justify margin-bottom-lg">When you volunteer, you agree to give your time, labor, and skills as a means of helping someone else, Volunteering is a great way for a foreigner to fully immerse himself/herself into global reality and to work with local people to make a positive change in their lives. <br><br>Just let us know what kind of continent you'd like to travel and which type of causes want to support. Then different organizations may contact you and give you information about their aid programs.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	        <img src="{{ asset('img/volunteers-01.png') }}" alt="Volunteers" width="60%" class="center-block vertical" >
+	      </div>
+	    </div>
+	    <div class="col-xs-12 text-left margin-bottom-lg ">
+	        <a href="#"><button type="button" class="btn btn-primary btn-lg btn-custom">Be a volunteer,</button></a>
+	    </div>
+		</div>
+  </div>	
     
 @stop

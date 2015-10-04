@@ -22,7 +22,7 @@
   </div>
 	<div class="blue">
     <div class="container">
-      <div class="row margin-bottom-lg">
+      <div class="row margin-bottom-lg" id="team">
       	<h2 class="textvideo visible-lg">MEET OUR STAFF</h2>
         <h3 class="textvideo visible-sm visible-md">MEET OUR STAFF</h3>
         <h3 class="textvideo visible-xs">MEET OUR STAFF</h3>

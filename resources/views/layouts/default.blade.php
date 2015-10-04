@@ -71,9 +71,9 @@
               @endif
 
               
-                <li class="visible-lg"><a href="#"><i class="fa fa-facebook-official fa-2x"></i></a></li>
-                <li class="visible-lg"><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                <li class="visible-lg"><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                <li class="visible-lg"><a href="https://www.facebook.com/internationalravers" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+                <li class="visible-lg"><a href="https://twitter.com/intravers" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                <li class="visible-lg"><a href="https://instagram.com/internationalraverscharity" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
 
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -88,10 +88,10 @@
                 <div class="col-xs-2">
                    <ul class="list-unstyled menu-footer">
                       <li><a class="texto-blanco" href="#"><strong>FOLLOW US</strong></a></li>
-                      <li><a class="texto-oscuro" href="#">Read our blog</a></li>   
-                      <li><a class="texto-oscuro" href="#">Facebook</a></li>     
-                      <li><a class="texto-oscuro" href="#">Twitter</a></li>     
-                      <li><a class="texto-oscuro" href="#">Instagram</a></li>
+                      <li><a class="texto-oscuro" href="{{ route('blog') }}">Read our blog</a></li>   
+                      <li><a class="texto-oscuro" href="https://www.facebook.com/internationalravers" target="_blank">Facebook</a></li>     
+                      <li><a class="texto-oscuro" href="https://twitter.com/intravers" target="_blank">Twitter</a></li>     
+                      <li><a class="texto-oscuro" href="https://instagram.com/internationalraverscharity" target="_blank">Instagram</a></li>
                    </ul>
                 </div> 
                 <div class="col-xs-2">
@@ -99,9 +99,9 @@
                        
                            <li><a class="texto-blanco" href="#"><strong>GET INVOLVED</strong></a></li>
                            <li><a class="texto-oscuro" href="{{ route('donate')}}">Donate</a></li>
-                           <li><a class="texto-oscuro" href="#">Kandi Trade</a></li>
-                           <li><a class="texto-oscuro" href="#">Help a warrior</a></li>
-                           <li><a class="texto-oscuro" href="#">DJ's Birthday Project</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('donate')}}">Kandi Trade</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('programs') }}#warriors">Help a warrior</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('dj') }}">DJ Birthday Challenge</a></li>
                            <li><a class="texto-oscuro" href="#">International Ravers Volunteer</a></li>
                       
                    </ul>
@@ -119,10 +119,10 @@
                     <ul class="list-unstyled menu-footer">
                        
                            <li><a class="texto-blanco" href="#"><strong>ABOUT US</strong></a></li>
-                           <li><a class="texto-oscuro" href="#">Our Team</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('about') }}#team">Our Team</a></li>
                            <li><a class="texto-oscuro" href="#">Join Us</a></li>
                            <li><a class="texto-oscuro" href="#">Send us a email:</a></li>
-                           <li><a class="texto-oscuro" href="#">charity@internationalravers.org</a></li>
+                           <li><a class="texto-oscuro" href="mailto:charity@internationalravers.org">charity@internationalravers.org</a></li>
                            
                        
                    </ul>
@@ -133,7 +133,7 @@
                            <li><a class="texto-blanco" href="#"><strong>CONTACT US</strong></a></li>
                            <li><a class="texto-oscuro" href="#">Questions?</a></li>
                            <li><a class="texto-oscuro" href="#">give us a shot:</a></li>
-                           <li><a class="texto-oscuro" href="#">charity@internationalravers.org</a></li>
+                           <li><a class="texto-oscuro" href="mailto:charity@internationalravers.org">charity@internationalravers.org</a></li>
                            
                        
                    </ul>
