@@ -648,10 +648,64 @@
 	
 
 		    		</div>
+
+		    		<div class="div-border col-xs-12 margin-bottom-lg padding-bottom">
+		    			<h2 class="text-center margin-bottom">Your contribution</h2>
+		    			<h3 class="text-center margin-bottom">We know you're  talented. Feel free to select more than one!</h3>
+		    			<div class="checkbox col-sm-10">
+	    		      <label>
+	    		        <input type="checkbox"> I can help with heavy lifting and setting up for events. 
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-sm-10">
+	    		      <label>
+	    		        <input type="checkbox"> I'm a photographer/videographer who wold like to shoot events for ravers.
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-sm-10">
+	    		      <label>
+	    		        <input type="checkbox"> I'm detail-oriented and love research projects.
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-sm-10">
+	    		      <label>
+	    		        <input type="checkbox"> Customer service is mi meddle name. I'd love to spend my time talking to charity: water supporters.
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-sm-10">
+	    		      <label>
+	    		        <input type="checkbox"> I can help share digitl content and assist with social media.
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-sm-10">
+	    		       <label>
+	    		        <input type="checkbox"> I'm goo with numers, spreadsheet and data analysis.
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-sm-10">
+	    		       <label>
+	    		        <input type="checkbox"> I can help whit greeting, bartending, food passing and bussing at events.
+	    		      </label>
+	    		    </div>
+	    		    
+	
+
+		    		</div>
+						<div class="div-border col-xs-12 margin-bottom-lg padding-bottom">
+		    			<h2 class="text-center margin-bottom">Anything else you want us <br> to know?</h2>
+		    			<textarea class="form-control" rows="5" placeholder="Begin typing here"></textarea>
+						</div>
+
+						<div class="form-group">
+					    <div class="col-xs-12 text-center">
+					      <button type="submit" class="btn btn-success btn-lg">Submit</button>
+					    </div>
+					  </div>
 	    		</form>
-    		
-    		
     	</div>	
+    </div>
+    <div class="row margin-top-lg margin-bottom-lg">
+    	<h4 class="text-center">Questions? Give u a shot: <a href="mailto:volunteer@internationalravers.org">VOLUNTEER@INTERNATIONALRAVERS.ORG</a></h4>
     </div>
   </div>
 </div>
