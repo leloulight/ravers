@@ -11,7 +11,7 @@
           
       </div>
       <div class="col-xs-10 col-sm-10 col-md-8 col-lg-6">
-      	<p class="text-standar texto-lg texto-blanco">Wen invest the money we raise into organizations with more than 2 years of experience developing water projects around the worl. Our team works closely to ensure that every dollar is accounted for and then provides reports back to our donors.</p>
+      	<p class="text-standar texto-lg texto-blanco">We invest the money we raise into organizations with more than 2 years of experience developing water projects around the world. Our team works closely to ensure that every dollar is accounted for and then provides reports back to our donors.</p>
       </div>
 		</div>
   </div>
