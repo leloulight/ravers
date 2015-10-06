@@ -67,7 +67,7 @@
               @if($title == 'Contact Us')
                 <li class='active visible-xs visible-sm'><a href="{{ route('contact') }}">contact us</a></li>
                @else  
-                <li><a href="{{ route('contact')}}">contact us</a></li>
+                <li class="visible-xs visible-sm"><a href="{{ route('contact')}}">contact us</a></li>
               @endif
               @if($title == 'Blog')
                 <li class='active visible-xs visible-sm'><a href="{{ route('blog') }}">blog</a></li>
