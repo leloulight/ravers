@@ -69,10 +69,10 @@
       
       <div class="row margin-bottom-lg">
       	<div class="col-xs-6">
-      		<a href="http://ema-global.org/"><img src="{{ asset('img/ema.jpg')}}" alt="flag" width="30%" class="center-block"></a>
+      		<a href="http://ema-global.org/" target="_blank"><img src="{{ asset('img/ema.jpg')}}" alt="Electronic Music Alliance" width="30%" class="center-block"></a>
       	</div>
       	<div class="col-xs-6">
-      		<a href="http://www.otracosa.org/"><img src="{{ asset('img/ocn.jpg')}}" alt="flag" width="30%" class="center-block"></a>
+      		<a href="http://www.otracosa.org/" target="_blank"><img src="{{ asset('img/ocn.jpg')}}" alt="Otra Cosa Network" width="30%" class="center-block"></a>
       	</div>
       </div>
     </div>
@@ -94,7 +94,7 @@
 	      </div>
 	    </div>
 	    <div class="col-xs-12 text-left margin-bottom-lg ">
-	        <a href="#"><button type="button" class="btn btn-primary btn-lg btn-custom">Be a volunteer,</button></a>
+	        <a href="{{ route('volunteers') }}"><button type="button" class="btn btn-primary btn-lg btn-custom">Be a volunteer,</button></a>
 	    </div>
 		</div>
   </div> 

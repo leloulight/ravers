@@ -77,7 +77,7 @@
 	      </div>
 	    </div>
 	    <div class="col-xs-12 text-left margin-bottom-lg ">
-	        <a href="#"><button type="button" class="btn btn-primary btn-lg btn-custom">Be a volunteer,</button></a>
+	        <a href="{{ route('volunteers') }}"><button type="button" class="btn btn-primary btn-lg btn-custom">Be a volunteer,</button></a>
 	    </div>
 		</div>
   </div>	

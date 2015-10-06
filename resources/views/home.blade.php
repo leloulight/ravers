@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="col-xs-12 text-center margin-bottom-lg margin-top-lg">
-                  <button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEO</button>
+                  <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEO</button></a>
                 </div>
             </div>
             
@@ -111,7 +111,7 @@
                     <h3 class="toilet text-left visible-sm visible-md">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h3>
                     <h3 class="toilet text-left visible-xs">It wouldn't be possible to make a rave with no toilets or sinks. Would you like to join us in providing the dignity of a toilet for those people in developing countries</h3>
                     <div class="col-xs-12 text-center margin-bottom">
-                        <button type="button" class="btn btn-success btn-lg ">Help a Warrior</button>
+                        <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg ">Help a Warrior</button></a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">

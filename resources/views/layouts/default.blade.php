@@ -107,14 +107,14 @@
                            <li><a class="texto-oscuro" href="{{ route('donate')}}">Kandi Trade</a></li>
                            <li><a class="texto-oscuro" href="{{ route('programs') }}#warriors">Help a warrior</a></li>
                            <li><a class="texto-oscuro" href="{{ route('dj') }}">DJ Birthday Challenge</a></li>
-                           <li><a class="texto-oscuro" href="#">International Ravers Volunteer</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('volunteers') }}">International Ravers Volunteer</a></li>
                       
                    </ul>
                 </div> 
                 <div class="col-xs-2">
                     <ul class="list-unstyled menu-footer">
                        
-                           <li><a class="texto-blanco" href="#"><strong>PROGRAMS</strong></a></li>
+                           <li><a class="texto-blanco" href="{{ route('programs') }}"><strong>PROGRAMS</strong></a></li>
                            <li><a class="texto-oscuro" href="#">Water accesability program</a></li>
                            <li><a class="texto-oscuro" href="#">Sanitation & higiene program</a></li>
                         
@@ -123,10 +123,10 @@
                 <div class="col-xs-3">
                     <ul class="list-unstyled menu-footer">
                        
-                           <li><a class="texto-blanco" href="#"><strong>ABOUT US</strong></a></li>
+                           <li><a class="texto-blanco" href="{{ route('about') }}"><strong>ABOUT US</strong></a></li>
                            <li><a class="texto-oscuro" href="{{ route('about') }}#team">Our Team</a></li>
-                           <li><a class="texto-oscuro" href="#">Join Us</a></li>
-                           <li><a class="texto-oscuro" href="#">Send us a email:</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('volunteers') }}">Join Us</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('contact') }}">Send us a email:</a></li>
                            <li><a class="texto-oscuro" href="mailto:charity@internationalravers.org">charity@internationalravers.org</a></li>
                            
                        

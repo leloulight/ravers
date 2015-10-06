@@ -429,3 +429,15 @@ body{
   color: #fff;
   font-size: 3em;
 }
+
+.img-shadow{
+  box-shadow: 7px 7px 10px #000;
+}
+
+.div-border{
+  border-bottom: 2px solid #ddd
+}
+
+.padding-bottom{
+  padding-bottom: 2em;
+}

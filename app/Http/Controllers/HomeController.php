@@ -56,6 +56,12 @@ class HomeController extends Controller
         return View::make('contact',['title' => $title]);
     }
 
+    public function volunteers()
+    {
+        $title = "Volunteers";
+        return View::make('volunteers',['title' => $title]);
+    }
+
     public function donate()
     {
         $title = "Donate";
