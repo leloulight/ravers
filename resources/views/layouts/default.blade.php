@@ -130,9 +130,9 @@
                 <div class="col-xs-3">
                     <ul class="list-unstyled menu-footer">
                        
-                           <li><a class="texto-blanco" href="#"><strong>CONTACT US</strong></a></li>
-                           <li><a class="texto-oscuro" href="#">Questions?</a></li>
-                           <li><a class="texto-oscuro" href="#">give us a shot:</a></li>
+                           <li><a class="texto-blanco" href="{{ route('contact') }}"><strong>CONTACT US</strong></a></li>
+                           <li><a class="texto-oscuro" href="{{ route('contact') }}">Questions?</a></li>
+                           <li><a class="texto-oscuro" href="{{ route('contact') }}">give us a shot:</a></li>
                            <li><a class="texto-oscuro" href="mailto:charity@internationalravers.org">charity@internationalravers.org</a></li>
                            
                        

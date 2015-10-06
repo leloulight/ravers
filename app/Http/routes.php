@@ -27,4 +27,6 @@ Route::get('about-us',['as' => 'about', 'uses' => 'HomeController@aboutus']);
 
 Route::get('blog',['as' => 'blog', 'uses' => 'HomeController@blog']);
 
+Route::get('contact-us',['as' => 'contact', 'uses' => 'HomeController@contact']);
+
 Route::get('posts','PostsController@index');

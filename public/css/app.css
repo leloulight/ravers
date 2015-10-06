@@ -272,6 +272,12 @@ body{
     min-height: 65em;
 }
 
+.bg_contact{
+    background: url('../img/bg-contact.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 65em;
+}
+
 
 .vertical{
     margin-top: 6.5em;
@@ -390,5 +396,36 @@ body{
   margin-left: 6em;
 }
 
+.fieldset{
+  border: 3px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 2em;
+  padding:0;
+}
 
+.borderdiv{
+  border-bottom: 2px solid #fff;
+}
 
+.bordermail{
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding:1.4em .2em 1em .2em; 
+  margin-top: 1em;
+}
+
+.margincontact{
+  
+  padding:1.4em .2em 1em .2em; 
+  margin-top: 1em;
+}
+
+.social-icon{
+  margin-right: 2em;
+}
+
+.address{
+  color: #fff;
+  font-size: 3em;
+}
