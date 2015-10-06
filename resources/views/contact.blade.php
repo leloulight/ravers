@@ -13,7 +13,7 @@
 					<div class="borderdiv col-xs-12">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-right">Fon non profits who needs Founds</p>
+								<p class="text-center">Fon non profits who needs Founds</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
@@ -31,7 +31,7 @@
 					<div class="borderdiv col-xs-12 margin-top-lg">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-right">Have questions?</p>
+								<p class="text-center">Have questions?</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
@@ -49,7 +49,7 @@
 					<div class="col-xs-12 margin-top-lg margin-bottom">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-right">Social Media</p>
+								<p class="text-center">Social Media</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
@@ -59,9 +59,9 @@
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5  text-center">
 							
-								<a href="https://www.facebook.com/internationalravers" target="_blank" class="social-icon"><img src="img/fb.png" width="100" alt=""></a>
-              	<a href="https://twitter.com/intravers" target="_blank" class="social-icon"><img src="img/tw.png" width="100" alt=""></a>
-              	<a href="https://instagram.com/internationalraverscharity" target="_blank" class="social-icon"><img src="img/ig.png" width="100" alt=""></a>
+								<a href="https://www.facebook.com/internationalravers" target="_blank" class="social-icon"><img src="img/fb.png" width="80" alt=""></a>
+              	<a href="https://twitter.com/intravers" target="_blank" class="social-icon"><img src="img/tw.png" width="80" alt=""></a>
+              	<a href="https://instagram.com/internationalraverscharity" target="_blank" class="social-icon"><img src="img/ig.png" width="80" alt=""></a>
 							
 						</div>
 					</div>			
