@@ -9,7 +9,7 @@
         
         <div class="row">
         		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-        			<p class="text-center text-estandar">The Raver's International Birthday Challenge is about engaging DJ's and their fans to gift their birthday to the greater good of providing free water around the world, just like at our raves. Whether you are a famous DJ or an Enthusiastic Raver, you can get involved by subscribing and inviting your friends, family, and fans to participate for your birthday. <br>Together, our birthdays will transform communities in poverty into rave. Free water refills and clean water everywhere!</p>
+        			<p class="text-center text-estandar">The Raver's International Birthday Challenge is about engaging DJ and their fans to gift their birthday to the greater good of providing free water around the world, just like at our raves. Whether you are a famous DJ or an Enthusiastic Raver, you can get involved by subscribing and inviting your friends, family, and fans to participate for your birthday. <br>Together, our birthdays will transform communities in poverty into rave. Free water refills and clean water everywhere!</p>
         		</div>
         		<div class="col-xs-12">
         			 <img src="{{ asset('img/tornamesa-01.png') }}" alt="DJ Brithday" width="4%" class="center-block margin-bottom-lg" >

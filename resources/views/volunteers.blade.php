@@ -705,7 +705,7 @@
     	</div>	
     </div>
     <div class="row margin-top-lg margin-bottom-lg">
-    	<h4 class="text-center">Questions? Give u a shot: <a href="mailto:volunteer@internationalravers.org">VOLUNTEER@INTERNATIONALRAVERS.ORG</a></h4>
+    	<h4 class="text-center">Questions? Give us a shot: <a href="mailto:volunteer@internationalravers.org">VOLUNTEER@INTERNATIONALRAVERS.ORG</a></h4>
     </div>
   </div>
 </div>
