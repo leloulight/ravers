@@ -55,7 +55,7 @@
         			<p class="text-center text-estandar">Our aims are to help as many people as we can around the world. now we're working on the alliances of the organizations that need our support. join us!</p>
         		</div>
         		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-        			 <img src="{{ asset('img/blue.png') }}" alt="Water Planet" width="100%" class="center-block margin-bottom-lg" >
+        			 <img src="{{ asset('img/mapablue.png') }}" alt="" width="100%" class="center-block margin-bottom-lg" >
         		</div>
         </div>
         
