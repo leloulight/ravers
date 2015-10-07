@@ -15,7 +15,7 @@
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         	<h2 class="text-center ">VISION</h2>
 
-       		<p class="text-center text-estandar margin-center">Our vision is to make every community in need like a rave, with free water refills is everywhere.</p>
+       		<p class="text-center text-estandar margin-center">Our vision is to make every community in need like a rave, with free water refills everywhere.</p>
        </div>
       </div>
     </div>
