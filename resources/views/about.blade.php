@@ -10,12 +10,12 @@
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         	<h2 class="text-center ">MISSION</h2>
 					
-      		<p class="text-center text-estandar margin-center">Our mission is fund projects of water, hygiene and sanitation worldwide. Bringing free water refill for every community in need.</p>
+      		<p class="text-center text-estandar margin-center">Our mission is to fund projects of water, hygiene and sanitation worldwide. Bringing free water refills for every community in need.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         	<h2 class="text-center ">VISION</h2>
 
-       		<p class="text-center text-estandar margin-center">Our vision is to make every community in need like a rave, where free water refill is everywhere.</p>
+       		<p class="text-center text-estandar margin-center">Our vision is to make every community in need like a rave, with free water refills is everywhere.</p>
        </div>
       </div>
     </div>
