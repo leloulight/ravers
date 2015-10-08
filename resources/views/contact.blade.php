@@ -61,7 +61,7 @@
 							
 								<a href="https://www.facebook.com/internationalravers" target="_blank" class="social-icon"><img src="img/fb.png" width="80" alt=""></a>
               	<a href="https://twitter.com/intravers" target="_blank" class="social-icon"><img src="img/tw.png" width="80" alt=""></a>
-              	<a href="https://instagram.com/internationalraverscharity" target="_blank" class="social-icon"><img src="img/ig.png" width="80" alt=""></a>
+          			<a href="https://instagram.com/internationalraverscharity" target="_blank" class="social-icon"><img src="img/ig.png" width="80" alt=""></a>
 							
 						</div>
 					</div>			

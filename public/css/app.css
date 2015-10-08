@@ -457,6 +457,23 @@ body{
   padding-bottom: 2em;
 }
 
+.padding-top{
+  padding-top: 0.7em
+}
+.padding-center{
+  padding-left: 7%;
+  padding-right: 7%;
+}
 .text-shadow{
   text-shadow: 2px 2px 2px #000;
+}
+
+.div-donate{
+  background: #DBEAF5;
+  width: 380px;
+  height: 400px;
+  border-radius: 10px;
+  margin:0 auto;
+  opacity: 0.7;
+
 }

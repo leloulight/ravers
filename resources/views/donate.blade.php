@@ -13,10 +13,14 @@
 
       <div class="row">
       	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      		
+      		<div class="div-donate padding-top padding-center">
+				<h3 class="text-center">Water accesibility program</h3>
+      		</div>
       	</div>
       	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      		
+      		<div class="div-donate padding-top padding-center">
+				<h3 class="text-center">Sanitation & hygiene program</h3>
+      		</div>
       	</div>
       </div>
     </div>
