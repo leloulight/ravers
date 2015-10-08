@@ -447,3 +447,7 @@ body{
 .padding-bottom{
   padding-bottom: 2em;
 }
+
+.text-shadow{
+  text-shadow: 2px 2px 2px #000;
+}
