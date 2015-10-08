@@ -26,6 +26,15 @@ body{
 
 }
 
+.textdonate{
+    text-align: center;
+    color:#f9f9f9;
+    /*position: absolute;*/
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+
+}
+
 .text-blue{
     text-align: center;
     color:#0093F5;
