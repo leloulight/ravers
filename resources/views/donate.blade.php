@@ -32,10 +32,19 @@
 						    <label for="inputAmmount">Amount you want to donate per liter consumed</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
-				          <input type="text" class="form-control" id="exampleInputAmount" value="0.50">
+				          <input type="number" class="form-control" id="inputAmmount" value="0.50">
 				          
 				        </div>
 					  	</div>
+					  	<div class="form-group">
+						    <label for="inputTotal">Total</label>
+						    <div class="input-group">
+				          <div class="input-group-addon">$</div>
+				          <input type="number" class="form-control" id="inputTotal">
+				          
+				        </div>
+					  	</div>
+
 
 					  	<p class="text-justify">*our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. for this reason is impossible  donate more than 4 lts dayli.</p>
 					  	<div class="text-center">
@@ -54,7 +63,7 @@
 								    <label for="inputAmmount">You can donate one time or monthly</label>
 								    <div class="input-group">
 						          <div class="input-group-addon">$</div>
-						          <input type="text" class="form-control" id="exampleInputAmount" value="0.50">
+						          <input type="number" class="form-control" id="exampleInputAmount" value="0.50">
 						        </div>
 							  	</div>
 							  	<div class="checkbox">
