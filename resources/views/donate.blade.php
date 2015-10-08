@@ -25,7 +25,7 @@
 						    <input type="number" class="form-control" id="inputDays">
 						  </div>
 						  <div class="form-group">
-						    <label for="inputLiter">Average of water you drank in the rave</label>
+						    <label for="inputLiter">Average of water you drank in the Rave daily</label>
 						    <input type="number" class="form-control" id="inputLiter">
 						  </div>
 						  <div class="form-group">
