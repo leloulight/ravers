@@ -51,7 +51,7 @@
 						<h3 class="text-center">Sanitation & hygiene program</h3>
 								<form>
 								  <div class="form-group">
-								    <label for="inputAmmount">You can donate one time or monthlyd</label>
+								    <label for="inputAmmount">You can donate one time or monthly</label>
 								    <div class="input-group">
 						          <div class="input-group-addon">$</div>
 						          <input type="text" class="form-control" id="exampleInputAmount" value="0.50">
