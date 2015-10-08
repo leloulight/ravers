@@ -272,6 +272,12 @@ body{
     min-height: 65em;
 }
 
+.bg_donate{
+    background: url('../img/bg-donate.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 65em;
+}
+
 .bg_contact{
     background: url('../img/bg-contact.jpg') center no-repeat;
     background-size: cover;
