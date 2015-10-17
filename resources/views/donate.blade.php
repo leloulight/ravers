@@ -28,7 +28,7 @@
 						    <label for="inputLiter">Average of water you drank in the Rave dayli</label>
 						    <input type="number" class="form-control" id="inputLiter" value="1">
 						  </div>
-						  <div class="form-group col-sm-6">
+						  <div class="form-group col-sm-12">
 						    <label for="inputAmmount">Amount you want to donate per liter consumed</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
@@ -36,7 +36,7 @@
 				          
 				        </div>
 					  	</div>
-					  	<div class="form-group col-sm-6">
+					  	<div class="form-group col-sm-12">
 						    <label for="inputTotal"><br><br>Total</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
