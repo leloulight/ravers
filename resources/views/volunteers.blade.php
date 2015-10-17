@@ -11,20 +11,20 @@
     
     <div class="row margin-bottom-lg">
     		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-    			<p class="text-center text-estandar">Jus in 27 contries we are on average 40 million ravers between 20 and 34 years old and in our wast majority cross our countries to attend more than one of these festivals or clubs that we love so much annually, would you like to complement your trip by volunteering for a positive purpuse?</p>
+    			<p class="text-center text-estandar">Just in 27 countries we are an average 40 million ravers between 20 and 34 years old, and in our vast majority  we cross our countries to attend more than one of these festivals or clubs that we love so much annually. Would you like to complement your trip by volunteering for a positive purpose?</p>
     		</div>
     </div>
     <div class="row margin-bottom-lg">
     	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     		<img src="{{ asset('img/office.jpg')}}" class="img-circle center-block img-shadow margin-bottom" width="70%" alt="Office Volunteers">
     		<h3 class="text-center">Office volunteers</h3>
-    		<p class="text-left margin-center">we always welcome people who want to come and help out in our office. we work mostly with internet so it doesn't matter where you are, if you have internet you can work whit us.</p>
+    		<p class="text-left margin-center">We always welcome to people who want to come and help out in our office. We work mostly with internet so it doesn't matter where you are, if you have internet you can work with us.</p>
     		
     	</div>
     	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     		<img src="{{ asset('img/edm.jpg')}}" class="img-circle center-block img-shadow margin-bottom" width="70%" alt="EDM Volunteers">
     		<h3 class="text-center">EDM events volunteers</h3>
-    		<p class="text-center margin-center">we now you love "rave" but suddenly you do not know that both poilute the plantet. <br>Become a volunteer and help us generate less environmental impact after every festival.</p>
+    		<p class="text-center margin-center">We know you love rave but suddenly you don't know how much an EDM festival pollutes the planet. Become an International Raver Volunteer and help us generate less environmental impact after every festival.</p>
     	</div>
     	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     		<img src="{{ asset('img/fieldtrip.jpg')}}" class="img-circle center-block img-shadow margin-bottom" width="70%" alt="Go on to a field trip">
@@ -659,7 +659,7 @@
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
 	    		      <label>
-	    		        <input type="checkbox"> I'm a photographer/videographer who wold like to shoot events for ravers.
+	    		        <input type="checkbox"> I'm a photographer/videographer who would like to shoot events for ravers.
 	    		      </label>
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
@@ -679,12 +679,12 @@
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
 	    		       <label>
-	    		        <input type="checkbox"> I'm goo with numers, spreadsheet and data analysis.
+	    		        <input type="checkbox"> I'm good with numers, spreadsheet and data analysis.
 	    		      </label>
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
 	    		       <label>
-	    		        <input type="checkbox"> I can help whit greeting, bartending, food passing and bussing at events.
+	    		        <input type="checkbox"> Contact me for last minute events.
 	    		      </label>
 	    		    </div>
 	    		    

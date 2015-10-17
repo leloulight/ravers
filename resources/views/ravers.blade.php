@@ -262,16 +262,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <img src="{{ asset('img/piles.png') }}" alt="Tents" width="60%" class="center-block  margin-top-lg margin-bottom-lg" >
           </div>
-    			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-            <h2 class="text-left visible-lg"><small>BATTERIES (PILES)</small></h2>
-            <h3 class="text-left visible-sm visible-md"><small>BATTERIES (PILES)</small></h3>
-            <h3 class="text-left visible-xs"><small>BATTERIES (PILES)</small></h3>
-            
-            <p class="text-justify margin-bottom-lg text-estandar">As we know, at a festival is essential cell phone use for various reasons and the lack of electricity in the camps opted for the resource easier to charge our cell. <br>
-            <br>1 alkaline battery pollutes at least 175,000 liters of water.
-            <br>1 Battery botton pollutes at least 600,000 liters of water.
-            <br>Each raver used at least one box of 20 batteries in each festival, imagine how much we are polluting the environment?</p>  
-          </div> 
+    			
           <div class="col-xs-12 text-center">
         		<a href="{{ route('donate') }}"><button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button></a>
         	</div>

@@ -21,7 +21,7 @@
           <h3 class="textvideo visible-lg"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBERS OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h3>
           <h4 class="textvideo visible-sm visible-md"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBERS OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h4>
 					<h4 class="textvideo visible-xs bg-imagen"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBERS OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h4>
-          <h2 class="text-center texto-blanco" id="warriors">WE CAN DO ANITHING?</h2>
+          <h2 class="text-center texto-blanco" id="warriors">WE CAN DO ANYTHING?</h2>
       </div>
       <div class="row margin-top-lg margin-bottom-lg">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -29,7 +29,7 @@
                     <video controls poster="img/videoframe.jpg" width="80%" class="center-block shadow">
                         <source src="video/heroes_hd.mp4" type="video/mp4">
                     </video>
-                    <p class="title-white text-justify margin-center margin-top">- This program will help to build wells and also water filters for those communities and schools who have pipes already installed. <br>- For the schools in ppor communities we will build "free water refill areas" whit "elkay water filers" and we also contribute to eradicate the pollution by plastic bottles day by day. <br>- Water hand filters will be distribute in the schools whit no pipes.</p>
+                    <p class="title-white text-justify margin-center margin-top">- This program will help to build wells and also provide  water filters for those communities and schools who have pipes already installed. <br>- For the schools in poor communities we will build "free water refill stations" with "elkay water filters". Those filters will also eradicate the pollution of plástic bottles. <br>- We will also distribute, portable water filters for schools and communities with no pipes.  these filters can give clean water for one person for an entire year.</p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Sanitation & hygiene program</h4>
@@ -52,7 +52,7 @@
         
         <div class="row">
         		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-        			<p class="text-center text-estandar">Our aims are to help as many people as we can around the world. now we're working on the alliances of the organizations that need our support. join us!</p>
+        			<p class="text-center text-estandar">Our aims are to help as many people as we can around the world. Now we're working on  alliances with organizations that needs your support. Join us!</p>
         		</div>
         		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
         			 <img src="{{ asset('img/mapablue.png') }}" alt="" width="100%" class="center-block margin-bottom-lg" >

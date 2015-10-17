@@ -481,5 +481,13 @@ body{
   border-radius: 10px;
   margin:0 auto;
   opacity: 0.8;
+}
 
+.div_footer{
+  background:red;
+  padding: 0;
+
+  border-top: 2px solid #000;
+  width: 100%;
+  border-bottom: 2px solid #000;
 }

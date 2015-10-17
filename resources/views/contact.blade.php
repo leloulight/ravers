@@ -13,7 +13,7 @@
 					<div class="borderdiv col-xs-12">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-center">Fon non profits who needs Founds</p>
+								<p class="text-center">For non profits who needs Founds</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
@@ -54,7 +54,7 @@
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 							<div class="margincontact">
-								<p class="text-center">give us a shot</p>
+								<p class="text-center"></p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5  text-center">
@@ -80,7 +80,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center ">
 				<i class="glyphicon glyphicon-earphone address"></i><br>
-				<p class="text-estandar texto-blanco">+001 949 600 3736 <br> +051 948 498 978</p>
+				<p class="text-estandar texto-blanco">+001 949 842 6249 <br> +051 948 498 978</p>
 			</div>
 		</div>
 	</div>

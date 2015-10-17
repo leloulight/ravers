@@ -25,11 +25,11 @@
 						    <input type="number" class="form-control" id="inputDays" value="1">
 						  </div>
 						  <div class="form-group col-sm-7">
-						    <label for="inputLiter">Average of water you drank in the Rave dayli</label>
+						    <label for="inputLiter">Average of water you drank in the Rave daily</label>
 						    <input type="number" class="form-control" id="inputLiter" value="1">
 						  </div>
 						  <div class="form-group col-sm-12">
-						    <label for="inputAmmount">Amount you want to donate per liter consumed</label>
+						    <label for="inputAmmount">Ammount of money you want to donate per liter consumed</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
 				          <input type="text" class="form-control" id="inputAmmount" value="0.50">
@@ -45,14 +45,16 @@
 					  	</div>
 
 
-					  	<p class="text-justify">*our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. for this reason is impossible  donate more than 4 lts dayli.</p>
-					  	<div class="text-center">
+					  	<p class="text-justify">*Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. for this reason is impossible  donate more than 4 lts daily.</p>
+					  	<div class="text-center margin-bottom">
 					  		<button type="submit" class="btn btn-default">Give by <i class="fa fa-credit-card"></i></button>
 					  		<button type="submit" class="btn btn-default">Give by <i class="fa fa-paypal"></i></button>	
 					  	</div>
 						  
 						</form>
+							
       		</div>
+      		
       	</div>
       	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       		<div class="div-donate padding-top padding-center padding-bottom">
@@ -77,6 +79,7 @@
 							  	</div>
 								  
 								</form>
+								
       		</div>
       	</div>
       </div>
