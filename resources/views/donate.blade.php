@@ -37,7 +37,7 @@
 				        </div>
 					  	</div>
 					  	<div class="form-group col-sm-12">
-						    <label for="inputTotal"><br><br>Total</label>
+						    <label for="inputTotal">Total</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
 				          <input type="number" class="form-control" id="inputTotal" value="0.50" disabled>
