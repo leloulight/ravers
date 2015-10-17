@@ -259,10 +259,7 @@
           </div>
     		</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <img src="{{ asset('img/piles.png') }}" alt="Tents" width="60%" class="center-block  margin-top-lg margin-bottom-lg" >
-          </div>
-    			
+					
           <div class="col-xs-12 text-center">
         		<a href="{{ route('donate') }}"><button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button></a>
         	</div>
