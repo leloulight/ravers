@@ -22,11 +22,11 @@
 						  </div>
 						  <div class="form-group">
 						    <label for="inputDays">How many days (or nights)</label>
-						    <input type="number" class="form-control" id="inputDays">
+						    <input type="number" class="form-control" id="inputDays" value="1">
 						  </div>
 						  <div class="form-group">
 						    <label for="inputLiter">Average of water you drank in the Rave dayli</label>
-						    <input type="number" class="form-control" id="inputLiter">
+						    <input type="number" class="form-control" id="inputLiter" value="1">
 						  </div>
 						  <div class="form-group">
 						    <label for="inputAmmount">Amount you want to donate per liter consumed</label>
@@ -87,3 +87,9 @@
 
 @stop
 
+
+@section('script')
+	<script>
+		document()
+	</script>
+@stop

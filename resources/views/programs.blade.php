@@ -36,7 +36,7 @@
                     <video controls poster="img/videoframe1.jpg" width="80%" class="center-block shadow">
                         <source src="video/warriors.mp4" type="video/mp4">
                     </video>
-                    <p class="title-white text-justify margin-center margin-top">- This program will build ecologic baths and sinks in communities in poverty. <br>- The ecologic baths generate fertilizer for the community cros (with a family of 6 is estimated to generate 5 bags of fertilizer per year) and generate better hygiene which the refore generates better habits and better human biengs. <br>- There are more cell phones than toilets now a days did you know that?</p>
+                    <p class="title-white text-justify margin-center margin-top">- This program will build ecologic toilets and sinks in communities in poverty. <br>- The ecologic toilets generate fertilizer for the community crops (with a family of 6 is estimated to generate 5 bags of fertilizer per year) and generate better hygiene which therefore generates better habits and better human beings. <br>- There are more cellphones than toilets now a days, did you know that?</p>
                 </div>
                 <div class="col-xs-12 text-center margin-top-lg ">
                     <a href="{{ route('donate' )}}"><button type="button" class="btn btn-danger btn-lg btn-custom">Donate</button></a>
