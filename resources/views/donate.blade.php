@@ -23,6 +23,8 @@
 						  <div class="form-group">
 						    <label for="inputDays">How many days (or nights)</label>
 						    <input type="number" class="form-control" id="inputDays" value="1">
+						    <label for="inputLiter">Average of water you drank in the Rave dayli</label>
+						    <input type="number" class="form-control" id="inputLiter" value="1">
 						  </div>
 						  <div class="form-group">
 						    <label for="inputLiter">Average of water you drank in the Rave dayli</label>
@@ -90,6 +92,8 @@
 
 @section('script')
 	<script>
-		document()
+		$(document).ready(function(){
+   		
+   	});
 	</script>
 @stop

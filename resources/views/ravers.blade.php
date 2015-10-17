@@ -37,7 +37,7 @@
         <h2 class="text-center">Average population</h2>
         <div class="row">
         	<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-       			<p class="text-center text-estandar">According to the annual report in a study DANCEONOMICS between the ages of 20-34 years in 27 countries has grown tremendously this culture, we are a community of almost 40 MILLION RAVERS</p>
+       			<p class="text-center text-estandar">According to one of the DANCECONOMICS reports, there is a population of nearly 40 million ravers between 20 and 34 years old just in 27 countries.</p>
         	</div>
         </div>
         
