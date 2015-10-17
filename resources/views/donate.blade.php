@@ -32,7 +32,7 @@
 						    <label for="inputAmmount">Amount you want to donate per liter consumed</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
-				          <input type="number" class="form-control" id="inputAmmount" value="0.50">
+				          <input type="text" class="form-control" id="inputAmmount" value="0.50">
 				          
 				        </div>
 					  	</div>
