@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="bg_about"></div>
+<div class="bg_volunteer"></div>
 <div class="white">
   <div class="container">
     <h2 class="text-center margin-top margin-bottom visible-lg">Is it <strong>time</strong> for you to become an <br> <strong>international</strong> raver <strong>volunteer?</strong></h2>

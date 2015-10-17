@@ -275,6 +275,12 @@ body{
     min-height: 35em;
 }
 
+.bg_volunteer{
+    background: url('../img/Collage.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 35em;
+}
+
 .bg_dj{
     background: url('../img/bg-dj.jpg') center no-repeat;
     background-size: cover;
