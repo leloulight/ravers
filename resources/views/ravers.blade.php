@@ -226,7 +226,7 @@
       		</div>
       		<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
       			<img src="{{ asset('img/r3.png') }}" alt="Truck" width="80%" class="center-block">
-      			<p class="text-center texto-blanco">Every week nearly 37,800 18-wheelers are on the way to the delivery of water through the US emitting harmful pollutants in the air</p>
+      			<p class="text-center texto-blanco">Every week nearly 37,800 "18-wheelers" are on the way to the delivery of water through the US emitting harmful pollutants in the air</p>
       		</div>
       		<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
       			<img src="{{ asset('img/r4.png') }}" alt="Barril" width="80%" class="center-block">

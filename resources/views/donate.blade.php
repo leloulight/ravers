@@ -16,21 +16,19 @@
       		<div class="div-donate padding-top padding-center padding-bottom margin-bottom">
 						<h3 class="text-center">Water accesibility program</h3>
 						<form>
-						  <div class="form-group">
+						  <div class="form-group col-sm-12">
 						    <label for="inputRave">Last EDM Festival or Club you attended</label>
-						    <input type="text" class="form-control" id="inputRave" placeholder="">
+						    <input type="text" class="form-control" id="inputRave" placeholder="EDM LA" autofocus>
 						  </div>
-						  <div class="form-group">
+						  <div class="form-group col-sm-5">
 						    <label for="inputDays">How many days (or nights)</label>
 						    <input type="number" class="form-control" id="inputDays" value="1">
+						  </div>
+						  <div class="form-group col-sm-7">
 						    <label for="inputLiter">Average of water you drank in the Rave dayli</label>
 						    <input type="number" class="form-control" id="inputLiter" value="1">
 						  </div>
-						  <div class="form-group">
-						    <label for="inputLiter">Average of water you drank in the Rave dayli</label>
-						    <input type="number" class="form-control" id="inputLiter" value="1">
-						  </div>
-						  <div class="form-group">
+						  <div class="form-group col-sm-6">
 						    <label for="inputAmmount">Amount you want to donate per liter consumed</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
@@ -38,13 +36,12 @@
 				          
 				        </div>
 					  	</div>
-					  	<div class="form-group">
-						    <label for="inputTotal">Total</label>
+					  	<div class="form-group col-sm-6">
+						    <label for="inputTotal"><br><br>Total</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
-				          <input type="number" class="form-control" id="inputTotal">
-				          
-				        </div>
+				          <input type="number" class="form-control" id="inputTotal" value="0.50" disabled>
+				          </div>
 					  	</div>
 
 
@@ -91,9 +88,5 @@
 
 
 @section('script')
-	<script>
-		$(document).ready(function(){
-   		
-   	});
-	</script>
+	<script src="{{ asset('js/script_donate.js') }}"></script> 
 @stop

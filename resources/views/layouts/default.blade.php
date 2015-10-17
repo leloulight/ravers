@@ -153,14 +153,15 @@
         </div>
     </div>
     
-    @yield('script')
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/jquery.videoBG.js') }}"></script>
-    <script src="{{ asset('js/script.js') }}"></script>  
+    <script src="{{ asset('js/script.js') }}"></script> 
+    @yield('script') 
   
 </body>
 </html>
