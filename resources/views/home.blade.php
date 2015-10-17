@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="col-xs-12 text-center margin-bottom-lg margin-top-lg">
-                  <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEO</button></a>
+                  <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEOS</button></a>
                 </div>
             </div>
             
@@ -50,7 +50,7 @@
                     <h4 class="title-white text-center">The dignity  of a toilet, sink and a shower must be for everyone!</h4>
                 </div>
                 <div class="col-xs-12 text-center margin-top-lg ">
-                    <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Donate</button></a>
+                    <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button></a>
                 </div>
             </div>
         </div>
