@@ -8,7 +8,7 @@
           <h3 class="textdonate visible-lg text-shadow"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBER OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h3>
           <h4 class="textdonate visible-sm visible-md text-shadow"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBER OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h4>
 					<h4 class="textdonate visible-xs bg-imagen text-shadow"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBER OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h4>
-          <h2 class="text-center texto-blanco text-shadow" id="warriors" >WE CAN DO ANITHING?</h2>
+          <h2 class="text-center texto-blanco text-shadow" id="warriors" >WE CAN DO ANYTHING?</h2>
       </div>
 
       <div class="row">
