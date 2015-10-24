@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-xs-12 text-center">
-                <button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEO</button>
+                <button type="button" class="btn btn-success btn-lg textvideo">WATCH OUR VIDEO</button>
             </div>
 
         </div>
@@ -33,6 +33,9 @@
                         <source src="video/heroes_hd.mp4" type="video/mp4">
                     </video>
                     <h4 class="title-white text-center">This program aims are bring free water refill for every community in need.</h4>
+                    <div class="col-xs-12 text-center">
+                        <button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Sanitation & higiene program</h4>
@@ -40,10 +43,11 @@
                         <source src="video/warriors.mp4" type="video/mp4">
                     </video>
                     <h4 class="title-white text-center">The dignity  of a toilet, sink and a shower must be for everyone!</h4>
+                    <div class="col-xs-12 text-center">
+                        <button type="button" class="btn btn-success btn-lg btn-custom">Help a Warrior</button>
+                    </div>
                 </div>
-                <div class="col-xs-12 text-center">
-                    <button type="button" class="btn btn-success btn-lg btn-custom">Donate</button>
-                </div>
+                
             </div>
         </div>
     </div>
