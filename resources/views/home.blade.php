@@ -4,7 +4,6 @@
     <div class="fullscreen-bg">
         <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
             <source src="video/heroes_short.mp4" type="video/mp4">
-            
         </video>
     </div>
     <div class="video">
