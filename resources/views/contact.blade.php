@@ -80,7 +80,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center ">
 				<i class="glyphicon glyphicon-earphone address"></i><br>
-				<p class="text-estandar texto-blanco">+001 949 842 6249 <br> +051 948 498 978</p>
+				<p class="text-estandar texto-blanco">+001 949 842 6249 </p>
 			</div>
 		</div>
 	</div>

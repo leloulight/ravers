@@ -674,7 +674,7 @@
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
 	    		      <label>
-	    		        <input type="checkbox"> I can help share digitl content and assist with social media.
+	    		        <input type="checkbox"> I can help share digital content and assist with social media.
 	    		      </label>
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
