@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="col-xs-12 text-center margin-bottom-lg margin-top-lg">
-                  <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg textvideo">WATCH THE VIDEOS</button></a>
+                  <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg textvideo">WATCH OUR VIDEOS</button></a>
                 </div>
             </div>
             
@@ -41,6 +41,9 @@
                         <source src="video/heroes_hd_final.mp4" type="video/mp4">
                     </video>
                     <h4 class="title-white text-center">This program aims are bring free water refill for every community in need.</h4>
+                    <div class="col-xs-12 text-center margin-top-lg ">
+                        <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button></a>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Sanitation & hygiene program</h4>
@@ -48,10 +51,11 @@
                         <source src="video/warriors.mp4" type="video/mp4">
                     </video>
                     <h4 class="title-white text-center">The dignity  of a toilet, sink and a shower must be for everyone!</h4>
+                    <div class="col-xs-12 text-center margin-top-lg ">
+                        <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Help a warrior</button></a>
+                    </div>
                 </div>
-                <div class="col-xs-12 text-center margin-top-lg ">
-                    <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button></a>
-                </div>
+                
             </div>
         </div>
     </div>
