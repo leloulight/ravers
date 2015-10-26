@@ -145,6 +145,8 @@ return [
         Ravers\Providers\EventServiceProvider::class,
         Ravers\Providers\RouteServiceProvider::class,
 
+        Laravel\Cashier\CashierServiceProvider::class,
+
     ],
 
     /*
@@ -193,7 +195,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+        'Stripe'    => Laravel\Cashier\CashierServiceProvider::class,
     ],
 
 ];

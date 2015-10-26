@@ -10,10 +10,45 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+use Ravers\User;
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@home']);
 
 Route::get('donate',['as' => 'donate', 'uses' => 'HomeController@donate']);
+
+Route::get('prueba',['as' => 'prueba', 'uses' => 'HomeController@prueba']);
+
+Route::post('donate',array('before' => 'csrf', function()
+{
+
+//    print_r( Input::all());
+//    echo '<hr/>';
+
+    //Stripe::setStripeKey(Config::get('services.stripe.secret'));
+
+    $token = Input::get('stripeToken');
+    $amount = Input::get('amount');
+    $user = new User();
+
+
+    try {
+
+        $user->charge($amount,['source' => $token,]);
+    } catch(Stripe_CardError $e){
+        dd($e);
+    }
+
+//    dd($user);
+
+//    Auth::user()->subscription('monthly')->create($token);
+
+//    return 'Done';
+    $title = 'Donate';
+    $message = 'Transaccion Realizada';
+
+    return View::make('donate',['title' => $title,'message' => $message]);
+}));
+
 
 Route::get('why-water',['as' => 'water', 'uses' => 'HomeController@whywater']);
 

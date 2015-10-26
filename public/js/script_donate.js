@@ -25,6 +25,9 @@ $( document ).ready(function() {
         total = days*liter*ammount
         total = parseFloat(total).toFixed(2)
         $('#inputTotal').val(total)
+        amount = total*100
+        $('#amount').val(amount)
+        $('#script_donate').attr('data-amount',amount)
        
     })
     $('#inputLiter').change(function(event){
@@ -48,6 +51,8 @@ $( document ).ready(function() {
         total = days*liter*ammount
         total = parseFloat(total).toFixed(2)
         $('#inputTotal').val(total)
+        amount = total*100
+        $('#amount').val(amount)
        
     })
 
@@ -74,7 +79,45 @@ $( document ).ready(function() {
         total = days*liter*ammount
         total = parseFloat(total).toFixed(2)
         $('#inputTotal').val(total)
+        amount = total*100
+        $('#amount').val(amount)
        
     })
+
+    $('#inputAmmountH').change(function(event){
+        total = $(this).val();
+        amount = total*100
+        $('#amountH').val(amount)
+
+    })
+
+
+      var handler = StripeCheckout.configure({
+        key: 'pk_test_kaeIHcdpm0HqX1eb50jqvztA',
+        image: 'img/128x128.png',
+        locale: 'auto',
+        token: function(token) {
+          // Use the token to create the charge with a server-side script.
+          // You can access the token ID with `token.id`
+        }
+      });
+
+      $('#customButton').on('click', function(e) {
+        var amount = $('#inputTotal').val()
+        amount = amount*100
+        // Open Checkout with further options
+        handler.open({
+          name: 'International Ravers, Inc.',
+          description: '2 widgets',
+          amount: amount
+        });
+        e.preventDefault();
+      });
+
+      // Close Checkout on page navigation
+      // $(window).on('popstate', function() {
+      //   handler.close();
+      // });
+    
 
 });

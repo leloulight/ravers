@@ -15,24 +15,26 @@
       	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       		<div class="div-donate padding-top padding-center padding-bottom margin-bottom">
 						<h3 class="text-center">Water accesibility program</h3>
-						<form>
+							
+								<h4>{{ $message }}</h4>
+							
 						  <div class="form-group col-sm-12">
 						    <label for="inputRave">Last EDM Festival or Club you attended</label>
 						    <input type="text" class="form-control" id="inputRave" placeholder="EDM LA" autofocus>
 						  </div>
 						  <div class="form-group col-sm-5">
 						    <label for="inputDays">How many days (or nights)</label>
-						    <input type="number" class="form-control" id="inputDays" value="1">
+						    <input type="number" class="form-control" id="inputDays" value="1" min="1" max="4">
 						  </div>
 						  <div class="form-group col-sm-7">
 						    <label for="inputLiter">Average of water you drank in the Rave daily</label>
-						    <input type="number" class="form-control" id="inputLiter" value="1">
+						    <input type="number" class="form-control" id="inputLiter" value="1" min="1" max="4">
 						  </div>
 						  <div class="form-group col-sm-12">
 						    <label for="inputAmmount">Ammount of money you want to donate per liter consumed</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
-				          <input type="text" class="form-control" id="inputAmmount" value="0.50">
+				          <input type="number" class="form-control" id="inputAmmount" value="1.00" min="0.50" step="0.50">
 				          
 				        </div>
 					  	</div>
@@ -40,19 +42,40 @@
 						    <label for="inputTotal">Total</label>
 						    <div class="input-group">
 				          <div class="input-group-addon">$</div>
-				          <input type="number" class="form-control" id="inputTotal" value="0.50" disabled>
+				          <input type="number" class="form-control" id="inputTotal" value="1.00"disabled>
 				          </div>
 					  	</div>
 
 
 					  	<p class="text-justify">*Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. for this reason is impossible  donate more than 4 lts daily.</p>
 					  	<div class="text-center margin-bottom">
-					  		<button type="submit" class="btn btn-default">Give by <i class="fa fa-credit-card"></i></button>
-					  		<button type="submit" class="btn btn-default">Give by <i class="fa fa-paypal"></i></button>	
+					  		{{--<button type="submit" class="btn btn-default">Give by <i class="fa fa-credit-card"></i></button>--}}
+					  		{{--<button type="submit" class="btn btn-default">Give by <i class="fa fa-paypal"></i></button>	--}}
+                            <form action="/donate" method="POST">
+                                <script
+                                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                        data-key="{{ Config::get('services.stripe.public') }}"
+                                        
+                                        data-name="International Ravers Charity."
+                                        data-description="100% funds water project "
+                                        data-image="img/128x128.png"
+                                        data-locale="auto"
+                                        data-billing-address="true"
+                                        data-label="Give by Credit Card"
+                                        data-panel-label="Donate"
+                                        >
+                                </script>
+
+                                <input type="hidden" name="amount" id="amount" value="50"/>
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+                            </form>
+
+                            
 					  	</div>
-						  
-						</form>
-							
+
+
+
+
       		</div>
       		
       	</div>
@@ -61,10 +84,10 @@
 						<h3 class="text-center">Sanitation & hygiene program</h3>
 								<form>
 								  <div class="form-group">
-								    <label for="inputAmmount">You can donate one time or monthly</label>
+								    <label for="inputAmmountH">You can donate one time or monthly</label>
 								    <div class="input-group">
 						          <div class="input-group-addon">$</div>
-						          <input type="number" class="form-control" id="exampleInputAmount" value="0.50">
+						          <input type="number" class="form-control" id="inputAmmountH" value="0.50">
 						        </div>
 							  	</div>
 							  	<div class="checkbox">
@@ -74,8 +97,7 @@
 						  	  </div>
 
 							  	<div class="text-center">
-							  		<button type="submit" class="btn btn-default">Give by <i class="fa fa-credit-card"></i></button>
-							  		<button type="submit" class="btn btn-default">Give by <i class="fa fa-paypal"></i></button>	
+                                    
 							  	</div>
 								  
 								</form>

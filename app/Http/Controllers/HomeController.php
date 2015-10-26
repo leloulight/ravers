@@ -4,9 +4,16 @@
 namespace Ravers\Http\Controllers;
 
 use Illuminate\Support\Facades\View;
+use Ravers\User;
+use Ravers\Http\Requests;
+use Illuminate\Http\Request;
+//use Stripe;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
+
+
 
     public function home()
     {
@@ -65,6 +72,39 @@ class HomeController extends Controller
     public function donate()
     {
         $title = "Donate";
-        return View::make('donate',['title' => $title]);
+        $message = "";
+        return View::make('donate',['title' => $title, 'message' => $message]);
     }
+    public function prueba()
+    {
+        $title = "prueba";
+        return View::make('prueba',['title' => $title]);
+    }
+
+    public function donate_post()
+    {
+        $token = Input::get('stripeToken');
+        $amount = Input::get('amount');
+        $user = new User();
+
+
+        try {
+
+            $user->charge($amount,['source' => $token,]);
+        } catch(Stripe_CardError $e){
+            dd($e);
+        }
+
+        dd($user);
+
+//    Auth::user()->subscription('monthly')->create($token);
+
+//    return 'Done';
+        $title = "Donate";
+
+//        $message = "Transaccion realizada";
+        return View::make('donate',['title' => $title]);
+
+    }
+
 }
