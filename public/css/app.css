@@ -139,6 +139,7 @@ body{
 
 .rosa{
     background: #FD0052;
+    position: relative;
     /*min-height: 35em;*/
 
 }
@@ -227,6 +228,7 @@ body{
 }
 .blue{
     background: #1071FF;
+    position: relative;
 }
 
 .green{
@@ -553,4 +555,27 @@ body{
     margin-top: -1em;
     /*margin-bottom: 2em;*/
 
+}
+
+.animate{
+  height:100%;
+  width:100%;
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:99999;
+}
+
+.animate_fire{
+  height:50%;
+  width:100%;
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  /*z-index:99999;*/
+}
+
+canvas {
+  padding: 0;
+  margin: 0;
 }

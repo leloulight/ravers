@@ -29,7 +29,7 @@ Route::post('donate',array('before' => 'csrf', function()
     $token = Input::get('stripeToken');
     $amount = Input::get('amount');
     $user = new User();
-
+    
 
     try {
 
