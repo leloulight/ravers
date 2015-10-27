@@ -7,7 +7,7 @@
           <img src="{{ asset('img/djch.png') }}" alt="" class="center-block" width="100%">
       </div>
       <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10 col-lg-offset-1 margin-top-lg">
-        <p class="text-standar texto-lg texto-blanco text-center txt-dj margin-top-lg">The International Ravers - <span><img src="img/djch.png" alt="" class="img-text"></span> - is about engaging DJ and their fans to gift their birthday to the greater good of providing clean water around the world, just like at our raves. Whether you are a famous DJ or an enthusiastic Beginner, you can get involved by subscribing and inviting yout friends, family, and fans to participate for yout birthday.</p>
+        <p class="text-standar texto-lg texto-blanco text-center txt-dj margin-top-lg">The International Ravers - <span><img src="img/djch.png" alt="" class="img-text"></span> - is about engaging DJ and their fans to gift their birthday to the greater good of providing clean water around the world, just like at our raves. Whether you are a famous DJ or an enthusiastic Beginner, you can get involved by subscribing and inviting yout friends, family, and fans to participate for your birthday.</p>
       </div>
     </div>
   </div>  
