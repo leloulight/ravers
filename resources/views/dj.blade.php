@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-  <div class="bg_dj1">
+ <div class="bg_dj1">
     <div class="container ">
       <div class="col-xs-12 margin-top-lg margin-bottom-lg">
           <img src="{{ asset('img/djch.png') }}" alt="" class="center-block" width="100%">
@@ -26,6 +26,7 @@
     </div>
     <div class="container">
       <div class="row margin-bottom-lg" id="team">
+
         <h2 class="textdj visible-lg">Which kind of birthday  wishes the DJ's can ask?</h2>
         <h3 class="textdj visible-sm visible-md">Which kind of birthday  wishes the DJ's can ask?</h3>
         <h3 class="textdj visible-xs">Which kind of birthday  wishes the DJ's can ask?</h3>
@@ -42,8 +43,8 @@
       </div>
     </div>    
   </div>
-  <div class="blue">
-    
+  <div class="black" id="fire">
+    <canvas id="hanabi" class="animate_fire"></canvas>
     <canvas id="prueba" class="animate_fire"></canvas>
     <div class="division">
       <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >

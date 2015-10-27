@@ -113,269 +113,262 @@
 })();
 
 
-// forked from norahiko's "花火 - fireworks" http://jsdo.it/norahiko/ls6x
-// =================================
-// Const
-// =================================
-var PI = Math.PI;
-var PI_2 = PI * 2;
-
-// =================================
-// Config
-// =================================
-var defaultConfig = {
-    duration: 8000,         // ms
-    delay: 0,               // ms
-    radius: 5,              // px
-    amount: 100,            // particle number
-    speed: 4,
-    gravity: 0.05,
-    friction: 0.96,         
-    reduction: 0.98,
-    left: 0.5,
-    top: 0.3,
-    color: "#ff0000"
-};
-
-// =================================
-// Main
-// =================================
-window.addEventListener("load", function(){
-    Canvas.canvas = document.querySelector("#prueba");
-    Canvas.canvas.width = document.documentElement.clientWidth;
-    Canvas.canvas.height = document.documentElement.clientHeight;
-    Canvas.context = Canvas.canvas.getContext("2d");
-    Canvas.context.fillStyle = "#1071FF";
-
-    for(var i = 0; i < 25; i++){
-        var firework = new Firework({
-            duration: 700,
-            left: Math.random() * 0.5 + 0.25,
-            top: Math.random() * 0.5 + 0.25,
-            amount: 50,
-            delay: 250 * i,
-            radius: 4,
-            reduction: 1,
-            friction: 0.95,
-            speed: 10,
-            color: "hsl(" + Math.random() * 360 + ", 100%, 50%)"
-        });
-        Canvas.add(firework);
-    }
-    
-    Canvas.start();
-}, false);
-
-// =================================
-// Firework
-// =================================
-function Firework(config){
-    this.setConfig(config || {});
-    this.particleImage = createParticleImage(this.radius, this.color);
-    this.diameter = this.radius * 2;
-    this.isActive = true;
-    this.fadeoutOpacity = 0;
-}
-
-Firework.prototype = {
-    setConfig: function(config){
-        for(var key in defaultConfig){
-            if(config[key] === undefined){
-                this[key] = defaultConfig[key];
-            }else{
-                this[key] = config[key];
-            }
-        }
-    },
-        
-    initParticles: function(){
-        this.particles = [];
-        var x = this.canvas.width * this.left;
-        var y = this.canvas.height * this.top;
-        var maxSpeed = (this.speed / 2) * (this.speed / 2);
-        
-        while(this.particles.length < this.amount){
-            var vx = (Math.random() - 0.5) * this.speed;
-            var vy = (Math.random() - 0.5) * this.speed;         
-            if(vx*vx + vy*vy <= maxSpeed){
-                this.particles.push(new Particle(x, y, vx, vy));
-            }
-        }
-    },
-    
-    update: function(passed){
-        if(this.isActive === false ||
-           this.started(passed) === false) return;
-        
-        if(this.ended(passed)){
-            this.fadeout();
-            return;
-        }        
-        this.move();
-        this.render();
-    },
-    
-    move: function(){
-        var particles = this.particles;
-        var particle;
-        for(var i = 0, len = particles.length; i < len; i++){
-            particle = particles[i];
-            particle.vx *= this.friction;
-            particle.vy = particle.vy * this.friction + this.gravity;
-            particle.x += particle.vx;
-            particle.y += particle.vy;
-        }
-    },
-    
-    render: function(){
-        this.context.globalAlpha = 1;
-        this.renderParticles();
-    },
-    
-    renderParticles: function(){
-        var diameter = this.diameter *= this.reduction;
-        var context = this.context;
-        var particles = this.particles;
-        var particleImage = this.particleImage;
-        var p;
-        for(var i = 0, len = particles.length; i < len; i++){
-            p = particles[i];
-            context.drawImage(particleImage, p.x, p.y, diameter, diameter);
-        }
-    },
-    
-    started: function(passed){
-        return this.delay < passed;
-    },
-    
-    ended: function(passed){
-        return this.duration + this.delay < passed;
-    },
-    
-    fadeout: function(){
-        this.fadeoutOpacity -= 0.1;
-        if(this.fadeoutOpacity <= 0) {
-            this.isActive = false;
-            return;
-        }
-        this.move();
-        this.context.globalAlpha = this.fadeoutOpacity;
-        this.renderParticles();
-    }
-};
-
-
-
-// =================================
-// Particle
-// =================================
-function Particle(x, y, vx, vy){
-    this.x = x;
-    this.y = y;
-    this.vx = vx;
-    this.vy = vy;
-}
-
-// =================================
-// Canvas
-// =================================
-var Canvas = {
-    fireworks: [],
-    
-    add: function(firework){
-        firework.canvas = this.canvas;
-        firework.context = this.context;
-        firework.initParticles();
-        this.fireworks.push(firework);
-    },
-    
-    start: function(){
-        this.startTime = Number(new Date());
-        this.update();
-    },
-    
-    fill: function(){
-        this.context.globalAlpha = 1;
-        this.context.fillRect(0, 0, this.canvas.width, this.canvas.height);
-    },
-    
-    // main loop
-    update: function(){
-        this.fill();
-        var passed = new Date() - this.startTime;
-        var activeFireworkCount = 0;
-        this.fireworks.forEach(function(firework){
-            if(firework.isActive){
-                firework.update(passed);
-                activeFireworkCount++;
-            }
-        }.bind(this));
-        
-        if(0 < activeFireworkCount){
-            requestAnimationFrame(this.update.bind(this));
-        }else{
-            requestAnimationFrame(this.fadeout.bind(this, 10));
-        }
-    },
-    
-    fadeout: function(count){
-        if(count < 0) return;    // animation end
-        this.context.globalAlpha = 1;
-        this.context.fillStyle = "rgba(0, 0, 0, 0.2)";
-        this.fill();
-        requestAnimationFrame(this.fadeout.bind(this, count - 1));
-    }
-};
-
-
-// =================================
-// Utils
-// =================================
-if (Function.prototype.bind === undefined){
-  Function.prototype.bind = function( obj ) {
-    var slice = [].slice,
-        args = slice.call(arguments, 1), 
-        self = this, 
-        bound = function () {
-          return self.apply( obj || window ,  args.concat( slice.call(arguments) ) );    
-        };
-    bound.prototype = this.prototype;
-    return bound;
-  };
-}
-
-function createParticleImage(radius, color){
-    var size = radius * 2;
-    var canvas = document.createElement("canvas");
-    canvas.width = canvas.height = size;
-    var context = canvas.getContext("2d");
-    
-    var gradient = context.createRadialGradient(radius, radius, 0, radius, radius, size);
-    gradient.addColorStop(0, "white");
-    gradient.addColorStop(0.1, "white");
-    gradient.addColorStop(0.3, color);
-    gradient.addColorStop(1, "rgba(0, 0, 0, 0)");
-
-    context.fillStyle = gradient;
-    context.beginPath();
-    context.arc(radius, radius, radius, 0, PI_2, true);
-    context.fill();
-    //return canvas
-
-    var particle = new Image();
-    particle.src = canvas.toDataURL();
-    return particle;
-}
-
-//set window.requestAnimationFrame
-(function (w, r) {
-    w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
-})(window, 'equestAnimationFrame');
 
 
 
 
+(function(win) {
 
+    Math.Radian = Math.PI * 2;
+
+	var hibana = [],
+		hibanaRenderBuff = [],
+		canvas = document.getElementById("hanabi"),
+		count = 0,
+
+		b = document.body,
+		d = document.documentElement;
+
+	var colors = ['#ffffaa','#AA0066','#008000','#ffd700','#0000ff'];
+	var cols = colors.length;
+
+	canvas.width = 1200;
+	canvas.height = 600;
+
+	win.requestAnimationFrame = (function() {
+		return window.requestAnimationFrame     ||
+			window.webkitRequestAnimationFrame  ||
+			window.mozRequestAnimationFrame     ||
+			window.oRequestAnimationFrame       ||
+			window.msRequestAnimationFrame      ||
+			function(callback, element) {
+				window.setTimeout(callback, 1000 / 60);
+			};
+	})();
+
+	var hanabi = {
+		'quantity' : 400,
+		'size' : 3,
+		'circle' : 0.97,
+		'gravity' : 0.1,
+		'speed' : 3,
+		'top' : canvas.height / 3,
+		'left' : canvas.width / 3,
+		'z' : 0,
+		'opacity': 1,
+		'persistence': 3,
+		'color' : ['#ffffaa','#AA0066','#ffffaa']
+	};
+	
+	var rising = {
+		'rise': false,
+		'x': 0,
+		'y': 0,
+		'gravity' : 0.98,
+		'st': 12,
+		'size': 1,
+		'opacity': 0.8,
+		'color': "#CCC"
+	};
+
+	var cvs = {
+		'elm': canvas,
+		'w': canvas.width,
+		'h': canvas.height,
+		'ctx': canvas.getContext('2d'),
+		'left': canvas.getBoundingClientRect ? canvas.getBoundingClientRect().left : 0,
+		'top': canvas.getBoundingClientRect ? canvas.getBoundingClientRect().top : 0,
+		'pos_x' : 0,
+		'pos_y' : 0
+	};
+
+	function makeHibanaList() {
+
+		var i, angle1, angle2,
+			xyst, zst,
+			x = hanabi.left + Math.floor(Math.random()* 100) - 50,
+			y = hanabi.top + Math.floor(Math.random()* 100) - 50,
+			col1 = colors[Math.floor(Math.random()* cols)],
+			col2 = colors[Math.floor(Math.random()* cols)],
+			l = hanabi.quantity;
+
+		hanabi.color[0] = col1;
+		hanabi.color[1] = col2;
+		hanabi.speed = Math.floor(Math.random()*3) + 1;
+		
+		// Reset Rising
+		rising.x = x;
+		rising.y = cvs.h;
+		rising.rise = false;
+		rising.st = 12;
+
+		for( i=0; i< l; i++ ) {
+			angle1 = Math.random() * Math.Radian;
+			angle2 = Math.random() * Math.Radian;
+			xyst = Math.random() * (hanabi.speed*0.8);
+			zst = hanabi.speed - xyst;
+
+			hibana.push({
+				x: x,
+				y: y,
+				size: hanabi.size,
+				xst: Math.cos(angle1) * xyst,
+				yst: Math.sin(angle1) * xyst,
+				zst: Math.cos(angle2) * zst,
+				op: hanabi.opacity
+			});
+		}
+		//        console.dir(hibana);
+	}
+
+	function hibanaMotion( h ) {
+		var new_x = h.x + h.xst,
+			new_y = h.y + h.yst,
+			new_size = h.size * hanabi.circle,
+			new_op = h.op;
+
+		if(new_size < 0.5 ) {
+			new_x = h.x + h.xst;
+			new_y = h.y + h.yst + hanabi.gravity;
+			new_size = h.size * hanabi.circle;
+			new_op = h.op * hanabi.circle;
+			if( Math.floor(Math.random()*40) === 0 ) {
+				return false;
+			}
+		}
+		if(new_size < 0.1 ) {
+			return false;
+		}
+
+		return ( {
+			x: new_x,
+			y: new_y,
+			size: new_size,
+			xst: h.xst,
+			yst: h.yst,
+			zst: h.zst,
+			op: new_op
+		});
+	}
+
+
+	function hanabiMaker() {
+		var i, h, x, y, size,
+			color = hanabi.color[0],
+			col1 = hanabi.color[1],
+			col2 = hanabi.color[2],
+			l = hibana.length < 100 ? 100 : hibana.length;
+
+		if (!hibana.length) {
+			return false;
+		}
+		
+		if( hibanaRenderBuff.length && rising.rise === false) {
+			return true;
+		}
+
+		if( hibanaRenderBuff.length >  hanabi.persistence * l ) {
+			hibanaRenderBuff.splice(0,l);
+		}
+
+		l = hibana.length;
+		for (i = 0; i < l; i++) {
+			h = hibana[i];
+			if( h ) {
+				if( h.size < 0.3 ) { color = col2; }
+				else if( h.size < 1 ) { color = col1; }
+				
+				size = Math.round( h.size *100 ) /100;
+				x =  Math.round( h.x ) ;
+				y =  Math.round( h.y ) ;
+				h.op = Math.round( h.op *10 ) /10;
+
+				hibanaRenderBuff.push({
+					x: x,
+					y: y,
+					color: color,
+					size: size,
+					op: h.op
+				});
+
+				// update
+				hibana[i] = hibanaMotion( h );
+				if( hibana[i] === false ) {
+					hibana.splice(i,1);
+				}
+			}
+		}
+		return hibanaRenderBuff.length;
+	}
+	
+	
+
+	function render2() {
+		var i, h,
+			x,y,st,
+			l = hibanaRenderBuff.length;
+
+		if (!hibanaRenderBuff.length) {
+			return true;
+		}
+
+		if( count % hanabi.persistence === 0 ) {
+			cvs.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+			cvs.ctx.fillRect(0, 0, cvs.w, cvs.h);
+		}
+		
+		if( rising.rise === false ) {
+			x = rising.x;
+			y = rising.y - rising.st;
+			st = rising.st * rising.gravity;
+			rising.st = st < 2 ? 2 : st;
+			
+			if( y < hanabi.top ) {
+				y = hanabi.top;
+				rising.rise = true;
+			}
+
+			cvs.ctx.strokeStyle = rising.color;
+			cvs.ctx.globalAlpha = rising.opacity;
+			cvs.ctx.lineWidth = rising.size;
+			cvs.ctx.beginPath();
+			cvs.ctx.moveTo(x, rising.y);
+			cvs.ctx.lineTo(x, y);
+			cvs.ctx.stroke();
+			rising.y = y;
+			count++;
+			return true;
+		}
+
+		for (i = 0; i < l; i++) {
+			h = hibanaRenderBuff[i];
+			if( h ) {
+				cvs.ctx.fillStyle = h.color;
+				cvs.ctx.globalAlpha = h.op;
+				cvs.ctx.beginPath();
+				cvs.ctx.arc(h.x, h.y, h.size, 0, Math.Radian, true);
+				cvs.ctx.fill();
+			}
+		}
+		count++;
+		return hibanaRenderBuff.length;
+	}
+
+	function animationLoop() {
+		if( !hanabiMaker() ) {
+			if( rising.rise ) {
+				setTimeout( makeHibanaList, 0 );
+			}
+		}
+		if ( render2() ) {
+			requestAnimationFrame(animationLoop);
+		}
+	}
+
+	makeHibanaList();
+	animationLoop();
+
+})(this);
 
 
 

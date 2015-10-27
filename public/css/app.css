@@ -226,9 +226,13 @@ body{
 .white{
     background: #fff;
 }
+.black{
+    background: #000;
+    position: relative;
+}
+
 .blue{
     background: #1071FF;
-    position: relative;
 }
 
 .green{
@@ -571,7 +575,7 @@ body{
   width:100%;
   position:absolute;
   left:0px;
-  bottom:0px;
+  top:300px;
   /*z-index:99999;*/
 }
 
