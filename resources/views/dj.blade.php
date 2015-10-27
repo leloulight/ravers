@@ -1,33 +1,116 @@
 @extends('layouts.default')
 
 @section('content')
+  <div class="bg_dj1">
+    <div class="container ">
+      <div class="col-xs-12 margin-top-lg margin-bottom-lg">
+          <img src="{{ asset('img/djch.png') }}" alt="" class="center-block" width="100%">
+      </div>
+      <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10 col-lg-offset-1 margin-top-lg">
+        <p class="text-standar texto-lg texto-blanco text-center txt-dj margin-top-lg">The International Ravers - <span><img src="img/djch.png" alt="" class="img-text"></span> - is about engaging DJ and their fans to gift their birthday to the greater good of providing clean water around the world, jus like at our raves. Whether you are a famous DJ or an enthusiastic Beginner, you can get involved by sibscribing and inviting yout firends, family, and fans to participate for yout birthday.</p>
+      </div>
+    </div>
+  </div>  
+  <!-- <div class="separacion">
+    <ul class="list-unstyled list-inline">
+      <li>prueba</li>
+      <li><img src="img/assets-02.png" alt="" width="10%"></li>
+      <li>prueba</li>
+    </ul>
+    
+  </div> -->
+  <div class="rosa">
+    <div class="division">
+      <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
+    </div>
+    <div class="container">
+      <div class="row margin-bottom-lg" id="team">
+        <h2 class="textdj visible-lg">Which kind of birthday  wishes the DJ's can ask?</h2>
+        <h3 class="textdj visible-sm visible-md">Which kind of birthday  wishes the DJ's can ask?</h3>
+        <h3 class="textdj visible-xs">Which kind of birthday  wishes the DJ's can ask?</h3>
+        <div class="col-xs-4 col-xs-offset-2">
+          <p class="title-white text-center text-title-dj">Build Wells + water purifers.</p>
+          <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
+          <p class="title-white text-center text-content-dj">There is thousands of water well projects stalled because other organizations run out funds. Let's help fulfill those water projects with your gifts</p>
+        </div>
+        <div class="col-xs-4 ">
+           <p class="title-white text-center text-title-dj">Free water refill stations.</p>
+          <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
+           <p class="title-white text-center text-content-dj">With elkay water filters we can build free water refill stations on the poorest school in developing countries</p>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <div class="blue">
+   <div class="division">
+      <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
+    </div>
+    <div class="container">
+      <div class="row margin-bottom-lg" id="team">
+        <h2 class="textdj visible-lg">How will work this Project?</h2>
+        <h3 class="textdj visible-sm visible-md">How will work this Project?</h3>
+        <h3 class="textdj visible-xs">How will work this Project?</h3>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+          <p class="title-white text-center">Pledge your birthday.</p>
+          <img src="{{ asset('img/1.png') }}" alt="Explore" width="60%" class="center-block" >
+          <p class="title-white text-justify text-step-dj">Subscribe to our DJ Birthday Calendar and choose a cause that you would like to help. Then share yout pledge to your fans around the world in social network to make this a serious agreement.</p>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+           <p class="title-white text-center">Start a Campaing.</p>
+          <img src="{{ asset('img/2.png') }}" alt="Explore" width="60%" class="center-block" >
+           <p class="title-white text-justify text-step-dj">When your birthda is near, we'll remind you to strat a findraising page. Whether you want to raise funds through gifts or a provate birthday event and the tickets are donations, you can do independently in our platform or with the fill cooperation of our team.</p>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+           <p class="title-white text-center">Celebrate your birthday.</p>
+          <img src="{{ asset('img/3.png') }}" alt="Explore" width="60%" class="center-block" >
+           <p class="title-white text-justify text-step-dj">While you have a wonderfull day oue team works hard in promoting your cause around the worl. After this day, oue team will show you how grateful are your fans with you.</p>
+        </div>
+       
+        <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 margin-top-lg">
+           <p class="title-white text-center">Celebrate your birthday.</p>
+          <img src="{{ asset('img/4.png') }}" alt="Explore" width="60%" class="center-block" >
+           <p class="title-white text-justify text-step-dj">While you have a wonderfull day oue team works hard in promoting your cause around the worl. After this day, oue team will show you how grateful are your fans with you.</p>
+        </div>
+        <div class="col-xs-12 text-center margin-bottom margin-top-lg">
+          <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg textvideo">Let's Transform poor communities into <strong>raves</strong></button></a>
+        </div>
+      </div>
+    </div>    
+  </div>
 	<div class="white">
+    <div class="division">
+       <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
+     </div>
       <div class="container">
-        <h2 class="text-pink visible-lg"><strong>DJ</strong> BIRTHDAYS <strong>CHALLENGE</strong></h2>
-        <h3 class="text-pink visible-sm visible-md"><strong>DJ</strong> BIRTHDAYS <strong>CHALLENGE</strong></h3>
-				<h3 class="text-pink visible-xs bg-imagen"><strong>DJ</strong> BIRTHDAYS <strong>CHALLENGE</strong></h3>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+            <h1 class="text-dj visible-lg">Help us convince all the Dj's around the world to get involve.</h1>
+            <h2 class="text-dj visible-sm visible-md">Help us convince all the Dj's around the world to get involve.</h2>
+            <h3 class="text-dj visible-xs bg-imagen">Help us convince all the Dj's around the world to get involve.</h3>
+          </div>  
+            
+        </div>
+        <div class="row">
+        		<div class="col-xs-12 ">
+        			<p class="text-left text-estandar">*Invite your favorite DJ by</p>
+        		</div>
+        		
+            <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-offset-3">
+              <div class="col-sm-4">
+                <img src="{{ asset('img/fb-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
+              </div>
+              <div class="col-sm-4">
+                <img src="{{ asset('img/tw-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
+              
+              </div>
+              <div class="col-sm-4">
+                <img src="{{ asset('img/ig-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
+              
+              </div>
+               
+            </div>
+        </div>
         
-        <div class="row">
-        		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-        			<p class="text-center text-estandar">The Raver's International Birthday Challenge is about engaging DJ and their fans to gift their birthday to the greater good of providing free water around the world, just like at our raves. Whether you are a famous DJ or an Enthusiastic Raver, you can get involved by subscribing and inviting your friends, family, and fans to participate for your birthday. <br>Together, our birthdays will transform communities in poverty into rave. Free water refills and clean water everywhere!</p>
-        		</div>
-        		<div class="col-xs-12">
-        			 <img src="{{ asset('img/tornamesa-01.png') }}" alt="DJ Brithday" width="4%" class="center-block margin-bottom-lg" >
-        		</div>
-        </div>
-        <div class="row">
-        	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        		<p class="text-center margin-center-lg">If you're a DJ and you want to suppor our causes subscribe and we send you details of how it works and how to subscribe to our calendar.</p>
-        		<p class="pink text-center texto-lg">Subscribe with <br>your email</p>
-        	</div>
-        	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        		<p class="text-center margin-center-lg">If you're a fan and you would  love to give a gift to your favorite DJ on the day of his birthday, help him to help as many people as possible. Subscribe if you like the idea and help us to convince them to participate in this great project.</p>
-        		<p class="pink text-center texto-lg">Sign a <br>petition.</p>
-        	</div>
-        	<div class="col-xs-12">
-        			 <img src="{{ asset('img/tornamesa-01.png') }}" alt="DJ Brithday" width="4%" class="center-block margin-bottom-lg" >
-        		</div>
-        </div>
         
       </div>
   </div>

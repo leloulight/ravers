@@ -26,6 +26,15 @@ body{
 
 }
 
+.textdj{
+    text-align: center;
+    color:#f9f9f9;
+    /*position: absolute;*/
+    margin-top: -1em;
+    margin-bottom: 2em;
+
+}
+
 .textdonate{
     text-align: center;
     color:#f9f9f9;
@@ -124,6 +133,12 @@ body{
 
 .yellow{
     background: #FDBC1B;
+    /*min-height: 35em;*/
+
+}
+
+.rosa{
+    background: #FD0052;
     /*min-height: 35em;*/
 
 }
@@ -285,6 +300,11 @@ body{
     background: url('../img/bg-dj.jpg') center no-repeat;
     background-size: cover;
     min-height: 65em;
+}
+.bg_dj1{
+    background: url('../img/bg-dj1.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 55em;
 }
 
 .bg_donate{
@@ -490,4 +510,47 @@ body{
   border-top: 2px solid #000;
   width: 100%;
   border-bottom: 2px solid #000;
+}
+
+.txt-dj{
+  font-size: 1.6em;
+  text-shadow: 3px 2px 2px #000;
+}
+
+.img-text{
+  margin:0;
+  padding: 0;
+  height: 50px;
+  top: -11px;
+  position: relative;
+}
+
+.text-title-dj{
+  font-size: 1.8em
+}
+
+.text-content-dj{
+  font-size: 1.25em;
+  margin: 0 1em;
+  font-weight: 400;
+}
+.text-step-dj{
+  font-size: 1.1em;
+  margin: 0 2.4em;
+  font-weight: 400;
+}
+
+.division {
+  top:-72px;
+  position: relative;
+}
+
+.text-dj{
+    text-align: center;
+    color:#000;
+    /*margin: 0 4em;*/
+    /*position: absolute;*/
+    margin-top: -1em;
+    /*margin-bottom: 2em;*/
+
 }
