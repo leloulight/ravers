@@ -203,7 +203,7 @@
 			<p class="text-justify">Our copyright agent can be reached by phone at 1- 949 - 842 - 6249,  or by email at COPYRIGHT@INTERNATIONALRAVERS.ORG. Please note that attachments cannot be accepted at the email address for security reasons. Accordingly, any notification of infringement submitted electronically with an attachment will not be received or processed.</p>
 			<h3>PRIVACY POLICY</h3>
 			<p class="text-justify">
-				Our Privacy Policy, as it may change from time to time, is a part of this Agreement. You must review this Privacy Policy by clicking on this <a href="{{ route(policy)}}">link</a>.
+				Our Privacy Policy, as it may change from time to time, is a part of this Agreement. You must review this Privacy Policy by clicking on this <a href="{{ route('policy')}}">link</a>.
 			</p>
 			<h3>PAYMENTS</h3>
 			<p class="text-justify">
