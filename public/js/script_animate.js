@@ -169,7 +169,7 @@ window.addEventListener("resize", resizeCanvas, false);
         
         function paint() {
             ctx.globalCompositeOperation = 'source-over';
-            ctx.fillStyle = "rgba(16, 113, 255, 0.2)";
+            ctx.fillStyle = "rgba(0, 0, 0, 0.2)";
             ctx.fillRect(0, 0, w, h);
             ctx.globalCompositeOperation = 'lighter';
             for (var i=0; i<particles.length; i++) {
