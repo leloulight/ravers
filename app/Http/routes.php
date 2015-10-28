@@ -68,7 +68,7 @@ Route::get('volunteers',['as' => 'volunteers', 'uses' => 'HomeController@volunte
 
 Route::get('privacy-policy',['as' => 'policy', 'uses' => 'HomeController@policy']);
 
-Route::get('terms-and-conditions',['as' => 'terms', 'uses' => 'HomeController@terms']);
+Route::get('terms-of-use',['as' => 'terms', 'uses' => 'HomeController@terms']);
 
 
 

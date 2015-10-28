@@ -111,7 +111,7 @@ class HomeController extends Controller
 
     public function terms()
     {
-        $title = "Terms and Conditions";
+        $title = "Terms of Use";
         return View::make('terms',['title' => $title]);
     }
 
