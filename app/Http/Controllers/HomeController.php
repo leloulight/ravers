@@ -75,11 +75,7 @@ class HomeController extends Controller
         $message = "";
         return View::make('donate',['title' => $title, 'message' => $message]);
     }
-    public function prueba()
-    {
-        $title = "prueba";
-        return View::make('prueba',['title' => $title]);
-    }
+   
 
     public function donate_post()
     {
@@ -105,6 +101,18 @@ class HomeController extends Controller
 //        $message = "Transaccion realizada";
         return View::make('donate',['title' => $title]);
 
+    }
+
+    public function policy()
+    {
+        $title = "Privacy Policy";
+        return View::make('policy',['title' => $title]);
+    }
+
+    public function terms()
+    {
+        $title = "Terms and Conditions";
+        return View::make('terms',['title' => $title]);
     }
 
 }

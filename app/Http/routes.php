@@ -66,4 +66,10 @@ Route::get('contact-us',['as' => 'contact', 'uses' => 'HomeController@contact'])
 
 Route::get('volunteers',['as' => 'volunteers', 'uses' => 'HomeController@volunteers']);
 
+Route::get('privacy-policy',['as' => 'policy', 'uses' => 'HomeController@policy']);
+
+Route::get('terms-and-conditions',['as' => 'terms', 'uses' => 'HomeController@terms']);
+
+
+
 Route::get('posts','PostsController@index');

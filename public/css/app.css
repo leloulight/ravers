@@ -233,6 +233,7 @@ body{
 
 .blue{
     background: #1071FF;
+    position: relative;
 }
 
 .green{
@@ -571,8 +572,8 @@ body{
 }
 
 .animate_fire{
-  height:50%;
-  width:100%;
+  /*height:50%;
+  width:100%;*/
   position:absolute;
   left:0px;
   top:300px;
@@ -582,4 +583,16 @@ body{
 canvas {
   padding: 0;
   margin: 0;
+}
+
+.text-boton{
+  font-size: 1.2em;
+  color: #fff;
+  margin-top: 0.7em;
+  margin-right: -2em;
+  /*width: 10px;*/
+}
+
+.rowsombra{
+  box-shadow: 0px 0px 20px #000;
 }

@@ -43,9 +43,9 @@
       </div>
     </div>    
   </div>
-  <div class="black" id="fire">
-    <canvas id="hanabi" class="animate_fire"></canvas>
-    <canvas id="prueba" class="animate_fire"></canvas>
+  <div class="blue" id="fire">
+    <canvas id="canvas" class="animate_fire"></canvas>
+    
     <div class="division">
       <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
     </div>
@@ -67,17 +67,27 @@
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
            <p class="title-white text-center">Celebrate your birthday.</p>
           <img src="{{ asset('img/3.png') }}" alt="Explore" width="60%" class="center-block" >
-           <p class="title-white text-justify text-step-dj">While you have a wonderful day our team works hard in promoting your cause around the world. After this day, oue team will show you how grateful are your fans with you.</p>
+           <p class="title-white text-justify text-step-dj">While you have a wonderful day our team works hard in promoting your cause around the world. After this day, our team will show you how grateful are your fans with you.</p>
         </div>
        
         <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 margin-top-lg">
            <p class="title-white text-center">What's the challenge?</p>
           <img src="{{ asset('img/4.png') }}" alt="Explore" width="60%" class="center-block" >
-           <p class="title-white text-justify text-step-dj">After to show our entire EDM community how many kids have clean because of your birthday gifs, let's take the challenge of double your birthday gifs for the next year. We will help with that!!!</p>
+           <p class=" title-white text-justify text-step-dj">After to show our entire EDM community how many kids have clean because of your birthday gifs, let's take the challenge of double your birthday gifs for the next year.</p><br>
+           <p class="title-white text-center text-step-dj">We will help with that!!!</p>
         </div>
         <div class="col-xs-12 text-center margin-bottom margin-top-lg">
-          <p>Let's</p>
-          <a href="{{ route('programs') }}#warriors"><button type="button" class="btn btn-success btn-lg textvideo">Transform poor communities into <strong>raves</strong></button></a>
+          <div class="col-sm-6 col-sm-offset-3">
+            <div class="col-sm-2">
+              <div class=" text-boton "><p class="text-right">Let's</p></div>
+            </div>
+            <div class="col-sm-10 margin-bottom-lg">
+              <a href="{{ route('programs') }}#warriors">
+                <button type="button" class="btn btn-success btn-lg">Transform poor communities into <strong>raves</strong></button></a>
+            </div>
+            
+          </div>
+          
         </div>
       </div>
     </div>    

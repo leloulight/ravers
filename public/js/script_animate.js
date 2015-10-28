@@ -113,262 +113,126 @@
 })();
 
 
+// =============================================
 
 
 
-
-(function(win) {
-
-    Math.Radian = Math.PI * 2;
-
-	var hibana = [],
-		hibanaRenderBuff = [],
-		canvas = document.getElementById("hanabi"),
-		count = 0,
-
-		b = document.body,
-		d = document.documentElement;
-
-	var colors = ['#ffffaa','#AA0066','#008000','#ffd700','#0000ff'];
-	var cols = colors.length;
-
-	canvas.width = 1200;
-	canvas.height = 600;
-
-	win.requestAnimationFrame = (function() {
-		return window.requestAnimationFrame     ||
-			window.webkitRequestAnimationFrame  ||
-			window.mozRequestAnimationFrame     ||
-			window.oRequestAnimationFrame       ||
-			window.msRequestAnimationFrame      ||
-			function(callback, element) {
-				window.setTimeout(callback, 1000 / 60);
-			};
-	})();
-
-	var hanabi = {
-		'quantity' : 400,
-		'size' : 3,
-		'circle' : 0.97,
-		'gravity' : 0.1,
-		'speed' : 3,
-		'top' : canvas.height / 3,
-		'left' : canvas.width / 3,
-		'z' : 0,
-		'opacity': 1,
-		'persistence': 3,
-		'color' : ['#ffffaa','#AA0066','#ffffaa']
-	};
-	
-	var rising = {
-		'rise': false,
-		'x': 0,
-		'y': 0,
-		'gravity' : 0.98,
-		'st': 12,
-		'size': 1,
-		'opacity': 0.8,
-		'color': "#CCC"
-	};
-
-	var cvs = {
-		'elm': canvas,
-		'w': canvas.width,
-		'h': canvas.height,
-		'ctx': canvas.getContext('2d'),
-		'left': canvas.getBoundingClientRect ? canvas.getBoundingClientRect().left : 0,
-		'top': canvas.getBoundingClientRect ? canvas.getBoundingClientRect().top : 0,
-		'pos_x' : 0,
-		'pos_y' : 0
-	};
-
-	function makeHibanaList() {
-
-		var i, angle1, angle2,
-			xyst, zst,
-			x = hanabi.left + Math.floor(Math.random()* 100) - 50,
-			y = hanabi.top + Math.floor(Math.random()* 100) - 50,
-			col1 = colors[Math.floor(Math.random()* cols)],
-			col2 = colors[Math.floor(Math.random()* cols)],
-			l = hanabi.quantity;
-
-		hanabi.color[0] = col1;
-		hanabi.color[1] = col2;
-		hanabi.speed = Math.floor(Math.random()*3) + 1;
-		
-		// Reset Rising
-		rising.x = x;
-		rising.y = cvs.h;
-		rising.rise = false;
-		rising.st = 12;
-
-		for( i=0; i< l; i++ ) {
-			angle1 = Math.random() * Math.Radian;
-			angle2 = Math.random() * Math.Radian;
-			xyst = Math.random() * (hanabi.speed*0.8);
-			zst = hanabi.speed - xyst;
-
-			hibana.push({
-				x: x,
-				y: y,
-				size: hanabi.size,
-				xst: Math.cos(angle1) * xyst,
-				yst: Math.sin(angle1) * xyst,
-				zst: Math.cos(angle2) * zst,
-				op: hanabi.opacity
-			});
-		}
-		//        console.dir(hibana);
-	}
-
-	function hibanaMotion( h ) {
-		var new_x = h.x + h.xst,
-			new_y = h.y + h.yst,
-			new_size = h.size * hanabi.circle,
-			new_op = h.op;
-
-		if(new_size < 0.5 ) {
-			new_x = h.x + h.xst;
-			new_y = h.y + h.yst + hanabi.gravity;
-			new_size = h.size * hanabi.circle;
-			new_op = h.op * hanabi.circle;
-			if( Math.floor(Math.random()*40) === 0 ) {
-				return false;
-			}
-		}
-		if(new_size < 0.1 ) {
-			return false;
-		}
-
-		return ( {
-			x: new_x,
-			y: new_y,
-			size: new_size,
-			xst: h.xst,
-			yst: h.yst,
-			zst: h.zst,
-			op: new_op
-		});
-	}
-
-
-	function hanabiMaker() {
-		var i, h, x, y, size,
-			color = hanabi.color[0],
-			col1 = hanabi.color[1],
-			col2 = hanabi.color[2],
-			l = hibana.length < 100 ? 100 : hibana.length;
-
-		if (!hibana.length) {
-			return false;
-		}
-		
-		if( hibanaRenderBuff.length && rising.rise === false) {
-			return true;
-		}
-
-		if( hibanaRenderBuff.length >  hanabi.persistence * l ) {
-			hibanaRenderBuff.splice(0,l);
-		}
-
-		l = hibana.length;
-		for (i = 0; i < l; i++) {
-			h = hibana[i];
-			if( h ) {
-				if( h.size < 0.3 ) { color = col2; }
-				else if( h.size < 1 ) { color = col1; }
-				
-				size = Math.round( h.size *100 ) /100;
-				x =  Math.round( h.x ) ;
-				y =  Math.round( h.y ) ;
-				h.op = Math.round( h.op *10 ) /10;
-
-				hibanaRenderBuff.push({
-					x: x,
-					y: y,
-					color: color,
-					size: size,
-					op: h.op
-				});
-
-				// update
-				hibana[i] = hibanaMotion( h );
-				if( hibana[i] === false ) {
-					hibana.splice(i,1);
-				}
-			}
-		}
-		return hibanaRenderBuff.length;
-	}
-	
-	
-
-	function render2() {
-		var i, h,
-			x,y,st,
-			l = hibanaRenderBuff.length;
-
-		if (!hibanaRenderBuff.length) {
-			return true;
-		}
-
-		if( count % hanabi.persistence === 0 ) {
-			cvs.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
-			cvs.ctx.fillRect(0, 0, cvs.w, cvs.h);
-		}
-		
-		if( rising.rise === false ) {
-			x = rising.x;
-			y = rising.y - rising.st;
-			st = rising.st * rising.gravity;
-			rising.st = st < 2 ? 2 : st;
-			
-			if( y < hanabi.top ) {
-				y = hanabi.top;
-				rising.rise = true;
-			}
-
-			cvs.ctx.strokeStyle = rising.color;
-			cvs.ctx.globalAlpha = rising.opacity;
-			cvs.ctx.lineWidth = rising.size;
-			cvs.ctx.beginPath();
-			cvs.ctx.moveTo(x, rising.y);
-			cvs.ctx.lineTo(x, y);
-			cvs.ctx.stroke();
-			rising.y = y;
-			count++;
-			return true;
-		}
-
-		for (i = 0; i < l; i++) {
-			h = hibanaRenderBuff[i];
-			if( h ) {
-				cvs.ctx.fillStyle = h.color;
-				cvs.ctx.globalAlpha = h.op;
-				cvs.ctx.beginPath();
-				cvs.ctx.arc(h.x, h.y, h.size, 0, Math.Radian, true);
-				cvs.ctx.fill();
-			}
-		}
-		count++;
-		return hibanaRenderBuff.length;
-	}
-
-	function animationLoop() {
-		if( !hanabiMaker() ) {
-			if( rising.rise ) {
-				setTimeout( makeHibanaList, 0 );
-			}
-		}
-		if ( render2() ) {
-			requestAnimationFrame(animationLoop);
-		}
-	}
-
-	makeHibanaList();
-	animationLoop();
-
-})(this);
-
-
-
+window.addEventListener("resize", resizeCanvas, false);
+        window.addEventListener("DOMContentLoaded", onLoad, false);
+        
+        window.requestAnimationFrame = 
+            window.requestAnimationFrame       || 
+            window.webkitRequestAnimationFrame || 
+            window.mozRequestAnimationFrame    || 
+            window.oRequestAnimationFrame      || 
+            window.msRequestAnimationFrame     || 
+            function (callback) {
+                window.setTimeout(callback, 1000/60);
+            };
+        
+        var canvas, ctx, w, h, particles = [], probability = 0.04,
+            xPoint, yPoint;
+        
+        function onLoad() {
+            canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+            resizeCanvas();
+            
+            window.requestAnimationFrame(updateWorld);
+        } // fin de onLoad();
+        
+        function resizeCanvas() {
+            if (!!canvas) {
+                w = canvas.width = window.innerWidth;
+                h = canvas.height = window.innerHeight;
+            }
+        } // fin de resizeCanvas();
+        
+        function updateWorld() {
+            update();
+            paint();
+            window.requestAnimationFrame(updateWorld);
+        } // fin de update();
+        
+        function update() {
+            if (particles.length < 500 && Math.random() < probability) {
+                createFirework();
+            }
+            var alive = [];
+            for (var i=0; i<particles.length; i++) {
+                if (particles[i].move()) {
+                    alive.push(particles[i]);
+                }
+            }
+            particles = alive;
+        } // fin de update();
+        
+        function paint() {
+            ctx.globalCompositeOperation = 'source-over';
+            ctx.fillStyle = "rgba(16, 113, 255, 0.2)";
+            ctx.fillRect(0, 0, w, h);
+            ctx.globalCompositeOperation = 'lighter';
+            for (var i=0; i<particles.length; i++) {
+                particles[i].draw(ctx);
+            }
+        } // fin de paint();
+        
+        function createFirework() {
+            xPoint = Math.random()*(w-200)+100;
+            yPoint = Math.random()*(h-200)+100;
+            var nFire = Math.random()*50+100;
+            var c = "rgb("+(~~(Math.random()*200+55))+","
+                 +(~~(Math.random()*200+55))+","+(~~(Math.random()*200+55))+")";
+            for (var i=0; i<nFire; i++) {
+                var particle = new Particle();
+                particle.color = c;
+                var vy = Math.sqrt(25-particle.vx*particle.vx);
+                if (Math.abs(particle.vy) > vy) {
+                    particle.vy = particle.vy>0 ? vy: -vy;
+                }
+                particles.push(particle);
+            }
+        } // fin de createParticles();
+        
+        function Particle() {
+            this.w = this.h = Math.random()*4+1;
+            // Position
+            this.x = xPoint-this.w/2;
+            this.y = yPoint-this.h/2;
+            // Velocidades x e y entre -5 y +5
+            this.vx = (Math.random()-0.5)*10;
+            this.vy = (Math.random()-0.5)*10;
+            // Tiempo de vida
+            this.alpha = Math.random()*.5+.5;
+            // color
+            this.color;
+        } // fin de Particle();
+        
+        Particle.prototype = {
+            gravity: 0.05,
+            move: function () {
+                this.x += this.vx;
+                this.vy += this.gravity;
+                this.y += this.vy;
+                this.alpha -= 0.01;
+                if (this.x <= -this.w || this.x >= screen.width ||
+                    this.y >= screen.height ||
+                    this.alpha <= 0) {
+                        return false;
+                }
+                return true;
+            },
+            draw: function (c) {
+                c.save();
+                c.beginPath();
+                
+                c.translate(this.x+this.w/2, this.y+this.h/2);
+                c.arc(0, 0, this.w, 0, Math.PI*2);
+                c.fillStyle = this.color;
+                c.globalAlpha = this.alpha;
+                
+                c.closePath();
+                c.fill();
+                c.restore();
+            }
+        } // fin de Particle.prototype;
