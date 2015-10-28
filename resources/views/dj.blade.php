@@ -7,7 +7,7 @@
           <img src="{{ asset('img/djch.png') }}" alt="" class="center-block" width="100%">
       </div>
       <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10 col-lg-offset-1 margin-top-lg">
-        <p class="text-standar texto-lg texto-blanco text-center txt-dj margin-top-lg">The International Ravers - <span><img src="img/djch.png" alt="" class="img-text"></span> - is about engaging DJ and their fans to gift their birthday to the greater good of providing clean water around the world, just like at our raves. Whether you are a famous DJ or an enthusiastic Beginner, you can get involved by subscribing and inviting yout friends, family, and fans to participate for your birthday.</p>
+        <p class="text-standar texto-lg texto-blanco text-center txt-dj margin-top-lg">The International Ravers - <span><img src="img/djch.png" alt="" class="img-text"></span> - is about engaging DJ and their fans to gift their birthday to the greater good of providing clean water around the world, just like at our raves. Whether you are a famous DJ or an enthusiastic Beginner, you can get involved by subscribing and inviting your friends, family, and fans to participate for your birthday.</p>
       </div>
     </div>
   </div>  
@@ -27,9 +27,9 @@
     <div class="container">
       <div class="row margin-bottom-lg" id="team">
 
-        <h2 class="textdj visible-lg">Which kind of birthday  wishes the DJ's can ask?</h2>
-        <h3 class="textdj visible-sm visible-md">Which kind of birthday  wishes the DJ's can ask?</h3>
-        <h3 class="textdj visible-xs">Which kind of birthday  wishes the DJ's can ask?</h3>
+        <h2 class="textdj visible-lg">Which kind of birthday  wishes the DJs can ask?</h2>
+        <h3 class="textdj visible-sm visible-md">Which kind of birthday  wishes the DJs can ask?</h3>
+        <h3 class="textdj visible-xs">Which kind of birthday  wishes the DJs can ask?</h3>
         <div class="col-xs-4 col-xs-offset-2">
           <p class="title-white text-center text-title-dj">Build Wells + water purifers.</p>
           <img src="{{ asset('img/wells.jpg') }}" alt="Explore" width="70%" class="center-block img-circle" >
@@ -43,7 +43,7 @@
       </div>
     </div>    
   </div>
-  <div class="blue" id="fire">
+  <div class="black" id="fire">
     <canvas id="canvas" class="animate_fire"></canvas>
     
     <div class="division">
@@ -62,7 +62,7 @@
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
            <p class="title-white text-center">Start a Campaing.</p>
           <img src="{{ asset('img/2.png') }}" alt="Explore" width="60%" class="center-block" >
-           <p class="title-white text-justify text-step-dj">When your birthday is near, we'll remind you to start a fundraising page. Whether you want to raise funds through gifts or a private birthday event and the tickets are donations, you can do independently in our platform or with the fill cooperation of our team.</p>
+           <p class="title-white text-justify text-step-dj">When your birthday is near, we'll remind you to start a fundraising page. Whether you want to raise funds through gifts or a private birthday event and the tickets are donations, you can do it independently in our platform or with the full cooperation of our team.</p>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
            <p class="title-white text-center">Celebrate your birthday.</p>
