@@ -40,7 +40,7 @@
                         <source src="video/warriors.mp4" type="video/mp4">
                     </video> -->
                     <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="center-block shadow embed-responsive-item" src="https://www.youtube.com/embed/7x0Y9eIwurw" frameborder="0" allowfullscreen></iframe>
+                      <iframe class="center-block shadow embed-responsive-item" width="80%" src="https://www.youtube.com/embed/7x0Y9eIwurw" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <p class="title-white text-justify margin-center margin-top">- This program will build ecologic toilets and sinks in communities in poverty. <br>- The ecologic toilets generate fertilizer for the community crops (with a family of 6 is estimated to generate 5 bags of fertilizer per year) and generate better hygiene which therefore generates better habits and better human beings. <br>- There are more cellphones than toilets now a days, did you know that?</p>
                     <div class="col-xs-12 text-center margin-top-lg ">
