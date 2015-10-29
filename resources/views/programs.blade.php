@@ -36,9 +36,12 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Sanitation & hygiene program</h4>
-                    <video controls poster="img/videoframe1.jpg" width="80%" class="center-block shadow">
+                    <!-- <video controls poster="img/videoframe1.jpg" width="80%" class="center-block shadow">
                         <source src="video/warriors.mp4" type="video/mp4">
-                    </video>
+                    </video> -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="center-block shadow embed-responsive-item" src="https://www.youtube.com/embed/7x0Y9eIwurw" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <p class="title-white text-justify margin-center margin-top">- This program will build ecologic toilets and sinks in communities in poverty. <br>- The ecologic toilets generate fertilizer for the community crops (with a family of 6 is estimated to generate 5 bags of fertilizer per year) and generate better hygiene which therefore generates better habits and better human beings. <br>- There are more cellphones than toilets now a days, did you know that?</p>
                     <div class="col-xs-12 text-center margin-top-lg ">
                         <a href="{{ route('donate' )}}"><button type="button" class="btn btn-warning btn-lg btn-custom">Help a warrior</button></a>
