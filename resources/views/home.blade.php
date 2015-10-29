@@ -47,9 +47,12 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Sanitation & hygiene program</h4>
-                    <video controls poster="img/videoframe1.jpg" width="100%" class="center-block shadow">
+                    <!-- <video controls poster="img/videoframe1.jpg" width="100%" class="center-block shadow">
                         <source src="video/warriors.mp4" type="video/mp4">
-                    </video>
+                    </video> -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="center-block shadow embed-responsive-item" src="https://www.youtube.com/embed/7x0Y9eIwurw" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <h4 class="title-white text-center">The dignity  of a toilet, sink and a shower must be for everyone!</h4>
                     <div class="col-xs-12 text-center margin-top-lg ">
                         <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Help a warrior</button></a>
