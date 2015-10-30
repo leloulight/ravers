@@ -37,9 +37,9 @@
             <div class="row margin-top-lg margin-bottom-lg">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Water accesibility program</h4>
-                    <video controls poster="img/videoframe.jpg" width="100%" class="center-block shadow">
-                        <source src="video/heroes_hd_final.mp4" type="video/mp4">
-                    </video>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="center-block shadow embed-responsive-item" src="https://www.youtube.com/embed/qOLZTZpjXQo" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <h4 class="title-white text-center">This program aims are bring free water refill for every community in need.</h4>
                     <div class="col-xs-12 text-center margin-top-lg ">
                         <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button></a>
