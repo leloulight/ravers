@@ -122,7 +122,7 @@
                 </a>
               </div>
               <div class="col-sm-4">
-                <a href="http://instagram.com/internationalraverscharity?ref=badge" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
+                <a href="https://instagram.com/p/8fAGxOTLQ1/" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=450'); return false;">
                   <img src="{{ asset('img/ig-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
                 </a>
               </div>
