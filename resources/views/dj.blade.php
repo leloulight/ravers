@@ -112,7 +112,21 @@
         		
             <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-offset-3">
               <div class="col-sm-4">
-                <img src="{{ asset('img/fb-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
+                <!-- <img src="{{ asset('img/fb-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" > -->
+                <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
+                    <!-- Your share button code -->
+                    <div class="fb-share-button" 
+                        data-href="http://www.your-domain.com/your-page.html" 
+                        data-layout="button_count">
+                    </div>
               </div>
               <div class="col-sm-4">
                 <a href="https://twitter.com/intent/tweet?text=%40intRavers%20%23InternationalRavers%20%23DJBirthday%20%23NonProfit%20pic.twitter.com%2FbAawmOSUHS&source=intRavers&related=intRavers" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
