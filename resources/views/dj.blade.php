@@ -122,8 +122,9 @@
                 </a>
               </div>
               <div class="col-sm-4">
-                <img src="{{ asset('img/ig-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
-              
+                <a href="http://instagram.com/labantom?ref=badge" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
+                  <img src="{{ asset('img/ig-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
+                </a>
               </div>
                
             </div>
