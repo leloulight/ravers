@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:url"                content="https://internationalravers.org" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="Dj Birthay Challenge" />
-    <meta property="og:description"        content="How much does culture influence creative thinking?" />
-    <meta property="og:image:secure_url"              content="https://internationalravers.org/tw/dj.jpg" />
     <link rel="icon" href="{{ asset('favicon.ico') }}">
     <title>{{$title}} | International Raver, Inc.</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
