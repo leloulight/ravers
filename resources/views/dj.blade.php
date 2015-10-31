@@ -115,8 +115,9 @@
                 <img src="{{ asset('img/fb-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
               </div>
               <div class="col-sm-4">
-                <img src="{{ asset('img/tw-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
-              
+                <a href="http://ctt.ec/2To8h">
+                  <img src="{{ asset('img/tw-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
+                </a>
               </div>
               <div class="col-sm-4">
                 <img src="{{ asset('img/ig-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
