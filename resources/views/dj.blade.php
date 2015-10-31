@@ -115,7 +115,7 @@
                 <img src="{{ asset('img/fb-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
               </div>
               <div class="col-sm-4">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="pic.twitter.com/bAawmOSUHS" data-via="intRavers" data-hashtags="DjBirthday" data-lang="en" data-size="large" data-count="none" data-dnt="false" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
+                <a href="https://twitter.com/intent/tweet?text=%40intRavers%20%23InternationalRavers%20%23DJBirthday%20%23NonProfit%20pic.twitter.com%2FbAawmOSUHS&source=intRavers&related=intRavers" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
                   <img src="{{ asset('img/tw-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
                 </a>
               </div>
