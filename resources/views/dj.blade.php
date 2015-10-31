@@ -115,7 +115,7 @@
                 <img src="{{ asset('img/fb-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
               </div>
               <div class="col-sm-4">
-                <a href="http://ctt.ec/2To8h" target="_blank" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="pic.twitter.com/bAawmOSUHS" data-via="intRavers" data-hashtags="DjBirthday" data-lang="en" data-size="large" data-count="none" data-dnt="false" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
                   <img src="{{ asset('img/tw-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
                 </a>
               </div>
