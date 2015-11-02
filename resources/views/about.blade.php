@@ -28,12 +28,12 @@
         <h3 class="textvideo visible-xs">MEET OUR STAFF</h3>
         <div class="col-sm-12">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="https://instagram.com/p/8bs9--TLcx/"><img src="{{ asset('img/oscar.png') }}" alt="Explore" width="50%" class="center-block img-responsive img-circle" >
+              <a href="https://instagram.com/p/8bs9--TLcx/" target="_blank"><img src="{{ asset('img/oscar.png') }}" alt="Explore" width="50%" class="center-block img-responsive img-circle" >
               <p class="title-white text-center"><strong>Oscar Centurion</strong><br>CEO/Founder</p></a>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="https://instagram.com/p/8fAGxOTLQ1/"><img src="{{ asset('img/jose.png') }}" alt="Explore" width="50%" class="center-block img-responsive img-circle" >
-              <p class="title-white text-center"><strong>Jose Felix de la Puente</strong><br>Marketing Director</p></a>
+              <a href="https://instagram.com/p/8fAGxOTLQ1/" target="_blank"><img src="{{ asset('img/jose.png') }}" alt="Explore" width="50%" class="center-block img-responsive img-circle" >
+              <p class="title-white text-center"><strong>Jose Felix de la Puente</strong><br>Marketing Director/Co-Founder</p></a>
             </div>
         </div>
       	<div class="col-sm-12">
@@ -47,7 +47,7 @@
             <p class="title-white text-center"><strong>Carlos Perez</strong><br>Media Manager</p>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
+            <img src="{{ asset('img/lcenturion.jpg') }}" alt="Explore" width="70%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Luis Centurion</strong><br>Key relationship manager ASIA</p>
           </div>
         </div>
