@@ -70,8 +70,7 @@ Route::get('privacy-policy',['as' => 'policy', 'uses' => 'HomeController@policy'
 
 Route::get('terms-of-use',['as' => 'terms', 'uses' => 'HomeController@terms']);
 
-Route::get('auth', ['as' => 'auth', 'uses' => 'HomeController@auth'];
-});
+Route::get('auth', ['as' => 'auth', 'uses' => 'HomeController@auth']});
 
 Route::get('volunteers/login', 'HomeController@register');
 
