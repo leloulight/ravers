@@ -123,10 +123,10 @@ class HomeController extends Controller
            $user->email = $details->email;
            $user->save();
         });
-        Auth::login($user,true);
+        Auth::user();
 
         $login = Auth::user()->name;
-        $id = Auth::user()->id;
+        // $id = Auth::user()->id;
         return View::make('bienvenido',['user' => $login]);
     }
 
