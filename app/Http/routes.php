@@ -77,5 +77,7 @@ Route::get('auth', function(){
 
 Route::get('volunteers/login', 'HomeController@register');
 
+Route::get('auth/twitter', ['as' =>'twitter','uses' => 'Auth\AuthController@redirectToProvider']);
+Route::get('auth/twitter/callback', ['as' =>'callback', 'uses' => 'Auth\AuthController@handleProviderCallback']);
 
 Route::get('posts','PostsController@index');
