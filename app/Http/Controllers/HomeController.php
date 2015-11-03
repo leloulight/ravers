@@ -9,6 +9,7 @@ use Ravers\Http\Requests;
 use Illuminate\Http\Request;
 //use Stripe;
 use Illuminate\Support\Facades\Auth;
+use AdamWathan\EloquentOAuth\Facades\OAuth;
 
 class HomeController extends Controller
 {
