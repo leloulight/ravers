@@ -118,7 +118,11 @@ class HomeController extends Controller
 
     public function register()
     {
-        OAuth::login('facebook');
+        OAuth::login('facebook', function($user, $details) {
+           $user->name = $details->full_name;
+           $user->email = $details->email;
+           $user->save();
+        });
         dd(Auth::user());
     }
 
