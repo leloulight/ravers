@@ -127,7 +127,7 @@ class HomeController extends Controller
 
         $login = Auth::user()->name;
         // $id = Auth::user()->id;
-        $title = 'Bienvenido'
+        $title = 'Bienvenido';
         return View::make('bienvenido',['title' => $title, 'user' => $login]);
     }
 
