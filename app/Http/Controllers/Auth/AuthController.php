@@ -147,26 +147,5 @@ class AuthController extends Controller
 
        // dd($user);
     }
- 
-    /**
-     * Return user if exists; create and return if doesn't
-     *
-     * @param $twitterUser
-     * @return User
-     */
-    // private function findOrCreateUser($twitterUser)
-    // {
-    //     $authUser = User::where('twitter_id', $twitterUser->id)->first();
- 
-    //     if ($authUser){
-    //         return $authUser;
-    //     }
- 
-    //     return User::create([
-    //         'name' => $twitterUser->name,
-    //         'handle' => $twitterUser->nickname,
-    //         'twitter_id' => $twitterUser->id,
-    //         'avatar' => $twitterUser->avatar_original
-    //     ]);
-    // }
+
 }
