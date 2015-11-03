@@ -56,7 +56,7 @@
 			<h3 class="text-center margin-top margin-bottom visible-xs bg-imagen">SIGN UP TO <strong>VOLUNTEER</strong></h3>
 			<p class="text-center text-estandar margin-center-lg margin-top margin-bottom">sign up with</p>
 			<div class="col-xs-12 text-center margin-bottom-lg">
-				<a href="https://www.facebook.com/internationalravers" target="_blank" class="social-icon">
+				<a href="{{ route('auth')}}" target="_blank" class="social-icon">
 					<img src="img/fb.png" width="80" alt="">
 				</a>
 	      <a href="https://twitter.com/intravers" target="_blank" class="social-icon">

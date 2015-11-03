@@ -115,4 +115,15 @@ class HomeController extends Controller
         return View::make('terms',['title' => $title]);
     }
 
+    public function register()
+    {
+        OAuth::login('facebook');
+        dd(Auth::user());
+    }
+
+    public function auth()
+    {
+        return OAuth::authorize('facebook');
+    }
+
 }
