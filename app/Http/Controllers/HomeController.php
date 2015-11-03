@@ -123,12 +123,16 @@ class HomeController extends Controller
            $user->email = $details->email;
            $user->save();
         });
-        dd(Auth::user());
+        Auth::login($user,true);
+
+        $login = Auth::user()->name;
+        $id = Auth::user()->id;
+        return View::make('bienvenido',['user' => $login]);
     }
 
-    public function auth()
-    {
-        return OAuth::authorize('facebook');
-    }
+    // public function auth()
+    // {
+    //     return OAuth::authorize('facebook');
+    // }
 
 }

@@ -7,6 +7,7 @@ use Validator;
 use Ravers\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Support\Facades\View;
 
 use Auth;
 use Socialite;
@@ -75,7 +76,7 @@ class AuthController extends Controller
      */
     public function redirectToProvider()
     {
-        return Socialite::driver('twitter')->redirect();
+        return Socialite::with('twitter')->redirect();
     }
  
     /**
@@ -85,20 +86,34 @@ class AuthController extends Controller
      */
     public function handleProviderCallback()
     {
-         //$user = Socialite::driver('twitter')->user();
-        try {
-            $user = Socialite::driver('twitter')->user();
-        } catch (Exception $e) {
-            return redirect('auth/twitter');
-        }
- 
-        $authUser = $this->findOrCreateUser($user);
- 
-        Auth::login($authUser, true);
- 
-        return redirect()->route('home');
+        $twitterUser = Socialite::with('twitter')->user();
+         //$authUser = $this->findOrCreateUser($twitterUser);
+        $user = User::whereName($twitterUser->getName())->first();
+        
+        // dd($user);
+        if(!$user){
+            // echo "no user";
+            $user = new User;
+            $user->name = $twitterUser->getName();
+            $user->handle = $twitterUser->getNickname();
+            // $user->avatar = $twitterUser->getAvataroriginal();
+            $user->save();
+            // echo "user created";
+            Auth::loginUsingId($user->id);
 
-//        dd($user);
+            $login = Auth::user()->name;
+            $id = Auth::user()->id;
+            $title = 'Registro';
+            return View::make('registro',['title' => $title, 'user' => $login, 'id' => $id]);
+        }else{
+             Auth::login($user,true);
+             $login = Auth::user()->name;
+             $title = 'Bienvenido';
+            return View::make('bienvenido',['title' => $title, 'user' => $login]);
+        }
+       
+
+       // dd($user);
     }
  
     /**
@@ -107,19 +122,19 @@ class AuthController extends Controller
      * @param $twitterUser
      * @return User
      */
-    private function findOrCreateUser($twitterUser)
-    {
-        $authUser = User::where('twitter_id', $twitterUser->id)->first();
+    // private function findOrCreateUser($twitterUser)
+    // {
+    //     $authUser = User::where('twitter_id', $twitterUser->id)->first();
  
-        if ($authUser){
-            return $authUser;
-        }
+    //     if ($authUser){
+    //         return $authUser;
+    //     }
  
-        return User::create([
-            'name' => $twitterUser->name,
-            'handle' => $twitterUser->nickname,
-            'twitter_id' => $twitterUser->id,
-            'avatar' => $twitterUser->avatar_original
-        ]);
-    }
+    //     return User::create([
+    //         'name' => $twitterUser->name,
+    //         'handle' => $twitterUser->nickname,
+    //         'twitter_id' => $twitterUser->id,
+    //         'avatar' => $twitterUser->avatar_original
+    //     ]);
+    // }
 }

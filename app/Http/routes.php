@@ -20,29 +20,15 @@ Route::get('prueba',['as' => 'prueba', 'uses' => 'HomeController@prueba']);
 
 Route::post('donate',array('before' => 'csrf', function()
 {
-
-//    print_r( Input::all());
-//    echo '<hr/>';
-
-    //Stripe::setStripeKey(Config::get('services.stripe.secret'));
-
     $token = Input::get('stripeToken');
     $amount = Input::get('amount');
     $user = new User();
-    
 
     try {
-
         $user->charge($amount,['source' => $token,]);
     } catch(Stripe_CardError $e){
         dd($e);
     }
-
-//    dd($user);
-
-//    Auth::user()->subscription('monthly')->create($token);
-
-//    return 'Done';
     $title = 'Donate';
     $message = 'Transaccion Realizada';
 
@@ -78,6 +64,10 @@ Route::get('auth', function(){
 Route::get('volunteers/login', 'HomeController@register');
 
 Route::get('auth/twitter', ['as' =>'twitter','uses' => 'Auth\AuthController@redirectToProvider']);
+
 Route::get('auth/twitter/callback', ['as' =>'callback', 'uses' => 'Auth\AuthController@handleProviderCallback']);
 
 Route::get('posts','PostsController@index');
+
+
+
