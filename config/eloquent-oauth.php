@@ -39,5 +39,6 @@ return [
 			'redirect_uri' => 'https://example.com/your/soundcloud/redirect',
 			'scope' => [],
 		],
+		
 	],
 ];
