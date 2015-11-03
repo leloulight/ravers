@@ -1,24 +1,6 @@
 @extends('layouts.default')
 
 @section('content')
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1652542121684632',
-      xfbml      : true,
-      version    : 'v2.5'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
 <div class="bg_volunteer"></div>
 <div class="white">
   <div class="container">
@@ -56,7 +38,7 @@
 			<h3 class="text-center margin-top margin-bottom visible-xs bg-imagen">SIGN UP TO <strong>VOLUNTEER</strong></h3>
 			<p class="text-center text-estandar margin-center-lg margin-top margin-bottom">sign up with</p>
 			<div class="col-xs-12 text-center margin-bottom-lg">
-				<a href="{{ route('auth')}}" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=450'); return false;" class="social-icon">
+				<a href="{{ html('auth')}}" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=450'); return false;" class="social-icon">
 					<img src="img/fb.png" width="80" alt="">
 				</a>
 				<a href="{{ route('twitter')}}" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=450'); return false;" class="social-icon">
