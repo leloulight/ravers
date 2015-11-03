@@ -91,11 +91,13 @@ class AuthController extends Controller
             return redirect('auth/twitter');
         }
  
-        $authUser = $this->findOrCreateUser($user);
+        //$authUser = $this->findOrCreateUser($user);
  
         Auth::login($authUser, true);
  
-        return redirect()->route('home');
+        //return redirect()->route('home');
+
+        dd($user);
     }
  
     /**
