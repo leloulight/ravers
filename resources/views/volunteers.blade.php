@@ -38,7 +38,7 @@
 			<h3 class="text-center margin-top margin-bottom visible-xs bg-imagen">SIGN UP TO <strong>VOLUNTEER</strong></h3>
 			<p class="text-center text-estandar margin-center-lg margin-top margin-bottom">sign up with</p>
 			<div class="col-xs-12 text-center margin-bottom-lg">
-				<a href="{{ html('auth')}}" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=450'); return false;" class="social-icon">
+				<a href="auth" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=450'); return false;" class="social-icon">
 					<img src="img/fb.png" width="80" alt="">
 				</a>
 				<a href="{{ route('twitter')}}" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=450'); return false;" class="social-icon">
