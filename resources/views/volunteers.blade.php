@@ -59,7 +59,7 @@
 				<a href="{{ route('auth')}}" target="_blank" class="social-icon">
 					<img src="img/fb.png" width="80" alt="">
 				</a>
-	      <a href="https://twitter.com/intravers" target="_blank" class="social-icon">
+	      <a href="" target="_blank" class="social-icon">
 	      	<img src="img/tw.png" width="80" alt="">
 	      </a>
 				
