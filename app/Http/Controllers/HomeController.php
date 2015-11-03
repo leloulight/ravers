@@ -120,22 +120,32 @@ class HomeController extends Controller
     {
 
         OAuth::login('facebook', function($user, $details) {
-            $user = User::whereName($details->email)->first();
+            $user = User::whereEmail($details->email)->first();
+            
             if(!$user){
+                echo "no se encontro usuario";
+                echo "registrando";
                 $user = new User;
                 $user->name = $details->full_name;
                 $user->handle = $details->full_name;
                 $user->email = $details->email;
                 $user->save();
+                echo "registrado";
+            }else{
+                echo "encontrado";
             }
-           
-        });
-        Auth::user();
 
-        $login = Auth::user()->name;
-        // $id = Auth::user()->id;
-        $title = 'Bienvenido';
-        return View::make('bienvenido',['title' => $title, 'user' => $login]);
+
+            // dd($user);    
+        });
+
+        // dd(Aut::user());
+        // Auth::user();
+
+        // echo $login = Auth::user()->name;
+        // // $id = Auth::user()->id;
+        // $title = 'Bienvenido';
+        // return View::make('bienvenido',['title' => $title, 'user' => $login]);
     }
 
     // public function auth()

@@ -39,7 +39,7 @@
 			<p class="text-center text-estandar margin-center-lg margin-top margin-bottom">sign up with</p>
 			<div class="col-xs-12 text-center margin-bottom-lg">
 				
-				<a href="auth" class="social-icon">
+				<a href="{{ route('facebook')}}" class="social-icon">
 					<img src="img/fb.png" width="80" alt="">
 				</a>
 				<a href="{{ route('twitter')}}" class="social-icon">

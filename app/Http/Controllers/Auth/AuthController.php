@@ -78,6 +78,11 @@ class AuthController extends Controller
     {
         return Socialite::with('twitter')->redirect();
     }
+
+    public function redirectToProviderFb()
+    {
+        return Socialite::with('facebook')->redirect();
+    }
  
     /**
      * Obtain the user information from Twitter.
@@ -97,6 +102,39 @@ class AuthController extends Controller
             $user->name = $twitterUser->getName();
             $user->handle = $twitterUser->getNickname();
             // $user->avatar = $twitterUser->getAvataroriginal();
+            $user->save();
+            // echo "user created";
+            Auth::loginUsingId($user->id);
+
+            $login = Auth::user()->name;
+            $id = Auth::user()->id;
+            $title = 'Registro';
+            return View::make('registro',['title' => $title, 'user' => $login, 'id' => $id]);
+        }else{
+             Auth::login($user,true);
+             $login = Auth::user()->name;
+             $title = 'Bienvenido';
+            return View::make('bienvenido',['title' => $title, 'user' => $login]);
+        }
+       
+
+       // dd($user);
+    }
+
+    public function handleProviderCallbackFb()
+    {
+        $facebookUser = Socialite::with('facebook')->user();
+         //$authUser = $this->findOrCreateUser($facebookUser);
+        $user = User::whereEmail($facebookUser->getEmail())->first();
+        
+        // dd($user);
+        if(!$user){
+            // echo "no user";
+            $user = new User;
+            $user->name = $facebookUser->getName();
+            $user->handle = $facebookUser->getName();
+            $user->email = $facebookUser->getEmail();
+            // $user->avatar = $facebookUser->getAvataroriginal();
             $user->save();
             // echo "user created";
             Auth::loginUsingId($user->id);

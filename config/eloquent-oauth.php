@@ -6,7 +6,7 @@ return [
 		'facebook' => [
 			'client_id' => '1652542121684632',
 			'client_secret' => '7df8d5630b4a8b5946847129a5a10b65',
-			'redirect_uri' => 'https://internationalravers.org/volunteers/login',
+			'redirect_uri' => 'http://ravers.app:8000/volunteers/login',
 			'scope' => [],
 		],
 		'google' => [

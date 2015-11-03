@@ -56,16 +56,20 @@ Route::get('privacy-policy',['as' => 'policy', 'uses' => 'HomeController@policy'
 
 Route::get('terms-of-use',['as' => 'terms', 'uses' => 'HomeController@terms']);
 
-//Route::get('auth', ['as' => 'auth', 'uses' => 'HomeController@auth']);
-Route::get('auth', function(){
-   return OAuth::authorize('facebook');
-});
+// //Route::get('auth', ['as' => 'auth', 'uses' => 'HomeController@auth']);
+// Route::get('auth', function(){
+//    return OAuth::authorize('facebook');
+// });
 
-Route::get('volunteers/login', 'HomeController@register');
+// Route::get('volunteers/login', 'HomeController@register');
 
 Route::get('auth/twitter', ['as' =>'twitter','uses' => 'Auth\AuthController@redirectToProvider']);
 
 Route::get('auth/twitter/callback', ['as' =>'callback', 'uses' => 'Auth\AuthController@handleProviderCallback']);
+
+Route::get('auth/facebook', ['as' =>'facebook','uses' => 'Auth\AuthController@redirectToProviderFb']);
+
+Route::get('auth/facebook/callback', ['as' =>'callback-fb', 'uses' => 'Auth\AuthController@handleProviderCallbackFb']);
 
 Route::get('posts','PostsController@index');
 
