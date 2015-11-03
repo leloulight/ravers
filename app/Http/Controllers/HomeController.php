@@ -120,7 +120,7 @@ class HomeController extends Controller
     {
 
         OAuth::login('facebook', function($user, $details) {
-            $user = User::whereName($details->email())->first();
+            $user = User::whereName($details->email)->first();
             if(!$user){
                 $user->name = $details->full_name;
                 $user->handle = $details->full_name;
