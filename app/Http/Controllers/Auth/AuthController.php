@@ -92,7 +92,6 @@ class AuthController extends Controller
     public function handleProviderCallback()
     {
         $twitterUser = Socialite::with('twitter')->user();
-         //$authUser = $this->findOrCreateUser($twitterUser);
         $user = User::whereName($twitterUser->getName())->first();
         
         // dd($user);
