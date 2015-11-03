@@ -136,20 +136,9 @@ class AuthController extends Controller
             $user->email = $facebookUser->getEmail();
             // $user->avatar = $facebookUser->getAvataroriginal();
             $user->save();
-            // echo "user created";
-            // Auth::loginUsingId($user->id);
-
-            // $login = Auth::user()->name;
-            // $id = Auth::user()->id;
-            // $title = 'Registro';
-            // return View::make('registro',['title' => $title, 'user' => $login, 'id' => $id]);
+          
         }    
-        // }else{
-        //      Auth::login($user,true);
-        //      $login = Auth::user()->name;
-        //      $title = 'Bienvenido';
-        //     return View::make('bienvenido',['title' => $title, 'user' => $login]);
-        // }
+        
             Auth::login($user,true);
              $login = Auth::user()->name;
              $title = 'Bienvenido';
