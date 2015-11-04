@@ -91,20 +91,23 @@
             <h2 class="text-center title-green margin-top-lg"><strong>Donate</strong> the same amount of<strong> water</strong> that <br>you <strong>drank</strong> in your last <strong>rave.</strong><br>(<small class="from">from</small> $0.50 per liter)</h2>
             <div class="row">
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <img src="https://pbs.twimg.com/profile_images/609101118136823809/z6jR8lye.jpg" alt="@janarubiomiller" width="70%" class="center-block img-circle" >
+                    <h4 class="text-center"><a href="https://twitter.com/janarubiomiller">@janarubiomiller</a></h4>
+                    <h5 class="title-green text-center">I really like this idea!! that song Heroes is just amazing. <strong class="hashtag">@IntRavers #FreeWaterRefill</strong> for every community in need! I love It!</h5>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="{{ asset('img/profile2.png') }}" alt="Charities" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <img src="https://pbs.twimg.com/profile_images/3314948403/13fc87b5224b432a41bfdf278965a9c7.jpeg" alt="Charities" width="70%" class="center-block img-circle" >
+                    <h4 class="text-center"><a href="https://twitter.com/alevittoriag">@alevittoriag</a></h4>
+                    <h5 class="title-green text-center">Me encanta la música electronica. <strong class="hashtag">@IntRavers</strong> ... No hay forma de sobrevivir sin agua a un rave. <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR #Bolivia #Perú</strong></h5>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="{{ asset('img/profile3.png') }}" alt="Candy Trade" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <img src="https://pbs.twimg.com/profile_images/1771540280/294580_2006825974246_1351560899_31863131_1402043257_a.jpg" alt="Charities" width="70%" height="50%" class="center-block img-circle" >
+                    <h4 class="text-center"><a href="https://twitter.com/Claudioiamg">@Claudioiam</a></h4>
+                    <h5 class="title-green text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-lg">
-                    <img src="{{ asset('img/profile4.png') }}" alt="Candy Trade" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong class="hashtag">#iRavers</strong> Lorem ipsum dolor sit amet, consectetur  beatae.</h4>
+                    <img src="https://pbs.twimg.com/profile_images/1301175628/161257_1467441613_5932411_q.jpg" alt="Candy Trade" width="70%" class="center-block" >
+                    <h4 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to<strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h4>
                 </div>
             </div>
         </div>
