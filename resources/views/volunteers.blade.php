@@ -54,24 +54,25 @@
     <div class="row margin-top-lg">
     	<div class="panel panel-default col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
     		
-	    		<form class="form-horizontal margin-top-lg">
+	    		<form action="/volunt" method="POST" class="form-horizontal margin-top-lg">
+                    {{ csrf_field() }}
 	    			<div class="div-border col-xs-12">
 		    		  <div class="form-group">
 		    		    <label for="inputName" class="col-sm-4 control-label">name</label>
 		    		    <div class="col-sm-6">
-		    		      <input type="text" class="form-control" id="inputName" placeholder="First Last Name">
+		    		      <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Full Name" required>
 		    		    </div>
 		    		  </div>
 		    		  <div class="form-group">
 		    		    <label for="inputBirthday" class="col-sm-4 control-label">birthday</label>
 		    		    <div class="col-sm-6">
-		    		      <input type="date" class="form-control" id="inputBirthday" placeholder="DD/MM/AAAA">
+		    		      <input type="date" class="form-control" name="inputBirthday" id="inputBirthday" placeholder="DD/MM/AAAA" required>
 		    		    </div>
 		    		  </div>
 		    		  <div class="form-group">
 		    		    <label for="pEmail" class="col-sm-4 control-label">primary email</label>
 		    		    <div class="col-sm-6">
-		    		      <input type="email" class="form-control" id="pEmail" placeholder="">
+		    		      <input type="email" class="form-control" name="pEmail" id="pEmail" required>
 		    		    </div>
 		    		  </div>
 		    		  <div class="form-group">
@@ -705,7 +706,7 @@
     	</div>	
     </div>
     <div class="row margin-top-lg margin-bottom-lg">
-    	<h3 class="text-center">Questions? Give us a shot: <a href="mailto:volunteer@internationalravers.org">VOLUNTEER@INTERNATIONALRAVERS.ORG</a></h3>
+    	<p class="text-center">Questions? Give us a shot: <a href="mailto:volunteer@internationalravers.org">VOLUNTEER@INTERNATIONALRAVERS.ORG</a></p>
     </div>
   </div>
 </div>

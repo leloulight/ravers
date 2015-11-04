@@ -88,7 +88,7 @@
 
     <div class="white margin-bottom">
         <div class="container">
-            <h2 class="text-center title-green margin-top-lg"><strong>Donate</strong> the same amount of<strong> water</strong> that <br>you <strong>drank</strong> in your last <strong>rave.</strong><br>(<small class="from">from</small> $0.50 per liter)</h2>
+            <h2 class="text-center title-green margin-top-lg margin-bottom-lg"><strong>Donate</strong> the same amount of<strong> water</strong> that <br>you <strong>drank</strong> in your last <strong>rave.</strong><br>(<small class="from">from</small> $0.50 per liter)</h2>
             <div class="row">
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <img src="https://pbs.twimg.com/profile_images/609101118136823809/z6jR8lye.jpg" alt="@janarubiomiller" width="70%" class="center-block img-circle" >

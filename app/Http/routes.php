@@ -76,3 +76,5 @@ Route::get('posts','PostsController@index');
 //Route::get('registro',function(){return view('registro',['title'=>'title','user'=>'luis','id'=>'1']);});
 
 Route::post('task', ['as' => 'task', 'uses' => 'HomeController@task']);
+
+Route::post('volunt', ['as' => 'task', 'uses' => 'HomeController@volunt']);

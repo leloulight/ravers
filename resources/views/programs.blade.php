@@ -29,20 +29,27 @@
                     <div class="embed-responsive embed-responsive-16by9">
                       <iframe class="center-block shadow embed-responsive-item" width="80%" src="https://www.youtube.com/embed/qOLZTZpjXQo" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p class="title-white text-justify margin-center margin-top">- This program will help to build wells and also provide  water filters for those communities and schools who have pipes already installed. <br>- For the schools in poor communities we will build free water refill stations with "elkay water filters". Those filters will also eradicate the pollution of plástic bottles. <br>- We will also distribute, portable water filters for schools and communities with no pipes. These filters can give clean water for one person for an entire year.</p>
+                    <ul>
+                        <li class="title-white text-justify margin-center margin-top">This program will help to build wells and also provide  water filters for those communities and schools who have pipes already installed.</li>
+                        <li class="title-white text-justify margin-center margin-top">For the schools in poor communities we will build free water refill stations with "elkay water filters". Those filters will also eradicate the pollution of plástic bottles.</li>
+                        <li class="title-white text-justify margin-center margin-top">We will also distribute, portable water filters for schools and communities with no pipes. These filters can give clean water for one person for an entire year.</li>
+                    </ul>
                     <div class="col-xs-12 text-center margin-top-lg ">
-                        <a href="{{ route('donate' )}}"><button type="button" class="btn btn-warning btn-lg btn-custom">Make a Kandi Trade</button></a>
+                        <a href="{{ route('donate' )}}">
+                            <button type="button" class="btn btn-warning btn-lg btn-custom">Make a Kandi Trade</button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h4 class="title-white text-center" >Sanitation & hygiene program</h4>
-                    <!-- <video controls poster="img/videoframe1.jpg" width="80%" class="center-block shadow">
-                        <source src="video/warriors.mp4" type="video/mp4">
-                    </video> -->
                     <div class="embed-responsive embed-responsive-16by9">
                       <iframe class="center-block shadow embed-responsive-item" width="80%" src="https://www.youtube.com/embed/7x0Y9eIwurw" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p class="title-white text-justify margin-center margin-top">- This program will build ecologic toilets and sinks in communities in poverty. <br>- The ecologic toilets generate fertilizer for the community crops (with a family of 6 is estimated to generate 5 bags of fertilizer per year) and generate better hygiene which therefore generates better habits and better human beings. <br>- There are more cellphones than toilets now a days, did you know that?</p>
+                    <ul>
+                        <li class="title-white text-justify margin-center margin-top">This program will build ecologic toilets and sinks in communities in poverty.</li>
+                        <li class="title-white text-justify margin-center margin-top">The ecologic toilets generate fertilizer for the community crops (with a family of 6 is estimated to generate 5 bags of fertilizer per year) and generate better hygiene which therefore generates better habits and better human beings.</li>
+                        <li class="title-white text-justify margin-center margin-top">There are more cellphones than toilets now a days, did you know that?</li>
+                    </ul>
                     <div class="col-xs-12 text-center margin-top-lg ">
                         <a href="{{ route('donate' )}}"><button type="button" class="btn btn-warning btn-lg btn-custom">Help a warrior</button></a>
                     </div>

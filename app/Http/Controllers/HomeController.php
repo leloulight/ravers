@@ -137,4 +137,23 @@ class HomeController extends Controller
         return View::make('bienvenido', ['title' => $title, 'user' => $login]);
     }
 
+    public function volunt(Request $request)
+    {
+        $email = $request->input('pEmail');
+        $name = $request->input('inputName');
+        $birthday = $request->input('inputBirthday');
+
+        $user = new User;
+
+        $user->email = $email;
+        $user->name = $name;
+        $user->birthday = $birthday;
+
+        $user->save();
+
+        $title = 'Bienvenido';
+
+        return View::make('bienvenido', ['title' => $title, 'user' => $name]);
+    }
+
 }
