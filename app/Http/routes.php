@@ -73,6 +73,6 @@ Route::get('auth/facebook/callback', ['as' =>'callback-fb', 'uses' => 'Auth\Auth
 
 Route::get('posts','PostsController@index');
 
-// Route::get('registro',function(){return view('registro',['title'=>'title','user'=>'luis','id'=>'1']);});
+//Route::get('registro',function(){return view('registro',['title'=>'title','user'=>'luis','id'=>'1']);});
 
 Route::post('task', ['as' => 'task', 'uses' => 'HomeController@task']);

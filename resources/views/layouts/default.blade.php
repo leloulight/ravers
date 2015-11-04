@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="{{ asset('favicon.ico') }}">
-    <title>{{$title}} | International Raver, Inc.</title>
+    <title>{{$title}} | International Ravers Charity.</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="{{ asset('bootstrap/css/bootstrap.css') }}" rel="stylesheet">
