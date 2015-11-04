@@ -9,12 +9,12 @@
 						{{ csrf_field() }}
 						<div class="col-sm-6 col-sm-offset-3">
 							<h3 class="texto-blanco text-uppercase">{{ $user }}</h3>
-							<p class="text-justify texto-blanco">Para que disfrutes al 100% la experiencia de la plataforma necesitamos que registres un e-mail válido.<br>De esta manera podremos darte una mejor atención, enviarte notificaciones del curso, avisarte cuando esté disponible el examen de certificación y algunas sorpresas que tendremos para tí.</p>
+							<p class="text-justify texto-blanco">We are finishing the last adjustments of our platform. In order to register as a member we need a valid email. <br>In this way we can notify you of our advancements and projects developed. You can also register to participate for free EDM Festival tickets or private invitations for EDM clubs worldwide. <br><br>We all are International Ravers. Join Us!</p>
 							<input type="text" name="email" id="email" class="form-control" placeholder="@ Email">
 							<input type="hidden" name="name" id="name" class="form-control" value="{{ $user }}">
 							<input type="hidden" name="id" value="{{ $id }}">
 							<br>
-							<button type="submit" class="btn btn-success">Agregar Email</button>
+							<button type="submit" class="btn btn-success">ADD</button>
 							<br/>
 							<img src="{{ asset('img/isologo.png') }}" width="40%" alt="" class="center-block img-responsive"/>
 							<h2 class="text-center texto-blanco text-uppercase">international ravers charity</h2>

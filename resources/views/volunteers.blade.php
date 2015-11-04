@@ -47,7 +47,9 @@
 	      </a>
 				
 			</div>
-			<p class="text-center text-estandar margin-center-lg margin-top margin-bottom">or<br> Fill your data and according to these, organizations with <br>causes of your interest will contact you</p>
+			<p class="text-center text-estandar">or</p>
+			<p class="text-center text-estandar margin-center-lg margin-top margin-bottom visible-md visible-lg">Fill your data and according to these, organizations with <br>causes of your interest will contact you</p>
+			<p class="text-justify text-estandar margin-center margin-top margin-bottom visible-xs visible-sm">Fill your data and according to these, organizations with causes of your interest will contact you</p>
 	    
     </div>
 
