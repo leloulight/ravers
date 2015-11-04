@@ -453,13 +453,18 @@
 		    			<h2 class="text-center margin-bottom">When are you free?</h2>
 							
 							<div class="col-xs-2"></div>
-							<div class="col-xs-2">MORNING</div>
-							<div class="col-xs-2">AFTERNOON</div>
-							<div class="col-xs-2">EVENING</div>
-							<div class="col-xs-2">ANY</div>
-							<div class="col-xs-2">NONE</div>
+							<div class="col-xs-2 visible-md visible-lg">MORNING</div>
+							<div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>morn</small></div>
+							<div class="col-xs-2 visible-md visible-lg">AFTERNOON</div>
+							<div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>afft</small></div>
+							<div class="col-xs-2 visible-md visible-lg">EVENING</div>
+							<div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>eve</small></div>
+							<div class="col-xs-2 visible-md visible-lg">ANY</div>
+							<div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>any</small></div>
+							<div class="col-xs-2 visible-md visible-lg">NONE</div>
+							<div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>none</small></div>
 							<div class="col-xs-2 visible-md visible-lg">MONDAY</div>
-							<div class="col-xs-2 visible-xs visible-sm">Mon</div>
+							<div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>Mon</small></div>
 		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
@@ -486,7 +491,7 @@
 	    		      </label>
 	    		    </div>
 	    		    <div class="col-xs-2 visible-md visible-lg">TUESDAY</div>
-	    		    <div class="col-xs-2 visible-xs visible-sm">Tue</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>Tue</small></div>
 		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
@@ -514,7 +519,7 @@
 	    		    </div>
 	    		    
 	    		    <div class="col-xs-2 visible-md visible-lg">WEDNESDAY</div>
-	    		    <div class="col-xs-2 visible-xs visible-sm">Wed</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>Wed</small></div>
 		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
@@ -542,7 +547,7 @@
 	    		    </div>
 	    		    
 	    		    <div class="col-xs-2 visible-md visible-lg">THURSDAY</div>
-	    		    <div class="col-xs-2 visible-xs visible-sm">Thur</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>Thur</small></div>
 		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
@@ -570,7 +575,7 @@
 	    		    </div>
 	    		    
 	    		    <div class="col-xs-2 visible-md visible-lg">FRIDAY</div>
-	    		    <div class="col-xs-2 visible-xs visible-sm">Fri</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>Fri</small></div>
 		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
@@ -597,7 +602,7 @@
 	    		      </label>
 	    		    </div>
 	    		    <div class="col-xs-2 visible-md visible-lg">SATURDAY</div>
-	    		    <div class="col-xs-2 visible-xs visible-sm">Sat</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>Sat</small></div>
 		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
@@ -624,7 +629,7 @@
 	    		      </label>
 	    		    </div>
 	    		    <div class="col-xs-2 visible-md visible-lg">SUNDAY</div>
-	    		    <div class="col-xs-2 visible-xs visible-sm">Sun</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm text-uppercase"><small>Sun</small></div>
 		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
