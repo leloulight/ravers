@@ -18,9 +18,11 @@
                 </p>
               </div>
               <div class="form-group col-sm-12">
-                  <label for="emailInput" class="col-sm-3 control-label">Email</label>
+                  <label for="email" class="col-sm-3 control-label">Email</label>
                   <div class="col-sm-6">
-                      <input type="text" name="emailInput" id="emailInputId" class="form-control" placeholder="@ Email">
+                      <input type="text" name="email" id="email" class="form-control" placeholder="@ Email">
+                      <input type="hidden" name="name" id="name" class="form-control" value="{{ $user }}">
+                      <input type="hidden" name="id" value="{{ $id }}">
                   </div>
               </div>
               

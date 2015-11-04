@@ -7,76 +7,73 @@ use Illuminate\Support\Facades\View;
 use Ravers\User;
 use Ravers\Http\Requests;
 use Illuminate\Http\Request;
-//use Stripe;
-use Illuminate\Support\Facades\Auth;
-use AdamWathan\EloquentOAuth\Facades\OAuth;
+use Ravers\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
 
 
-
     public function home()
     {
         $title = "Home";
-        return View::make('home',['title' => $title]);
+        return View::make('home', ['title' => $title]);
     }
 
     public function whywater()
     {
         $title = "Why Water";
-        return View::make('water',['title' => $title]);
+        return View::make('water', ['title' => $title]);
     }
 
     public function whyravers()
     {
         $title = "Why Ravers";
-        return View::make('ravers',['title' => $title]);
+        return View::make('ravers', ['title' => $title]);
     }
 
     public function programs()
     {
         $title = "Programs";
-        return View::make('programs',['title' => $title]);
+        return View::make('programs', ['title' => $title]);
     }
 
     public function djbirthdays()
     {
         $title = "DJs Birthdays";
-        return View::make('dj',['title' => $title]);
+        return View::make('dj', ['title' => $title]);
     }
 
     public function aboutus()
     {
         $title = "About Us";
-        return View::make('about',['title' => $title]);
+        return View::make('about', ['title' => $title]);
     }
 
     public function blog()
     {
         $title = "Blog";
-        return View::make('blog',['title' => $title]);
+        return View::make('blog', ['title' => $title]);
     }
 
     public function contact()
     {
         $title = "Contact Us";
-        return View::make('contact',['title' => $title]);
+        return View::make('contact', ['title' => $title]);
     }
 
     public function volunteers()
     {
         $title = "Volunteers";
-        return View::make('volunteers',['title' => $title]);
+        return View::make('volunteers', ['title' => $title]);
     }
 
     public function donate()
     {
         $title = "Donate";
         $message = "";
-        return View::make('donate',['title' => $title, 'message' => $message]);
+        return View::make('donate', ['title' => $title, 'message' => $message]);
     }
-   
+
 
     public function donate_post()
     {
@@ -87,8 +84,8 @@ class HomeController extends Controller
 
         try {
 
-            $user->charge($amount,['source' => $token,]);
-        } catch(Stripe_CardError $e){
+            $user->charge($amount, ['source' => $token,]);
+        } catch (Stripe_CardError $e) {
             dd($e);
         }
 
@@ -100,57 +97,44 @@ class HomeController extends Controller
         $title = "Donate";
 
 //        $message = "Transaccion realizada";
-        return View::make('donate',['title' => $title]);
+        return View::make('donate', ['title' => $title]);
 
     }
 
     public function policy()
     {
         $title = "Privacy Policy";
-        return View::make('policy',['title' => $title]);
+        return View::make('policy', ['title' => $title]);
     }
 
     public function terms()
     {
         $title = "Terms of Use";
-        return View::make('terms',['title' => $title]);
+        return View::make('terms', ['title' => $title]);
     }
 
-    public function register()
+    /**
+     * @param Request $request
+     * @return mixed
+     */
+
+
+    public function task(Request $request)
     {
+        $email = $request->input('email');
+        $id = $request->input('id');
 
-        OAuth::login('facebook', function($user, $details) {
-            $user = User::whereEmail($details->email)->first();
-            
-            if(!$user){
-                echo "no se encontro usuario";
-                echo "registrando";
-                $user = new User;
-                $user->name = $details->full_name;
-                $user->handle = $details->full_name;
-                $user->email = $details->email;
-                $user->save();
-                echo "registrado";
-            }else{
-                echo "encontrado";
-            }
+        $user = User::whereId($id)->first();
 
+        $user->email = $email;
 
-            // dd($user);    
-        });
+        $user->save();
 
-        // dd(Aut::user());
-        // Auth::user();
+        $login = $request->input('name');
 
-        // echo $login = Auth::user()->name;
-        // // $id = Auth::user()->id;
-        // $title = 'Bienvenido';
-        // return View::make('bienvenido',['title' => $title, 'user' => $login]);
+        $title = 'Bienvenido';
+
+        return View::make('bienvenido', ['title' => $title, 'user' => $login]);
     }
-
-    // public function auth()
-    // {
-    //     return OAuth::authorize('facebook');
-    // }
 
 }

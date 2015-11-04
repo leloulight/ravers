@@ -75,20 +75,4 @@ Route::get('posts','PostsController@index');
 
 // Route::get('registro',function(){return view('registro',['title'=>'title','user'=>'luis','id'=>'1']);});
 
-Route::post('/task', function (Request $request) {
-    $validator = Validator::make($request->all(), [
-        'emailInput' => 'required|max:255|email',
-    ]);
- 
-    if ($validator->fails()) {
-        return redirect('/')
-            ->withInput()
-            ->withErrors($validator);
-    }
- 
-    $user = new User;
-    $user->email = $request->email;
-    $user->save();
- 
-    return redirect('/');
-});
+Route::post('task', ['as' => 'task', 'uses' => 'HomeController@task']);

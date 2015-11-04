@@ -12,6 +12,7 @@ use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 use Laravel\Cashier\Billable;
 use Laravel\Cashier\BillableRepositoryInterface;
 
+
 class User extends Model implements AuthenticatableContract,
                                     AuthorizableContract,
                                     CanResetPasswordContract, BillableRepositoryInterface, \Laravel\Cashier\Contracts\Billable
