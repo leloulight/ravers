@@ -1,15 +1,13 @@
 @extends('layouts.default')
 
 @section('content')
-    <div class="homepage-hero-module">
-        <div class="video-container">
-            
-            <div class="title-container">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 " >
-                  <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h2>
-                  <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h3>
-
-                  <h3 class="textvideo visible-xs">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h3>
+  <div class="homepage-hero-module">
+    <div class="video-container">
+      <div class="title-container">
+        <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 " >
+          <h2 class="textvideo visible-lg">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h2>
+          <h3 class="textvideo visible-sm visible-md">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h3>
+          <h3 class="textvideo visible-xs">International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries</h3>
                 </div>
 
                 <div class="col-xs-12 text-center margin-bottom-lg margin-top-lg">
@@ -89,27 +87,67 @@
     <div class="white margin-bottom">
         <div class="container">
             <h2 class="text-center title-green margin-top-lg margin-bottom-lg"><strong>Donate</strong> the same amount of<strong> water</strong> that <br>you <strong>drank</strong> in your last <strong>rave.</strong><br>(<small class="from">from</small> $0.50 per liter)</h2>
-            <div class="row">
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="row visible-md visible-lg">
+                <div class="col-sm-3">
                     <img src="https://pbs.twimg.com/profile_images/609101118136823809/z6jR8lye.jpg" alt="@janarubiomiller" width="70%" class="center-block img-circle" >
                     <h4 class="text-center"><a href="https://twitter.com/janarubiomiller">@janarubiomiller</a></h4>
                     <h5 class="title-green text-center">I really like this idea!! that song Heroes is just amazing. <strong class="hashtag">@IntRavers #FreeWaterRefill</strong> for every community in need! I love It!</h5>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-sm-3">
                     <img src="https://pbs.twimg.com/profile_images/3314948403/13fc87b5224b432a41bfdf278965a9c7.jpeg" alt="Charities" width="70%" class="center-block img-circle" >
                     <h4 class="text-center"><a href="https://twitter.com/alevittoriag">@alevittoriag</a></h4>
                     <h5 class="title-green text-center">Me encanta la música electronica. <strong class="hashtag">@IntRavers</strong> ... No hay forma de sobrevivir sin agua a un rave. <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR #Bolivia #Perú</strong></h5>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                    <img src="https://pbs.twimg.com/profile_images/1771540280/294580_2006825974246_1351560899_31863131_1402043257_a.jpg" alt="Charities" width="70%" height="50%" class="center-block img-circle" >
-                    <h4 class="text-center"><a href="https://twitter.com/Claudioiamg">@Claudioiam</a></h4>
+                <div class="col-sm-3">
+                    <img src="{{ asset('img/claudiotw.png')}}" width="70%" class="center-block img-circle" >
+                    <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
                     <h5 class="title-green text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
                 </div>
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-lg">
+                <div class="col-sm-3 margin-bottom-lg">
                     <img src="https://pbs.twimg.com/profile_images/1301175628/161257_1467441613_5932411_q.jpg" alt="Candy Trade" width="70%" class="center-block img-circle" >
-                    <h4 class="text-center"><a href="https://twitter.com/Claudioiamg">@Claudioiam</a></h4>
-                    <h5 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to<strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
+                    <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
+                    <h5 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to <strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
                 </div>
+            </div>
+            <div class="row sliderbody visible-xs visible-sm">
+              <!-- Swiper -->
+                  <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="col-sm-3">
+                                <img src="https://pbs.twimg.com/profile_images/609101118136823809/z6jR8lye.jpg" alt="@janarubiomiller" width="70%" class="center-block img-circle" >
+                                <h4 class="text-center"><a href="https://twitter.com/janarubiomiller">@janarubiomiller</a></h4>
+                                <h5 class="title-green text-center">I really like this idea!! that song Heroes is just amazing. <strong class="hashtag">@IntRavers #FreeWaterRefill</strong> for every community in need! I love It!</h5>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="col-sm-3">
+                                <img src="https://pbs.twimg.com/profile_images/3314948403/13fc87b5224b432a41bfdf278965a9c7.jpeg" alt="Charities" width="70%" class="center-block img-circle" >
+                                <h4 class="text-center"><a href="https://twitter.com/alevittoriag">@alevittoriag</a></h4>
+                                <h5 class="title-green text-center">Me encanta la música electronica. <strong class="hashtag">@IntRavers</strong> ... No hay forma de sobrevivir sin agua a un rave. <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR #Bolivia #Perú</strong></h5>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="col-sm-3">
+                                <img src="{{ asset('img/claudiotw.png')}}" width="70%" class="center-block img-circle" >
+                                <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
+                                <h5 class="title-green text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="col-sm-3 margin-bottom-lg">
+                                <img src="https://pbs.twimg.com/profile_images/1301175628/161257_1467441613_5932411_q.jpg" alt="Candy Trade" width="70%" class="center-block img-circle" >
+                                <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
+                                <h5 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to <strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
+                            </div>
+                          </div>
+                      </div>
+                      <!-- Add Pagination -->
+                      <!-- <div class="swiper-pagination"></div> -->
+                      <!-- Add Arrows -->
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                  </div>
             </div>
         </div>
     </div>
@@ -134,3 +172,25 @@
     </div>
 
 @stop
+
+@section('script')
+<script src="{{ asset('js/jquery.videoBG.js') }}"></script>
+<script src="{{ asset('js/script.js') }}"></script>
+<!-- Swiper JS -->
+<script src="{{ asset('js/swiper.min.js') }}"></script>
+<!-- Initialize Swiper -->
+<script>
+$(document).ready(function () {
+  var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 4500,
+        autoplayDisableOnInteraction: false
+    });
+});  
+</script>
+@stop              

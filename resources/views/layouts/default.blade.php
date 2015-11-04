@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="{{ asset('bootstrap/css/bootstrap.css') }}" rel="stylesheet">
 	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/swiper.min.css') }}" rel="stylesheet">
 
 </head>
 <body>
@@ -159,8 +160,7 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('js/jquery.videoBG.js') }}"></script>
-	<script src="{{ asset('js/script.js') }}"></script>
+	
 	@yield('script')
   
 </body>
