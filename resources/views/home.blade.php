@@ -106,8 +106,9 @@
                     <h5 class="title-green text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 margin-bottom-lg">
-                    <img src="https://pbs.twimg.com/profile_images/1301175628/161257_1467441613_5932411_q.jpg" alt="Candy Trade" width="70%" class="center-block" >
-                    <h4 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to<strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h4>
+                    <img src="https://pbs.twimg.com/profile_images/1301175628/161257_1467441613_5932411_q.jpg" alt="Candy Trade" width="70%" class="center-block img-circle" >
+                    <h4 class="text-center"><a href="https://twitter.com/Claudioiamg">@Claudioiam</a></h4>
+                    <h5 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to<strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
                 </div>
             </div>
         </div>
