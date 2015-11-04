@@ -123,7 +123,6 @@ class AuthController extends Controller
     public function handleProviderCallbackFb()
     {
         $facebookUser = Socialite::with('facebook')->user();
-         //$authUser = $this->findOrCreateUser($facebookUser);
         $user = User::whereEmail($facebookUser->getEmail())->first();
         
         // dd($user);
