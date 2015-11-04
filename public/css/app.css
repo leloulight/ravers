@@ -482,7 +482,7 @@ body{
 }
 @media (max-width: 768px) {
   .carousel .item {
-    min-height: 750px;
+    min-height: 600px;
     /*background-color: #777;*/
   }
 }
