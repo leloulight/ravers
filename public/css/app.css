@@ -499,6 +499,11 @@ body{
   margin-left: 4em;
 }
 
+.margin-right{
+  margin-right: 2em;
+  /*margin-left: 4em;*/
+}
+
 
 .margin-center-lg{
   margin-right: 6em;

@@ -34,7 +34,7 @@
             <h2 class="text-center title-white margin-top">Our <strong>charity</strong> programs</h2>
             <div class="row margin-top-lg margin-bottom-lg">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h4 class="title-white text-center" >Water accesibility program</h4>
+                    <h4 class="title-white text-center" >Water accessibility program</h4>
                     <div class="embed-responsive embed-responsive-16by9">
                       <iframe class="center-block shadow embed-responsive-item" src="https://www.youtube.com/embed/qOLZTZpjXQo" frameborder="0" allowfullscreen></iframe>
                     </div>
