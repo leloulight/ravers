@@ -17,7 +17,7 @@
   	<div class="container">
   	    <div class="row margin-bottom-lg">
   	    	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-  	        <img src="{{ asset('img/wedm.png') }}" alt="Water EDM" width="60%" class="center-block vertical_1 visible-md visible-lg" >
+  	        <img src="{{ asset('img/wedm.png') }}" alt="Water EDM" width="60%" class="center-block vertical_1 visible-md visible-lg img-responsive" >
           </div>
   	      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 margin-top-xlg">
             <h2 class="raver-text text-left visible-md visible-lg">Water for the EDM seed</h2>
@@ -50,27 +50,27 @@
     	          <div class="container">
     	            <div class="carousel-caption">
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/USA.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/USA.png')}}" alt="USA" width="100%">
     	              	<p class="text-center">Population<br>14.4 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Brazil.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Brazil.png')}}" alt="Brazil" width="100%">
     	              	<p class="text-center">Population<br>3.1 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/United-kingdom.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/United-kingdom.png')}}" alt="UK" width="100%">
     	              	<p class="text-center">Population<br>3.1 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Germany.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Germany.png')}}" alt="Germany" width="100%">
     	              	<p class="text-center">Population<br>2.9 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Canada.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Canada.png')}}" alt="Canada" width="100%">
     	              	<p class="text-center">Population<br>1.8 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/France.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/France.png')}}" alt="France" width="100%">
     	              	<p class="text-center">Population<br>1.8 mill.</p>
     	              </div>
     	            </div>
@@ -80,27 +80,27 @@
     	          <div class="container">
     	            <div class="carousel-caption">
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Italy.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Italy.png')}}" alt="Italy" width="100%">
     	              	<p class="text-center">Population<br>1.6 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Japan.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Japan.png')}}" alt="Japan" width="100%">
     	              	<p class="text-center">Population<br>1.2 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Spain.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Spain.png')}}" alt="Spain" width="100%">
     	              	<p class="text-center">Population<br>1.0 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Australia.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Australia.png')}}" alt="Australia" width="100%">
     	              	<p class="text-center">Population<br>0.9 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Russia.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Russia.png')}}" alt="Russia" width="100%">
     	              	<p class="text-center">Population<br>0.8 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Netherlands.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Netherlands.png')}}" alt="Netherlands" width="100%">
     	              	<p class="text-center">Population<br>0.7 mill.</p>
     	              </div>
     	            </div>
@@ -110,27 +110,27 @@
     	          <div class="container">
     	            <div class="carousel-caption">
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Mexico.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Mexico.png')}}" alt="Mexico" width="100%">
     	              	<p class="text-center">Population<br>0.7 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/India.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/India.png')}}" alt="India" width="100%">
     	              	<p class="text-center">Population<br>0.6 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/South-korea.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/South-korea.png')}}" alt="South-korea" width="100%">
     	              	<p class="text-center">Population<br>0.5 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Belgium.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Belgium.png')}}" alt="Belgium" width="100%">
     	              	<p class="text-center">Population<br>0.5 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Czech-Republic.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Czech-Republic.png')}}" alt="Czech-Republic" width="100%">
     	              	<p class="text-center">Population<br>0.5 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Sweden.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Sweden.png')}}" alt="Sweden" width="100%">
     	              	<p class="text-center">Population<br>0.4 mill.</p>
     	              </div>
     	            </div>
@@ -140,27 +140,27 @@
     	          <div class="container">
     	            <div class="carousel-caption">
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/China.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/China.png')}}" alt="China" width="100%">
     	              	<p class="text-center">Population<br>0.4 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Chile.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Chile.png')}}" alt="Chile" width="100%">
     	              	<p class="text-center">Population<br>0.3 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Turkey.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Turkey.png')}}" alt="Turkey" width="100%">
     	              	<p class="text-center">Population<br>0.3 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Denmark.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Denmark.png')}}" alt="Denmark" width="100%">
     	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Norway.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Norway.png')}}" alt="Norway" width="100%">
     	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/New-zealand.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/New-zealand.png')}}" alt="New-zealand" width="100%">
     	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	            </div>
@@ -170,17 +170,20 @@
     	          <div class="container">
     	            <div class="carousel-caption">
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/Argentina.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/Argentina.png')}}" alt="Argentina" width="100%">
     	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/United-arab-emirates.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/United-arab-emirates.png')}}" alt="United-arab-emirates" width="100%">
     	              	<p class="text-center">Population<br>0.1 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/South-africa.png')}}" alt="flag" width="100%">
+    	              	<img src="{{ asset('img/flag/South-africa.png')}}" alt="South-africa" width="100%">
     	              	<p class="text-center">Population<br>0.1 mill.</p>
     	              </div>
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2"></div>
     	            </div>
     	          </div>
     	        </div>
@@ -213,7 +216,7 @@
 	          <h2 class="textvideo_no_bottom visible-lg">Our environmental impact <br><small>*Recyclables</small></h2>
 	          <h3 class="textvideo_no_bottom visible-sm visible-md">Our environmental impact <br><small>*Recyclables</small></h3>
 						<h3 class="textvideo_no_bottom visible-xs bg-imagen">Our environmental impact <br><small>*Recyclables</small></h3>
-	          <p class="text-center text-standar texto-blanco margin-bottom-lg">A raver consume on average 6 bottles per day, multiplied by 7 days = 28 plastic bottles by raver. <br>This multiplied by the total population of each event is a shocking number of plastic bottles.</p>
+	          <p class="text-center text-standar texto-blanco margin-bottom-lg">A raver consume on average 7 bottles per day, multiplied by 4 days = 28 plastic bottles by raver. <br>This multiplied by the total population of each event is a shocking number of plastic bottles.</p>
 	      	</div>
       	</div>
       	<div class="row">
