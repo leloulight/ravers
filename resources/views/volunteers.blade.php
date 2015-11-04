@@ -17,18 +17,18 @@
     	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     		<img src="{{ asset('img/office.jpg')}}" class="img-circle center-block img-shadow margin-bottom" width="70%" alt="Office Volunteers">
     		<h3 class="text-center">Office volunteers</h3>
-    		<p class="text-left margin-center">We always welcome to people who want to come and help out in our office. We work mostly with internet so it doesn't matter where you are, if you have internet you can work with us.</p>
+    		<p class="text-justify margin-center">We always welcome to people who want to come and help out in our office. We work mostly with internet so it doesn't matter where you are, if you have internet you can work with us.</p>
     		
     	</div>
     	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     		<img src="{{ asset('img/edm.jpg')}}" class="img-circle center-block img-shadow margin-bottom" width="70%" alt="EDM Volunteers">
     		<h3 class="text-center">EDM events volunteers</h3>
-    		<p class="text-center margin-center">We know you love rave but suddenly you don't know how much an EDM festival pollutes the planet. Become an International Raver Volunteer and help us generate less environmental impact after every festival.</p>
+    		<p class="text-justify margin-center">We know you love rave but suddenly you don't know how much an EDM festival pollutes the planet. Become an International Raver Volunteer and help us generate less environmental impact after every festival.</p>
     	</div>
     	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     		<img src="{{ asset('img/fieldtrip.jpg')}}" class="img-circle center-block img-shadow margin-bottom" width="70%" alt="Go on to a field trip">
     		<h3 class="text-center">Go on to a field trip</h3>
-    		<p class="text-right margin-center">Want to change the world, learn about new cultures, build relationship with incredible people, save lives and transform communities?</p>
+    		<p class="text-justify margin-center">Want to change the world, learn about new cultures, build relationship with incredible people, save lives and transform communities?</p>
     	</div>
     	
     </div>
@@ -377,23 +377,21 @@
 		    		      <input type="text" class="form-control" id="inputZip" placeholder="Zip Code">
 		    		    </div>
 		    		  </div>
-
-						
 						</div>
 	    		  <div class="div-border col-xs-12 margin-bottom-lg padding-bottom">
 		    			<span><small>*FEEL FREE TO CHOOSE MORE THAN ONE OPTION</small></span>
 		    			<h2 class="text-center margin-bottom">Type of volunteering</h2>
-		    			<div class="checkbox col-sm-4">
+		    			<div class="checkbox col-xs-4">
 	    		      <label>
 	    		        <input type="checkbox"> office 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-4">
 	    		      <label>
 	    		        <input type="checkbox"> edm
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-4">
 	    		      <label>
 	    		        <input type="checkbox"> field trip
 	    		      </label>
@@ -401,17 +399,17 @@
 		    		</div>
 		    		<div class="div-border col-xs-12 margin-bottom-lg padding-bottom">
 		    			<h2 class="text-center margin-bottom">Wich continent you prefer <br> to volunteer</h2>
-		    			<div class="checkbox col-sm-4">
+		    			<div class="checkbox col-xs-4">
 	    		      <label>
 	    		        <input type="checkbox"> America 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-4">
 	    		      <label>
-	    		        <input type="checkbox"> Asia / Middel East
+	    		        <input type="checkbox"> Asia / Middle East
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-4">
 	    		      <label>
 	    		        <input type="checkbox"> Africa
 	    		      </label>
@@ -419,32 +417,32 @@
 		    		</div>
 		    		<div class="div-border col-xs-12 margin-bottom-lg padding-bottom">
 		    			<h2 class="text-center margin-bottom">Causes or projects</h2>
-		    			<div class="checkbox col-sm-4">
+		    			<div class="checkbox col-xs-6 col-sm-4">
 	    		      <label>
 	    		        <input type="checkbox"> education 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-6 col-sm-4">
 	    		      <label>
 	    		        <input type="checkbox"> water access
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-6 col-sm-4">
 	    		      <label>
 	    		        <input type="checkbox"> sanitation
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-6 col-sm-4">
 	    		      <label>
 	    		        <input type="checkbox"> pooverty reduction
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-6 col-sm-4">
 	    		      <label>
 	    		        <input type="checkbox"> others
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-4">
+	    		    <div class="checkbox col-xs-6 col-sm-4">
 	    		      
 	    		    </div>
 	    		    
@@ -454,193 +452,200 @@
 		    		<div class="div-border col-xs-12 margin-bottom-lg padding-bottom">
 		    			<h2 class="text-center margin-bottom">When are you free?</h2>
 							
-							<div class="col-sm-2"></div>
-							<div class="col-sm-2">MORNING</div>
-							<div class="col-sm-2">AFTERNOON</div>
-							<div class="col-sm-2">EVENING</div>
-							<div class="col-sm-2">ANY</div>
-							<div class="col-sm-2">NONE</div>
-							<div class="col-sm-2">MONDAY</div>
-		    			<div class="checkbox col-sm-2">
+							<div class="col-xs-2"></div>
+							<div class="col-xs-2">MORNING</div>
+							<div class="col-xs-2">AFTERNOON</div>
+							<div class="col-xs-2">EVENING</div>
+							<div class="col-xs-2">ANY</div>
+							<div class="col-xs-2">NONE</div>
+							<div class="col-xs-2 visible-md visible-lg">MONDAY</div>
+							<div class="col-xs-2 visible-xs visible-sm">Mon</div>
+		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="col-sm-2">TUESDAY</div>
-		    			<div class="checkbox col-sm-2">
+	    		    <div class="col-xs-2 visible-md visible-lg">TUESDAY</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm">Tue</div>
+		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
-	    		      <label>
-	    		        <input type="checkbox"> 
-	    		      </label>
-	    		    </div>
-	    		    
-	    		    <div class="col-sm-2">WEDNESDAY</div>
-		    			<div class="checkbox col-sm-2">
-	    		      <label>
-	    		        <input type="checkbox"> 
-	    		      </label>
-	    		    </div>
-	    		    <div class="checkbox col-sm-2">
-	    		      <label>
-	    		        <input type="checkbox"> 
-	    		      </label>
-	    		    </div>
-	    		    <div class="checkbox col-sm-2">
-	    		      <label>
-	    		        <input type="checkbox"> 
-	    		      </label>
-	    		    </div>
-	    		    <div class="checkbox col-sm-2">
-	    		      <label>
-	    		        <input type="checkbox"> 
-	    		      </label>
-	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
 	    		    
-	    		    <div class="col-sm-2">THURSDAY</div>
-		    			<div class="checkbox col-sm-2">
+	    		    <div class="col-xs-2 visible-md visible-lg">WEDNESDAY</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm">Wed</div>
+		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
 	    		    
-	    		    <div class="col-sm-2">FRIDAY</div>
-		    			<div class="checkbox col-sm-2">
+	    		    <div class="col-xs-2 visible-md visible-lg">THURSDAY</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm">Thur</div>
+		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="col-sm-2">SATURDAY</div>
-		    			<div class="checkbox col-sm-2">
+	    		    
+	    		    <div class="col-xs-2 visible-md visible-lg">FRIDAY</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm">Fri</div>
+		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="col-sm-2">SUNDAY</div>
-		    			<div class="checkbox col-sm-2">
+	    		    <div class="col-xs-2 visible-md visible-lg">SATURDAY</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm">Sat</div>
+		    			<div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
 	    		    </div>
-	    		    <div class="checkbox col-sm-2">
+	    		    <div class="checkbox col-xs-2">
+	    		      <label>
+	    		        <input type="checkbox"> 
+	    		      </label>
+	    		    </div>
+	    		    <div class="col-xs-2 visible-md visible-lg">SUNDAY</div>
+	    		    <div class="col-xs-2 visible-xs visible-sm">Sun</div>
+		    			<div class="checkbox col-xs-2">
+	    		      <label>
+	    		        <input type="checkbox"> 
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-xs-2">
+	    		      <label>
+	    		        <input type="checkbox"> 
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-xs-2">
+	    		      <label>
+	    		        <input type="checkbox"> 
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-xs-2">
+	    		      <label>
+	    		        <input type="checkbox"> 
+	    		      </label>
+	    		    </div>
+	    		    <div class="checkbox col-xs-2">
 	    		      <label>
 	    		        <input type="checkbox"> 
 	    		      </label>
@@ -670,7 +675,7 @@
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
 	    		      <label>
-	    		        <input type="checkbox"> Customer service is mi meddle name. I'd love to spend my time talking to charity: water supporters.
+	    		        <input type="checkbox"> Customer service is my middle name.
 	    		      </label>
 	    		    </div>
 	    		    <div class="checkbox col-sm-10">
