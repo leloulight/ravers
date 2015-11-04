@@ -91,22 +91,22 @@
                 <div class="col-sm-3">
                     <img src="https://pbs.twimg.com/profile_images/609101118136823809/z6jR8lye.jpg" alt="@janarubiomiller" width="70%" class="center-block img-circle" >
                     <h4 class="text-center"><a href="https://twitter.com/janarubiomiller">@janarubiomiller</a></h4>
-                    <h5 class="title-green text-center">I really like this idea!! that song Heroes is just amazing. <strong class="hashtag">@IntRavers #FreeWaterRefill</strong> for every community in need! I love It!</h5>
+                    <h5 class=" text-center">I really like this idea!! that song Heroes is just amazing. <strong class="hashtag">@IntRavers #FreeWaterRefill</strong> for every community in need! I love It!</h5>
                 </div>
                 <div class="col-sm-3">
                     <img src="https://pbs.twimg.com/profile_images/3314948403/13fc87b5224b432a41bfdf278965a9c7.jpeg" alt="Charities" width="70%" class="center-block img-circle" >
                     <h4 class="text-center"><a href="https://twitter.com/alevittoriag">@alevittoriag</a></h4>
-                    <h5 class="title-green text-center">Me encanta la música electronica. <strong class="hashtag">@IntRavers</strong> ... No hay forma de sobrevivir sin agua a un rave. <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR #Bolivia #Perú</strong></h5>
+                    <h5 class=" text-center">Me encanta la música electronica. <strong class="hashtag">@IntRavers</strong> ... No hay forma de sobrevivir sin agua a un rave. <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR #Bolivia #Perú</strong></h5>
                 </div>
                 <div class="col-sm-3">
                     <img src="{{ asset('img/claudiotw.png')}}" width="70%" class="center-block img-circle" >
                     <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
-                    <h5 class="title-green text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
+                    <h5 class=" text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
                 </div>
                 <div class="col-sm-3 margin-bottom-lg">
                     <img src="https://pbs.twimg.com/profile_images/1301175628/161257_1467441613_5932411_q.jpg" alt="Candy Trade" width="70%" class="center-block img-circle" >
                     <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
-                    <h5 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to <strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
+                    <h5 class=" text-center"><strong class="hashtag">@IntRavers</strong> I went to <strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
                 </div>
             </div>
             <div class="row sliderbody visible-xs visible-sm">
@@ -117,28 +117,28 @@
                             <div class="col-sm-3">
                                 <img src="https://pbs.twimg.com/profile_images/609101118136823809/z6jR8lye.jpg" alt="@janarubiomiller" width="70%" class="center-block img-circle" >
                                 <h4 class="text-center"><a href="https://twitter.com/janarubiomiller">@janarubiomiller</a></h4>
-                                <h5 class="title-green text-center">I really like this idea!! that song Heroes is just amazing. <strong class="hashtag">@IntRavers #FreeWaterRefill</strong> for every community in need! I love It!</h5>
+                                <h5 class=" text-center">I really like this idea!! that song Heroes is just amazing. <strong class="hashtag">@IntRavers #FreeWaterRefill</strong> for every community in need! I love It!</h5>
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="col-sm-3">
                                 <img src="https://pbs.twimg.com/profile_images/3314948403/13fc87b5224b432a41bfdf278965a9c7.jpeg" alt="Charities" width="70%" class="center-block img-circle" >
                                 <h4 class="text-center"><a href="https://twitter.com/alevittoriag">@alevittoriag</a></h4>
-                                <h5 class="title-green text-center">Me encanta la música electronica. <strong class="hashtag">@IntRavers</strong> ... No hay forma de sobrevivir sin agua a un rave. <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR #Bolivia #Perú</strong></h5>
+                                <h5 class=" text-center">Me encanta la música electronica. <strong class="hashtag">@IntRavers</strong> ... No hay forma de sobrevivir sin agua a un rave. <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR #Bolivia #Perú</strong></h5>
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="col-sm-3">
                                 <img src="{{ asset('img/claudiotw.png')}}" width="70%" class="center-block img-circle" >
                                 <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
-                                <h5 class="title-green text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
+                                <h5 class=" text-center">Eu fui a Tomorrowland Brasil este ano e foi incrível.<strong class="hashtag">@IntRavers</strong> eu gostaria de compartilhar água para crianças de países em desenvolvimento.</h5>
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="col-sm-3 margin-bottom-lg">
                                 <img src="https://pbs.twimg.com/profile_images/1301175628/161257_1467441613_5932411_q.jpg" alt="Candy Trade" width="70%" class="center-block img-circle" >
                                 <h4 class="text-center"><a href="https://twitter.com/Claudioiam">@Claudioiam</a></h4>
-                                <h5 class="title-green text-center"><strong class="hashtag">@IntRavers</strong> I went to <strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
+                                <h5 class=" text-center"><strong class="hashtag">@IntRavers</strong> I went to <strong class="hashtag">@tomorrowworld</strong> this year and I agree with share water with communities in need- <strong class="hashtag">@IntRavers</strong> <strong class="hashtag">#FreeWaterRefill</strong> is <strong class="hashtag">#PLUR</strong>!!</h5>
                             </div>
                           </div>
                       </div>
