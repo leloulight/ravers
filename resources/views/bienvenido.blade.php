@@ -7,7 +7,7 @@
                 <div class="col-sm-12 margin-top-lg margin-bottom-xlg">
                     <div class="col-sm-6 col-sm-offset-3">
                         <h3 class="texto-blanco text-uppercase">Welcome {{ $user }}</h3>
-                        <p class="text-justify texto-blanco">We are working to provide you the best experience and keep you informed of our avance. <br>Thank you for registering with us
+                        <p class="text-justify texto-blanco">We are working to provide you the best experience and keep you informed of our progress. <br>Thank you for registering with us
                         </p>
                         <br>
                         <img src="{{ asset('img/isologo.png') }}" width="40%" alt="" class="center-block img-responsive"/>
