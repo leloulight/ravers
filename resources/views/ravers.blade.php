@@ -118,7 +118,7 @@
     	              	<p class="text-center">Population<br>0.6 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/South-korea.png')}}" alt="South-korea" width="100%">
+    	              	<img src="{{ asset('img/flag/South-Korea.png')}}" alt="South-korea" width="100%">
     	              	<p class="text-center">Population<br>0.5 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
@@ -160,7 +160,7 @@
     	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	              <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-    	              	<img src="{{ asset('img/flag/New-zealand.png')}}" alt="New-zealand" width="100%">
+    	              	<img src="{{ asset('img/flag/New-Zealand.png')}}" alt="New-zealand" width="100%">
     	              	<p class="text-center">Population<br>0.2 mill.</p>
     	              </div>
     	            </div>
