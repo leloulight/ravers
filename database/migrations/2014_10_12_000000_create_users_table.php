@@ -16,7 +16,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('handle');
-            $table->integer('twitter_id');
+            $table->date('birthday');
             $table->string('avatar');
             $table->string('email')->unique();
             $table->string('password', 60);
