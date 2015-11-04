@@ -146,7 +146,6 @@ return [
         Ravers\Providers\RouteServiceProvider::class,
 
         Laravel\Cashier\CashierServiceProvider::class,
-        AdamWathan\EloquentOAuthL5\EloquentOAuthServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
     ],
 
@@ -197,7 +196,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'Stripe'    => Laravel\Cashier\CashierServiceProvider::class,
-        'OAuth'     => AdamWathan\EloquentOAuth\Facades\OAuth::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     ],
 
