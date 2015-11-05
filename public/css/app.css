@@ -227,8 +227,12 @@ body{
 }
 
 .blue-escuela{
-    background: #1071FF;
-    background-image: url('../img/bg-water.png') right no-repeat;
+    /*background: #1071FF;*/
+    background-image: url('../img/bg-donate.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-color: #1071FF;
     /*position: relative;*/
     /*min-height: 34em;*/
 }
