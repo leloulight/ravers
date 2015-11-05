@@ -45,7 +45,7 @@
                 <input type="number" class="form-control" id="inputTotal" value="1.00" disabled>
               </div>
             </div>
-            <p class="text-justify texto-blanco text-shadow">* Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. for this reason is impossible  donate more than 4 lts daily.</p>
+            <p class="text-justify texto-blanco text-shadow">* Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. For this reason is impossible  donate more than 4 lts daily.</p>
             <div class="checkbox">
              <label>
                 <input type="checkbox" id="terms"><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow a-color" href="{{ route('terms')}}">Terms of Use</a>.
@@ -91,7 +91,7 @@
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" required><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow a-color" href="{{ route('terms')}}">Terms of Use</a>.
+                <input type="checkbox" id="terms1"required><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow a-color" href="{{ route('terms')}}">Terms of Use</a>.
               </label>
             </div>
             <div class="text-center margin-bottom-lg" id="warriors">

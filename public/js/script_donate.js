@@ -131,18 +131,32 @@ $( document ).ready(function() {
         }
         if(edm == ''){
             if(check=='0'){
-                alert("Los campos Rave y Term of Use son obligatorios");
+                alert("To donate is required to fill all the fields and accept the terms of use.");
 
                 location.reload();
             }else{
-                alert("El campo Rave es obligatorio")
+                alert("This field is required")
                 location.reload();
             }
         }else{
             if(check==0){
-                alert("El campo terms of use es obligatorio")
+                alert("To donate is required agree the Terms of Use.")
                 location.reload();
             }
+        }
+    });
+    $('#help > .stripe-button-el').click(function(){
+        var check;
+        if($('#terms1').is(':checked')){
+            check = 1;
+        }
+        else{
+            check = 0;
+        }
+        
+        if(check=='0'){
+            alert("To donate is required to fill all the fields and accept the terms of use.");
+        location.reload();
         }
     });
 
