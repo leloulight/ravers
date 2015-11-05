@@ -26,49 +26,46 @@
       	<h2 class="textvideo visible-lg">MEET OUR STAFF</h2>
         <h3 class="textvideo visible-sm visible-md">MEET OUR STAFF</h3>
         <h3 class="textvideo visible-xs">MEET OUR STAFF</h3>
-        <div class="col-sm-12">
+        <div class="col-xs-12 margin-top">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="https://instagram.com/p/8bs9--TLcx/" target="_blank"><img src="{{ asset('img/oscar.png') }}" alt="Explore" width="50%" class="center-block img-responsive img-circle" >
+              <a href="https://instagram.com/p/8bs9--TLcx/" target="_blank"><img src="{{ asset('img/oscar.png') }}" alt="Oscar Centurion" width="50%" class="center-block img-responsive img-circle" >
               <p class="title-white text-center"><strong>Oscar Centurion</strong><br>CEO/Founder</p></a>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <a href="https://instagram.com/p/8fAGxOTLQ1/" target="_blank"><img src="{{ asset('img/jose.png') }}" alt="Explore" width="50%" class="center-block img-responsive img-circle" >
+              <a href="https://instagram.com/p/8fAGxOTLQ1/" target="_blank"><img src="{{ asset('img/jose.png') }}" alt="Jose Felix de la Puente" width="50%" class="center-block img-responsive img-circle" >
               <p class="title-white text-center"><strong>Jose Felix de la Puente</strong><br>Marketing Director/Co-Founder</p></a>
             </div>
         </div>
-      	<div class="col-sm-12">
+      	<div class="col-xs-12">
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/labanto.jpg') }}" alt="Explore" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/labanto.jpg') }}" alt="Luis Abanto" width="70%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Luis Abanto</strong><br>CIO</p>
           </div>
           
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/carlos.jpg') }}" alt="Explore" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/carlos.jpg') }}" alt="Carlos Perez" width="70%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Carlos Perez</strong><br>Media Manager</p>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/lcenturion.jpg') }}" alt="Explore" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/lcenturion.jpg') }}" alt="Luis Centurion" width="70%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Luis Centurion</strong><br>Key relationship manager ASIA</p>
           </div>
-        </div>
-        <div class="col-sm-12">
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
-            <p class="title-white text-center"><strong>Diego Rabanal</strong><br>Key relationship USA/AFRICA</p>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="{{ asset('img/heyler.jpg') }}" alt="Heyler Fernandez" width="70%" class="center-block img-responsive img-circle" >
+            <p class="title-white text-center"><strong>Heyler Fernandez</strong><br>Graphic Designer / Frontend Developer</p>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img src="{{ asset('img/heyler.jpg') }}" alt="Explore" width="70%" class="center-block img-responsive img-circle" >
-            <p class="title-white text-center"><strong>Heyler Fernandez</strong><br>Graphic Designer</p>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="{{ asset('img/vargas.jpg') }}" alt="Jhon Vargas" width="70%" class="center-block img-responsive img-circle" >
+            <p class="title-white text-center"><strong>Jhon Vargas</strong><br>Support/SEO</p>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
-            <p class="title-white text-center"><strong>Julio Nuñez</strong><br>CFO</p>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img src="{{ asset('img/profile1.png') }}" alt="Explore" width="70%" class="center-block" >
-            <p class="title-white text-center"><strong>Julio Nuñez</strong><br>CFO</p>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="{{ asset('img/profile1.png') }}" alt="Wanna Join Us?" width="70%" class="center-block img-responsive img-circle" >
+            <p class="title-white text-center"><strong>Wanna Join Us??</strong></p>
           </div>
         </div>
+        <!-- <div class="col-xs-12">
+          
+        </div> -->
         
         
       </div>

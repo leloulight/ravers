@@ -7,14 +7,14 @@ $( document ).ready(function() {
 
     $('#inputDays').change(function(event){
         vD = $(this).val();
-        if(vD>4)
+        if(vD>21)
         {
-            alert("El numero de dias maximo permitido es 4");
-            $(this).val(4);
+            alert("The longest EDM festival is:  21 days.");
+            $(this).val(21);
         }
         if(vD<=0)
         {
-            alert("ingresa un numero de dias valido")
+            alert("Insert a valid number of days")
             $(this).val(1);
         }
 
@@ -35,7 +35,7 @@ $( document ).ready(function() {
 
         if(vL>4)
         {
-            alert("El numero de dias maximo permitido es 4");
+            alert("Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. for this reason is impossible  donate more than 4 lts daily");
             $(this).val(4);
         }
         if(vL<=0)

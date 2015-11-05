@@ -762,3 +762,9 @@ canvas {
   margin-top: 1em;
 }
 
+.a-color{
+  color: #fff;
+}
+.a-color:hover{
+  color: #008CDD;
+}
