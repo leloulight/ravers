@@ -1,6 +1,9 @@
 @extends('layouts.default')
 
 @section('content')
+<div class="alert" id="alerta">
+  
+</div>
  <div class="bg_dj1">
     <div class="container ">
       <div class="col-xs-12 margin-top-lg margin-bottom-lg">
@@ -101,7 +104,7 @@
     </div>
     <div class="container">
       <div class="row margin-bottom-lg" id="team">
-        <h2 class="textdj visible-md visible-lg margin-top-lg">How will work this Project?</h2>
+        <h2 class="textdj visible-md visible-lg ">How will work this Project?</h2>
         <h3 class="textdj visible-xs visible-sm  margin-top">How will work this Project?</h3>
         
         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 visible-md visible-lg">
@@ -171,8 +174,8 @@
               <div class=" text-boton "><p class="text-right">Let's</p></div>
             </div>
             <div class="col-sm-10 margin-bottom-lg">
-              <a href="{{ route('programs') }}#warriors">
-                <button type="button" class="btn btn-success btn-lg">Transform poor communities into <strong>raves</strong></button></a>
+              
+                <button type="button" id="transform" class="btn btn-success btn-lg">Transform poor communities into <strong>raves</strong></button>
             </div>
             
           </div>
@@ -182,9 +185,9 @@
             <div class="col-xs-2">
               <div class="text-boton-r "><p class="text-right">Let's</p></div>
             </div>
-            <div class="col-xs-10 margin-bottom">
-              <a href="{{ route('programs') }}#warriors">
-                <button type="button" class="btn btn-success btn-lg">Transform poor <br>communities into <strong>raves</strong></button></a>
+            <div class="col-xs-9 margin-bottom">
+              
+                <button type="button" id="transform" class="btn btn-success btn-lg">Transform poor <br>communities into <strong>raves</strong></button>
             </div>
             
           </div>
@@ -196,7 +199,7 @@
     <div class="division visible-md visible-lg">
       <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
     </div>
-    <div class="division-r  visible-xs visible-sm">
+    <div class="division-r-3  visible-xs visible-sm">
       <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
     </div>
       <div class="container">
@@ -275,6 +278,11 @@
         centeredSlides: true,
         autoplay: 4500,
         autoplayDisableOnInteraction: false
+    });
+
+    $('#transform').click(function(){
+        $('#alerta').fadeIn(300);
+        // if($('#alerta'))
     });
   });
   </script>

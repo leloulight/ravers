@@ -585,6 +585,11 @@ body{
   position: relative;
 }
 
+.division-r-3{
+  top:-52px;
+  position: relative;
+}
+
 
 .text-dj{
     text-align: center;
@@ -618,8 +623,8 @@ body{
   width:100%;*/
   position:absolute;
   left:0px;
-  top:100px;
-  /*z-index:99999;*/
+  top:200px;
+  z-index:0;
 }
 
 canvas {
@@ -664,4 +669,14 @@ canvas {
 .p_hidden{
   display: none;
   padding-top:6em; 
+}
+
+.alert{
+  display: none;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background:red;
+  z-index: 1;
 }

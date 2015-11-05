@@ -144,7 +144,7 @@ window.addEventListener("resize", resizeCanvas, false);
         function resizeCanvas() {
             if (!!canvas) {
                 w = canvas.width = window.innerWidth;
-                h = canvas.height = window.innerHeight;
+                h = canvas.height = window.innerHeight*0.8;
             }
         } // fin de resizeCanvas();
         
