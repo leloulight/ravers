@@ -11,9 +11,10 @@
       <div class="col-xs-12">
         <div class="cerrar" id="cerrar"><button class="btn btn-primary">X</button></div>
         <div class="mensaje">
-          <p class="text-justify">Ravers International Charity is aware of the importance of keeping information on each artist always well protected. So we will  work with "Classy.org" on for this project.  And thus not only you can ask for gifts to your fans,  you can also collect donations if you celebrate  your birthday  throwing a private party. <br>
-          <br>If you like the idea and want to know more, you can send us an email to <a href="mailto:mybirthday@internationalravers.org">MyBirthday@internationalravers.org </a>and we will send you detailed information of the steps to subscribe to our calendar, our strategy and our campaigns to promote your cause in social networks. <br>
-          <br>Together we will transform communities in need into raves, with free water refills everywhere.</p>
+          <p class="text-justify">International Ravers Charity  is aware of the importance of keeping information on each artist always well protected. So we will work with "Classy.org"  for this project.  Thus not only you can collect donations from your fans gifts, you can also collect donations if you celebrate your birthday throwing a private party. <br>
+          <br>If you like the idea and want to know more, you can send us an email to <a href="mailto:mybirthday@internationalravers.org">MyBirthday@internationalravers.org </a> and we will send you detailed information of the steps to subscribe to our calendar, our strategy and our campaigns to promote your cause in social network. <br>
+          <br>Together we will transform communities in need into raves, with free water refills everywhere.
+          
         </div>
 
       </div>
@@ -141,7 +142,7 @@
         <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 margin-top-lg visible-md visible-lg">
           <p class="title-white text-center">What's the challenge?</p>
           <img src="{{ asset('img/4.png') }}" alt="Explore" width="60%" class="center-block" >
-          <p class=" title-white text-justify text-step-dj">After to show our entire EDM community how many kids have clean because of your birthday gifs, let's take the challenge of double your birthday gifs for the next year.</p><br>
+          <p class=" title-white text-justify text-step-dj">After to show our entire EDM community how many kids have clean because of your birthday gifts, let's take the challenge of double your birthday gifts for the next year.</p><br>
           <p class="title-white text-center text-step-dj">We will help with that!!!</p>
         </div>
         <div class="row sliderbody visible-xs visible-sm">
@@ -172,7 +173,7 @@
                     <div class="col-xs-12">
                       <p class="title-white text-center">What's the challenge?</p>
                       <img src="{{ asset('img/4.png') }}" alt="Explore" width="60%" class="center-block" >
-                      <p class=" title-white text-justify text-step-dj">After to show our entire EDM community how many kids have clean because of your birthday gifs, let's take the challenge of double your birthday gifs for the next year.</p><br>
+                      <p class=" title-white text-justify text-step-dj">After to show our entire EDM community how many kids have clean because of your birthday gifts, let's take the challenge of double your birthday gifts for the next year.</p><br>
                       <p class="title-white text-center text-step-dj">We will help with that!!!</p>
                     </div>
                   </div>
@@ -212,7 +213,7 @@
     </div>    
   </div>
 	<div class="white-r">
-    <div class="division visible-md visible-lg">
+    <div class="division-2 visible-md visible-lg">
       <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
     </div>
     <div class="division-r-3  visible-xs visible-sm">
@@ -221,14 +222,14 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
-            <h1 class="text-dj visible-lg">Help us convince all the Dj's around the world to get involve.</h1>
-            <h2 class="text-dj visible-sm visible-md">Help us convince all the Dj's around the world to get involve.</h2>
-            <h3 class="text-dj visible-xs bg-imagen">Help us convince all the Dj's around the world to get involve.</h3>
+            <h3 class="text-dj visible-md visible-lg">If you're DJ , EDM fan or a successful person on the EDM industry, tag your favorite DJs(or your DJ friends) to convoke them to take the challenge for our 2016 calendar. Let's convince all the DJs around the world to pledge their birthdays for clean water.</h3>
+            <h4 class="text-dj-1 visible-xs visible-sm ">If you're DJ , EDM fan or a successful person on the EDM industry, tag your favorite DJs(or your DJ friends) to convoke them to take the challenge for our 2016 calendar. Let's convince all the DJs around the world to pledge their birthdays for clean water.</h4>
+            
           </div>  
         </div>
         <div class="row">
         		<div class="col-xs-12 ">
-        			<p class="text-left text-estandar">*Invite your favorite DJ by</p>
+        			<p class="text-left text-estandar">*Tag your favorite DJ by</p>
         		</div>
         		
             <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-offset-3">
