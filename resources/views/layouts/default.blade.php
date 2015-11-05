@@ -96,6 +96,7 @@
 				<li class="visible-lg"><a href="https://www.facebook.com/internationalravers" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a></li>
 				<li class="visible-lg"><a href="https://twitter.com/intravers" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
 				<li class="visible-lg"><a href="https://instagram.com/internationalraverscharity" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+				<li class="visible-lg"><a href="https://www.youtube.com/channel/UC1_oGFUL3_FCH_7_8g_kLRQ" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
 
 			</ul>
 		</div><!-- /.navbar-collapse -->

@@ -15,7 +15,7 @@
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         	<h2 class="text-center ">VISION</h2>
 
-       		<p class="text-center text-estandar margin-center">Our vision is to make every community in need like in a rave, with free water refills everywhere.</p>
+       		<p class="text-center text-estandar margin-center">Our vision is to make every community in need like in a Rave, with free water refills everywhere.</p>
        </div>
       </div>
     </div>
@@ -69,21 +69,6 @@
   	</div>
   </div>   
   
-
-  <!-- <div class="white">
-    <div class="container">
-      <h2 class="text-center">Alliances</h2>
-      
-      <div class="row margin-bottom-lg">
-      	<div class="col-xs-6">
-      		<a href="http://ema-global.org/" target="_blank"><img src="{{ asset('img/ema.jpg')}}" alt="Electronic Music Alliance" width="30%" class="center-block"></a>
-      	</div>
-      	<div class="col-xs-6">
-      		<a href="http://www.otracosa.org/" target="_blank"><img src="{{ asset('img/ocn.jpg')}}" alt="Otra Cosa Network" width="30%" class="center-block"></a>
-      	</div>
-      </div>
-    </div>
-  </div>   -->
 
   <div class="yellow">
     <div class="container">
