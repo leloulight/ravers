@@ -91,7 +91,7 @@
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox" id="terms1"required><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow a-color" href="{{ route('terms')}}">Terms of Use</a>.
+                <input type="checkbox" id="terms"required><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow a-color" href="{{ route('terms')}}">Terms of Use</a>.
               </label>
             </div>
             <div class="text-center margin-bottom-lg" id="warriors">
