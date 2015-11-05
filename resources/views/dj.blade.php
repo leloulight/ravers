@@ -1,8 +1,24 @@
 @extends('layouts.default')
 
 @section('content')
+
 <div class="alert" id="alerta">
   
+  </div>
+  <div class="prueba">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="cerrar" id="cerrar"><button class="btn btn-primary">X</button></div>
+        <div class="mensaje">
+          <p class="text-justify">Ravers International Charity is aware of the importance of keeping information on each artist always well protected. So we will  work with "Classy.org" on for this project.  And thus not only you can ask for gifts to your fans,  you can also collect donations if you celebrate  your birthday  throwing a private party. <br>
+          <br>If you like the idea and want to know more, you can send us an email to <a href="mailto:mybirthday@internationalravers.org">MyBirthday@internationalravers.org </a>and we will send you detailed information of the steps to subscribe to our calendar, our strategy and our campaigns to promote your cause in social networks. <br>
+          <br>Together we will transform communities in need into raves, with free water refills everywhere.</p>
+        </div>
+
+      </div>
+  </div>
+</div>
 </div>
  <div class="bg_dj1">
     <div class="container ">
@@ -48,7 +64,7 @@
         <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-6 visible-md visible-lg ">
           <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 ">
             <div class="card center-block" id="card2">
-              <p class="title-white text-justify text-content-dj p_hidden " id="text-card2">With elkay water filters we can build free water refill stations on the poorest school in developing countries</p>
+              <p class="title-white text-justify text-content-dj p_hidden " id="text-card2">With elkay water filters we can build free water refill stations on the poorest schools in developing countries</p>
               <img src="{{ asset('img/elkay.jpg') }}" id="img-card2" alt="Explore" width="100%" class="center-block" >
               <p class="title-white text-center text-title-dj" id="title-card2">Free water refill stations.</p>
              </div>
@@ -175,7 +191,7 @@
             </div>
             <div class="col-sm-10 margin-bottom-lg">
               
-                <button type="button" id="transform" class="btn btn-success btn-lg">Transform poor communities into <strong>raves</strong></button>
+                <button type="button" id="transform" class="btn btn-success btn-lg transform">Transform poor communities into <strong>raves</strong></button>
             </div>
             
           </div>
@@ -187,7 +203,7 @@
             </div>
             <div class="col-xs-9 margin-bottom">
               
-                <button type="button" id="transform" class="btn btn-success">Transform poor <br>communities into <strong>raves</strong></button>
+                <button type="button" id="transform" class="btn btn-success transform">Transform poor <br>communities into <strong>raves</strong></button>
             </div>
             
           </div>
@@ -280,8 +296,14 @@
         autoplayDisableOnInteraction: false
     });
 
-    $('#transform').click(function(){
-        $('#alerta').fadeIn(300);
+    $('.transform').click(function(){
+        $('#alerta').fadeTo(300,0.8);
+        $('.prueba').fadeIn(300);
+        // if($('#alerta'))
+    });
+    $('#cerrar').click(function(){
+        $('#alerta').fadeOut(300);
+        $('.prueba').fadeOut(300);
         // if($('#alerta'))
     });
   });
