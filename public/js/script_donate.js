@@ -118,8 +118,33 @@ $( document ).ready(function() {
       // $(window).on('popstate', function() {
       //   handler.close();
       // });
-    $('.stripe-button-el').click(function(){
-        alert('prueba')
-    })
+
+    
+    $('#kandi > .stripe-button-el').click(function(){
+        var edm = $('#inputRave').val();
+        var check;
+        if($('#terms').is(':checked')){
+            check = 1;
+        }
+        else{
+            check = 0;
+        }
+        if(edm == ''){
+            if(check=='0'){
+                alert("Los campos Rave y Term of Use son obligatorios");
+
+                location.reload();
+            }else{
+                alert("El campo Rave es obligatorio")
+                location.reload();
+            }
+        }else{
+            if(check==0){
+                alert("El campo terms of use es obligatorio")
+                location.reload();
+            }
+        }
+    });
+
 
 });
