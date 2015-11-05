@@ -3,9 +3,9 @@
 @section('content')
 
 <div class="alert" id="alerta">
-  
-  </div>
-  <div class="prueba">
+</div>
+
+<div class="prueba">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -16,10 +16,11 @@
           <br>Together we will transform communities in need into raves, with free water refills everywhere.
           
         </div>
-
       </div>
+    </div>
   </div>
 </div>
+
 </div>
  <div class="bg_dj1">
     <div class="container ">
@@ -27,17 +28,17 @@
           <img src="{{ asset('img/djch.png') }}" alt="" class="center-block visible-md visible-lg" width="100%">
           <img src="{{ asset('img/djch-r.png') }}" alt="" class="center-block visible-xs visible-sm" width="100%">
       </div>
-      <div class="col-xs-10 col-sm-10 col-md-8 col-lg-10 col-lg-offset-1 margin-top-lg visible-md visible-lg">
+      <div class="col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 margin-top-lg visible-md visible-lg">
         <p class="text-standar texto-lg texto-blanco text-center txt-dj margin-top-lg ">The International Ravers - <span><img src="img/djch.png" alt="" class="img-text"></span> - is about engaging DJ and their fans to gift their birthday to the greater good of providing clean water around the world, just like at our raves. Whether you are a famous DJ or an enthusiastic Beginner, you can get involved by subscribing and inviting your friends, family, and fans to participate for your birthday.</p>        
       </div>
-      <div class="col-xs-12 col-sm-12 margin-top-lg visible-xs visible-md">
+      <div class="col-xs-12 col-sm-12 margin-top-lg visible-xs visible-sm">
         <p class="text-standar texto-lg texto-blanco text-center text-shadow txt-dj-r margin-top-lg ">The International Ravers <span><img src="img/djch.png" alt="" class="img-text-r"></span> <br>is about engaging DJ and their fans to gift their birthday to the greater good of providing clean water around the world, just like at our raves. Whether you are a famous DJ or an enthusiastic Beginner, you can get involved by subscribing and inviting your friends, family, and fans to participate for your birthday.</p>        
       </div>
     </div>
   </div>  
   <div class="rosa">
     <canvas class="animate" id="confeti"></canvas>
-    <div class="division visible-md visible-lg">
+    <div class="division-1 visible-md visible-lg">
       <img src="{{ asset('img/tornamesa-01.png') }}" alt="" width="100%" class="center-block tornamesa" >
     </div>
     <div class="division-r  visible-xs visible-sm">
@@ -45,11 +46,9 @@
     </div>
     <div class="container">
       <div class="row margin-bottom-lg" id="team">
-
-        <h2 class="textdj visible-lg">Which kind of birthday  wishes the DJs can ask?</h2>
-        <h3 class="textdj visible-sm visible-md">Which kind of birthday  wishes the DJs can ask?</h3>
-        <h3 class="textdj visible-xs">Which kind of birthday  wishes the DJs can ask?</h3>
-        <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-6 visible-md visible-lg">
+        <h2 class="textdj visible-md visible-lg">Which kind of birthday  wishes the DJs can ask?</h2>
+        <h3 class="textdj visible-xs visible-sm ">Which kind of birthday  wishes the DJs can ask?</h3>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 visible-md visible-lg">
           <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4">
             <div class="card center-block" id="card1">
               <p class="title-white text-justify text-content-dj p_hidden " id="text-card1">There is thousands of water well projects stalled because other organizations run out funds. Let's help fulfill those water projects with your gifts</p>
@@ -62,7 +61,7 @@
           
           <!--  -->
         </div>
-        <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-6 visible-md visible-lg ">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 visible-md visible-lg ">
           <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 ">
             <div class="card center-block" id="card2">
               <p class="title-white text-justify text-content-dj p_hidden " id="text-card2">With elkay water filters we can build free water refill stations on the poorest schools in developing countries</p>

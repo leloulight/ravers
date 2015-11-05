@@ -12,6 +12,11 @@ body{
     font-size: 12px;
 }
 
+.small-nav{
+  font-size: 0.8em;
+  margin-left: 0;
+  margin-right: 0;
+}
 .video{
     /*background: url('../img/bg-video.png') center;*/
     min-height: 35em;
@@ -562,7 +567,7 @@ body{
 }
 .text-title-dj{
   font-size: 1.4em;
-  margin-top: 0.4em;
+  margin-top: 0.4
 }
 
 .text-content-dj{
@@ -577,7 +582,11 @@ body{
 }
 
 .division {
-  top:-72px;
+  top:-58px;
+  position: relative;
+}
+.division-1 {
+  top:-58px;
   position: relative;
 }
 .division-2 {
@@ -721,3 +730,4 @@ canvas {
 .cerrar{
   margin-top: 1em;
 }
+

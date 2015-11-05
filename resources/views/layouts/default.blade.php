@@ -34,47 +34,62 @@
 
 			<ul class="nav navbar-nav navbar-right">
 			  @if($title == 'Donate')
-				<li class='active'><a href="{{ route('donate') }}">donate</a></li>
+				<li class='active visible-md visible-lg'><a href="{{ route('donate') }}">donate</a></li>
+				<li class='active visible-xs visible-sm small-nav'><a href="{{ route('donate') }}">donate</a></li>
 			  @else
-				<li><a href="{{ route('donate') }}">donate</a></li>
+				<li class='visible-md visible-lg'><a href="{{ route('donate') }}">donate</a></li>
+				<li class='visible-xs visible-sm small-nav'><a href="{{ route('donate') }}">donate</a></li>
 			  @endif
 
 			  @if($title == 'Why Water')
-				<li class='active'><a href="{{ route('water') }}">why water</a></li>
+				<li class='active visible-md visible-lg'><a href="{{ route('water') }}">why water</a></li>
+				<li class='active visible-xs visible-sm small-nav'><a href="{{ route('water') }}">why water</a></li>
 			   @else
-				<li><a href="{{ route('water')}}">why water</a></li>
+				<li class='visible-md visible-lg'><a href="{{ route('water')}}">why water</a></li>
+				<li class='visible-xs visible-sm small-nav'><a href="{{ route('water')}}">why water</a></li>
 			  @endif
 
 			  @if($title == 'Why Ravers')
-				<li class='active'><a href="{{ route('ravers') }}">why ravers</a></li>
+				<li class='active visible-md visible-lg'><a href="{{ route('ravers') }}">why ravers</a></li>
+				<li class='active visible-xs visible-sm small-nav'><a href="{{ route('ravers') }}">why ravers</a></li>
 			   @else
-				<li><a href="{{ route('ravers')}}">why ravers</a></li>
+				<li class='visible-md visible-lg'><a href="{{ route('ravers')}}">why ravers</a></li>
+				<li class='visible-xs visible-sm small-nav'><a href="{{ route('ravers')}}">why ravers</a></li>
 			  @endif
 
 			  @if($title == 'Programs')
-				<li class='active'><a href="{{ route('programs') }}">programs</a></li>
+				<li class='active visible-md visible-lg'><a href="{{ route('programs') }}">programs</a></li>
+				<li class='active visible-xs visible-sm small-nav'><a href="{{ route('programs') }}">programs</a></li>
 			   @else
-				<li><a href="{{ route('programs')}}">programs</a></li>
+				<li class='visible-md visible-lg'><a href="{{ route('programs')}}">programs</a></li>
+				<li class='visible-xs visible-sm small-nav'><a href="{{ route('programs')}}">programs</a></li>
 			  @endif
 			  @if($title == 'DJs Birthdays')
-				<li class='active'><a href="{{ route('dj') }}">dj birthday</a></li>
+				<li class='active visible-md visible-lg'><a href="{{ route('dj') }}">dj birthday</a></li>
+				<li class='active visible-xs visible-sm small-nav'><a href="{{ route('dj') }}">dj birthday</a></li>
 			   @else
-				<li><a href="{{ route('dj')}}">dj birthday</a></li>
+				<li class='visible-md visible-lg'><a href="{{ route('dj')}}">dj birthday</a></li>
+				<li class='visible-xs visible-sm small-nav'><a href="{{ route('dj')}}">dj birthday</a></li>
 			  @endif
 			  @if($title == 'About Us')
-				<li class='active'><a href="{{ route('about') }}">about us</a></li>
+				<li class='active visible-md visible-lg'><a href="{{ route('about') }}">about us</a></li>
+				<li class='active visible-xs visible-sm small-nav'><a href="{{ route('about') }}">about us</a></li>
 			   @else
-				<li><a href="{{ route('about')}}">about us</a></li>
+				<li class='visible-md visible-lg'><a href="{{ route('about')}}">about us</a></li>
+				<li class='visible-xs visible-sm small-nav'><a href="{{ route('about')}}">about us</a></li>
 			  @endif
 			  @if($title == 'Contact Us')
-				<li class='active visible-xs visible-sm'><a href="{{ route('contact') }}">contact us</a></li>
+				<li class='active visible-xs visible-sm small-nav'><a href="{{ route('contact') }}">contact us</a></li>
+			  <!-- <li class='active visible-xs visible-sm small-nav'><a href="{{ route('contact') }}">contact us</a></li> -->
 			   @else
-				<li class="visible-xs visible-sm"><a href="{{ route('contact')}}">contact us</a></li>
+				<li class="visible-xs visible-sm small-nav"><a href="{{ route('contact')}}">contact us</a></li>
 			  @endif
 			  @if($title == 'Blog')
-				<li class='active visible-xs visible-sm'><a href="{{ route('blog') }}">blog</a></li>
+				<li class='active visible-md visible-lg'><a href="{{ route('blog') }}">blog</a></li>
+			  <li class='active visible-xs visible-sm small-nav'><a href="{{ route('blog') }}">blog</a></li>
 			   @else
-				<li><a href="{{ route('blog') }}">blog</a></li>
+				<li class='visible-md visible-lg'><a href="{{ route('blog') }}">blog</a></li>
+			  <li class='visible-xs visible-sm small-nav'><a href="{{ route('blog') }}">blog</a></li>
 			  @endif
 
 
@@ -159,7 +174,7 @@
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('bootstrap/js/bootstrap.js') }}"></script>
 	
 	@yield('script')
   
