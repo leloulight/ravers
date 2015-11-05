@@ -145,7 +145,7 @@ $( document ).ready(function() {
             }
         }
     });
-    $('#help > .stripe-button-el').click(function(){
+    $('#warriors > .stripe-button-el').click(function(){
         var check;
         if($('#terms1').is(':checked')){
             check = 1;
