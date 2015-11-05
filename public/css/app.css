@@ -561,7 +561,8 @@ body{
   /*background:red;*/
 }
 .text-title-dj{
-  font-size: 1.8em
+  font-size: 1.4em;
+  margin-top: 0.4em;
 }
 
 .text-content-dj{
@@ -590,13 +591,13 @@ body{
 }
 
 .division-r-3{
-  top:-52px;
+  top:-45px;
   position: relative;
 }
 
 
 .text-dj{
-    text-align: center;
+    text-align: justify;
     color:#000;
     /*margin: 0 4em;*/
     /*position: absolute;*/
@@ -670,7 +671,7 @@ canvas {
 
 .card{
   background:#1BC659;
-  width: 80%;
+  width: 275px;
   padding-bottom: .5em;
   margin-bottom: 2.5em;
   height: 390px;
