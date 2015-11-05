@@ -717,6 +717,7 @@ canvas {
 
 .mensaje{
   width: 90%;
+  max-height: 95%;
   border-radius: 5px;
   border:2px solid #CCC;
   margin: 0 auto;
@@ -725,6 +726,7 @@ canvas {
   z-index: 12;
   /*opacity: 1;*/
   padding: 1em;
+  overflow: scroll;
 }
 
 .cerrar{
