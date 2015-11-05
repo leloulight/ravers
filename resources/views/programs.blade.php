@@ -79,7 +79,7 @@
   	<div class="container">
 	    <div class="row margin-bottom-lg">
 	    	
-	      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+	      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 margin-top">
           <h2 class="raver-text text-left visible-md visible-lg">VOLUNTEERING</h2>
           <h3 class="raver-text text-left visible-xs visible-sm ">VOLUNTEERING</h3>
           

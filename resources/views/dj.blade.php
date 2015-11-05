@@ -238,7 +238,7 @@
                 </a>
               </div>
               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <a href="https://twitter.com/intent/tweet?text=If%20it%20weren%27t%20for%20the%20DJs...There%20would%20never%20existed%20all%20those%20great%20moments.%20%23DjBdayChallenge%20%23FreeWaterRefills%20pic.twitter.com%2FlxtVmZvoQC&source=intRavers&related=intRavers  " target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
+                <a href="https://twitter.com/intent/tweet?text=If%20it%20weren%27t%20for%20the%20DJs...There%20would%20never%20existed%20all%20those%20great%20moments.%20%23DjBdayChallenge%20%23FreeWaterRefills%20pic.twitter.com%2FlxtVmZvoQC&source=intRavers&related=intRavers" target="popup" onClick="window.open(this.href, this.target, 'width=450,height=250'); return false;">
                   <img src="{{ asset('img/tw-dj.png') }}" alt="DJ Brithday" width="100%" class="center-block margin-bottom-lg" >
                 </a>
               </div>
