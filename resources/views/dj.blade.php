@@ -66,7 +66,7 @@
             <div class="card center-block" id="card2">
               <p class="title-white text-justify text-content-dj p_hidden " id="text-card2">With elkay water filters we can build free water refill stations on the poorest schools in developing countries</p>
               <img src="{{ asset('img/elkay.jpg') }}" id="img-card2" alt="Explore" width="100%" class="center-block" >
-              <p class="title-white text-center text-title-dj" id="title-card2">Free water refill stations. <br> For the poorest school in developing countries</p>
+              <p class="title-white text-center text-title-dj" id="title-card2">Free water refill stations. <br> For the poorest schools in developing countries</p>
              </div>
           </div>  
         </div>
@@ -93,9 +93,9 @@
                         <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-6 ">
                                   <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 ">
                                     <div class="card center-block" id="card2">
-                                      <p class="title-white text-justify text-content-dj p_hidden " id="text-card2">With elkay water filters we can build free water refill stations on the poorest school in developing countries</p>
+                                      <p class="title-white text-justify text-content-dj p_hidden " id="text-card2">With elkay water filters we can build free water refill stations on the poorest schools in developing countries</p>
                                       <img src="{{ asset('img/elkay.jpg') }}" id="img-card2" alt="Explore" width="100%" class="center-block" >
-                                      <p class="title-white text-center text-title-dj" id="title-card2">Free water refill stations. <br> For the poorest school in developing countries</p>
+                                      <p class="title-white text-center text-title-dj" id="title-card2">Free water refill stations. <br> For the poorest schools in developing countries</p>
                                      </div>
                                   </div>  
                                 </div>
