@@ -717,11 +717,11 @@ canvas {
 
 .mensaje{
   width: 90%;
-  max-height: 95%;
+  max-height: 380px;
   border-radius: 5px;
   border:2px solid #CCC;
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top: 2em;
   background: #fff;
   z-index: 12;
   /*opacity: 1;*/
