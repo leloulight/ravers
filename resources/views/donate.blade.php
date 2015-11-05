@@ -16,6 +16,8 @@
           <h3 class="texto-blanco text-center text-shadow margin-top-lg">Make a Kandi Trade</h3>
           <h4 class="texto-blanco text-center text-shadow">Water accesibility program</h4>
           <form action="/donate" method="POST">
+          <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+          <input type="hidden" name="amount" id="amount" value="100"/>
           <div class="bg-form margin-top col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
             <div class="form-group col-xs-12 margin-top">
               <label class="texto-blanco text-shadow" for="inputRave">Last EDM Festival or Club you attended</label>
@@ -52,10 +54,9 @@
             <div class="text-center margin-bottom-lg">
               <!-- <form action="/donate" method="POST"> -->
                 
-                <input type="hidden" name="amount" id="amount" value="100"/>
-                <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+                
                 <script
-                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button" id="prueba"
                     data-key="{{ Config::get('services.stripe.public') }}"
                     data-name="International Ravers Charity."
                     data-description="100% funds water project "
@@ -121,4 +122,6 @@
 
 @section('script')
 	<script src="{{ asset('js/script_donate.js') }}"></script> 
+
+  
 @stop

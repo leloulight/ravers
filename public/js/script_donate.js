@@ -118,6 +118,8 @@ $( document ).ready(function() {
       // $(window).on('popstate', function() {
       //   handler.close();
       // });
-    
+    $('.stripe-button-el').click(function(){
+        alert('prueba')
+    })
 
 });
