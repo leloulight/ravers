@@ -13,12 +13,12 @@
 					<div class="borderdiv col-xs-12">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-center">For non profits who needs Founds</p>
+								<p class="text-center">For non profits who needs Funds</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
 							<div class="margincontact">
-								<p class="text-center">mail us</p>
+								<p class="text-center">e-mail us</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 margin-bottom-lg">
@@ -41,7 +41,8 @@
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 margin-bottom-lg">
 							<div class="bordermail">
-								<p class="text-center">QUESTIONS@INTERNATIONALRAVERS.ORG</p>
+								<p class="text-center">CHARITY@INTERNATIONALRAVERS.ORG</p>
+								<p class="text-center">SUPPORT@INTERNATIONALRAVERS.ORG</p>
 							</div>
 						</div>
 					</div>
@@ -62,6 +63,7 @@
 								<a href="https://www.facebook.com/internationalravers" target="_blank" class="social-icon"><img src="img/fb.png" width="80" alt=""></a>
               	<a href="https://twitter.com/intravers" target="_blank" class="social-icon"><img src="img/tw.png" width="80" alt=""></a>
           			<a href="https://instagram.com/internationalraverscharity" target="_blank" class="social-icon"><img src="img/ig.png" width="80" alt=""></a>
+								<a href="https://www.youtube.com/channel/UC1_oGFUL3_FCH_7_8g_kLRQ" target="_blank" class="social-icon"><img src="img/yt.png" width="80" alt=""></a>
 							
 						</div>
 					</div>			

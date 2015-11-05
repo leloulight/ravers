@@ -38,30 +38,27 @@
         </div>
       	<div class="col-xs-12">
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/labanto.jpg') }}" alt="Luis Abanto" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/labanto.jpg') }}" alt="Luis Abanto" width="60%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Luis Abanto</strong><br>CIO</p>
           </div>
           
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/carlos.jpg') }}" alt="Carlos Perez" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/carlos.jpg') }}" alt="Carlos Perez" width="60%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Carlos Perez</strong><br>Media Manager</p>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/lcenturion.jpg') }}" alt="Luis Centurion" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/lcenturion.jpg') }}" alt="Luis Centurion" width="60%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Luis Centurion</strong><br>Key relationship manager ASIA</p>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/heyler.jpg') }}" alt="Heyler Fernandez" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/heyler.jpg') }}" alt="Heyler Fernandez" width="60%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Heyler Fernandez</strong><br>Graphic Designer / Frontend Developer</p>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/vargas.jpg') }}" alt="Jhon Vargas" width="70%" class="center-block img-responsive img-circle" >
+            <img src="{{ asset('img/vargas.jpg') }}" alt="Jhon Vargas" width="60%" class="center-block img-responsive img-circle" >
             <p class="title-white text-center"><strong>Jhon Vargas</strong><br>Support/SEO</p>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <img src="{{ asset('img/profile1.png') }}" alt="Wanna Join Us?" width="70%" class="center-block img-responsive img-circle" >
-            <p class="title-white text-center"><strong>Wanna Join Us??</strong></p>
-          </div>
+         
         </div>
         <!-- <div class="col-xs-12">
           
