@@ -187,7 +187,7 @@
             </div>
             <div class="col-xs-9 margin-bottom">
               
-                <button type="button" id="transform" class="btn btn-success btn-lg">Transform poor <br>communities into <strong>raves</strong></button>
+                <button type="button" id="transform" class="btn btn-success">Transform poor <br>communities into <strong>raves</strong></button>
             </div>
             
           </div>
