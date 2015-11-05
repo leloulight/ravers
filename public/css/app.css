@@ -319,6 +319,24 @@ body{
     min-height: 65em;
 }
 
+.bg-kandi{
+  background: url('../img/bg-kandi.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 55em;
+}
+
+.bg-help{
+  background: url('../img/bg-help.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 55em;
+}
+
+.bg-form{
+  background: rgba(0,0,0,0.3);
+  /*width: 75%;*/
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
 .vertical{
   margin-top: 8em;
   

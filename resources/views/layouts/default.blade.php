@@ -122,7 +122,7 @@
 						   <li><a class="texto-blanco" href="#"><strong>GET INVOLVED</strong></a></li>
 						   <li><a class="texto-oscuro" href="{{ route('donate')}}">Donate</a></li>
 						   <li><a class="texto-oscuro" href="{{ route('donate')}}">Kandi Trade</a></li>
-						   <li><a class="texto-oscuro" href="{{ route('programs') }}#warriors">Help a warrior</a></li>
+						   <li><a class="texto-oscuro" href="{{ route('programs') }}#warriors">Help little warriors</a></li>
 						   <li><a class="texto-oscuro" href="{{ route('dj') }}">DJ Birthday Challenge</a></li>
 						   <li><a class="texto-oscuro" href="{{ route('volunteers') }}">International Ravers Volunteer</a></li>
 

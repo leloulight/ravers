@@ -76,7 +76,7 @@
   </div>   
   
 
-  <div class="white">
+  <!-- <div class="white">
     <div class="container">
       <h2 class="text-center">Alliances</h2>
       
@@ -89,26 +89,28 @@
       	</div>
       </div>
     </div>
-  </div>  
+  </div>   -->
 
   <div class="yellow">
-  	<div class="container">
-	    <div class="row margin-bottom-lg">
-	    	
-	      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-          <h2 class="raver-text text-left visible-lg">VOLUNTEERING</h2>
-          <h3 class="raver-text text-left visible-sm visible-md">VOLUNTEERING</h3>
-          <h3 class="raver-text text-left visible-xs">VOLUNTEERING</h3>
+    <div class="container">
+      <div class="row margin-bottom-lg">
+        
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <h2 class="raver-text text-left visible-md visible-lg">VOLUNTEERING</h2>
+          <h3 class="raver-text text-left visible-xs visible-sm ">VOLUNTEERING</h3>
           
           <p class="text-justify margin-bottom-lg">When you volunteer, you agree to give your time, labor, and skills as a means of helping someone else, Volunteering is a great way for a foreigner to fully immerse himself/herself into global reality and to work with local people to make a positive change in their lives. <br><br>Just let us know what kind of continent you'd like to travel and which type of causes want to support. Then different organizations may contact you and give you information about their aid programs.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-	        <img src="{{ asset('img/volunteers-01.png') }}" alt="Volunteers" width="60%" class="center-block vertical" >
-	      </div>
-	    </div>
-	    <div class="col-xs-12 text-left margin-bottom-lg ">
-	        <a href="{{ route('volunteers') }}"><button type="button" class="btn btn-primary btn-lg btn-custom">Be a volunteer,</button></a>
-	    </div>
-		</div>
-  </div> 
+          <img src="{{ asset('img/volunteers-01.png') }}" alt="Volunteers" width="60%" class="center-block vertical_3 visible-md visible-lg" >
+          <img src="{{ asset('img/volunteers-01.png') }}" alt="Volunteers" width="60%" class="center-block visible-xs visible-sm" >
+        </div>
+        <div class="col-xs-12 text-left margin-top">
+          <a href="{{ route('volunteers') }}"><button type="button" class="btn btn-primary btn-lg btn-custom visible-md visible-lg">Be a volunteer,</button></a>
+          <a href="{{ route('volunteers') }}"><button type="button" class="btn btn-primary btn-lg btn-custom center-block visible-xs visible-sm">Be a volunteer,</button></a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 @stop
