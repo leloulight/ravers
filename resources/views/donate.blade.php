@@ -6,8 +6,8 @@
 	
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 margin-bottom-lg margin-top-lg">
-          <h3 class=" text-center visible-mdvisible-lg"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBER OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h3>
-          <h4 class=" text-center visible-xs visible-sm"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBER OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVAL WORLDWIDE.</strong></h4>
+          <h3 class=" text-center visible-md visible-lg"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBER OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVALS WORLDWIDE.</strong></h3>
+          <h4 class=" text-center visible-xs visible-sm"><strong>3.4 MILLION</strong>  people die yearly by <strong>water</strong> related problems around the world. <br> That's the same <strong>NUMBER OF RAVERS</strong> who attend to the 20 biggest <strong>EDM FESTIVALS WORLDWIDE.</strong></h4>
           <h2 class="text-center " id="warriors"><strong>WE CAN DO ANYTHING?</strong></h2>
       </div>
     </div>
@@ -39,13 +39,13 @@
               <label class="texto-blanco text-shadow" for="inputTotal">Total</label>
               <div class="input-group">
                 <div class="input-group-addon">$</div>
-                <input type="number" class="form-control" id="inputTotal" value="1.00"disabled>
+                <input type="number" class="form-control" id="inputTotal" value="1.00" disabled>
               </div>
             </div>
             <p class="text-justify texto-blanco text-shadow">* Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. for this reason is impossible  donate more than 4 lts daily.</p>
             <div class="checkbox">
              <label>
-                <input type="checkbox"><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow" href="{{ route('terms')}}">Terms of Use</a>.
+                <input type="checkbox" required><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow" href="{{ route('terms')}}">Terms of Use</a>.
               </label>
             </div>
             <div class="text-center margin-bottom-lg">
@@ -75,7 +75,7 @@
               <label class="texto-blanco text-shadow" for="inputAmmountH">You can donate one time or monthly</label>
               <div class="input-group">
                 <div class="input-group-addon">$</div>
-                <input type="number" class="form-control" id="inputAmmountH" value="0.50">
+                <input type="number" class="form-control" id="inputAmmountH" value="1.00">
               </div>
             </div>
             <div class="checkbox">
@@ -85,7 +85,7 @@
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox"><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow" href="{{ route('terms')}}">Terms of Use</a>.
+                <input type="checkbox" required><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow" href="{{ route('terms')}}">Terms of Use</a>.
               </label>
             </div>
             <div class="text-center margin-bottom-lg">

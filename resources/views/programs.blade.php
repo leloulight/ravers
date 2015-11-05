@@ -51,7 +51,7 @@
                         <li class="title-white text-justify  margin-right margin-top">There are more cellphones than toilets now a days, did you know that?</li>
                     </ul>
                     <div class="col-xs-12 text-center margin-top-lg ">
-                        <a href="{{ route('donate' )}}"><button type="button" class="btn btn-warning btn-lg btn-custom">Help little warriors</button></a>
+                        <a href="{{ route('donate' )}}"><button type="button" class="btn btn-warning btn-lg btn-custom">Help Little Warriors</button></a>
                     </div>
                 </div>
                

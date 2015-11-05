@@ -226,6 +226,13 @@ body{
     /*min-height: 34em;*/
 }
 
+.blue-escuela{
+    background: #1071FF;
+    background-image: url('../img/bg-water.png') right no-repeat;
+    /*position: relative;*/
+    /*min-height: 34em;*/
+}
+
 .green{
     background: #21D455;
 }
