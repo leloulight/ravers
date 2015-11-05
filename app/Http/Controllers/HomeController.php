@@ -143,13 +143,19 @@ class HomeController extends Controller
         $name = $request->input('inputName');
         $birthday = $request->input('inputBirthday');
 
-        $user = new User;
+        $user = User::whereEmail($email)->first();
+        
+        if(!$user){
+            $user = new User;
 
-        $user->email = $email;
-        $user->name = $name;
-        $user->birthday = $birthday;
+            $user->email = $email;
+            $user->name = $name;
+            $user->birthday = $birthday;
 
-        $user->save();
+            $user->save();
+        }
+
+        
 
         $title = 'Bienvenido';
 

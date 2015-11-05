@@ -468,14 +468,14 @@ body{
 }
 @media (max-width: 768px) {
   .carousel .item {
-    min-height: 600px;
+    min-height: 730px;
     /*background-color: #777;*/
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
   .carousel .item {
-    min-height: 780px;
+    min-height: 800px;
     /*background-color: #777;*/
   }
 }
