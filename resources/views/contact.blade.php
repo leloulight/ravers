@@ -13,7 +13,7 @@
 					<div class="borderdiv col-xs-12">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-center">For non profits who needs Funds</p>
+								<p class="text-center text-shadow">For non profits who needs Funds</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
@@ -23,7 +23,7 @@
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 margin-bottom-lg">
 							<div class="bordermail">
-								<p class="text-center">PROJECTS@INTERNATIONALRAVERS.ORG</p>
+								<p class="text-center text-shadow">PROJECTS@INTERNATIONALRAVERS.ORG</p>
 							</div>
 						</div>	
 					</div>
@@ -31,18 +31,18 @@
 					<div class="borderdiv col-xs-12 margin-top-lg">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-center">Have questions?</p>
+								<p class="text-center text-shadow">Have questions?</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 							<div class="margincontact">
-								<p class="text-center">give us a shot</p>
+								<p class="text-center text-shadow">give us a shot</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 margin-bottom-lg">
 							<div class="bordermail">
-								<p class="text-center">CHARITY@INTERNATIONALRAVERS.ORG</p>
-								<p class="text-center">SUPPORT@INTERNATIONALRAVERS.ORG</p>
+								<p class="text-center text-shadow">CHARITY@INTERNATIONALRAVERS.ORG</p>
+								<p class="text-center text-shadow">SUPPORT@INTERNATIONALRAVERS.ORG</p>
 							</div>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 					<div class="col-xs-12 margin-top-lg margin-bottom">
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="margincontact">
-								<p class="text-center">Social Media</p>
+								<p class="text-center text-shadow">Social Media</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">

@@ -38,7 +38,7 @@
                     <div class="embed-responsive embed-responsive-16by9">
                       <iframe class="center-block shadow embed-responsive-item" src="https://www.youtube.com/embed/qOLZTZpjXQo" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <h4 class="title-white text-center">This program aims are bring free water refill for every community in need.</h4>
+                    <h4 class="title-white text-center">This program aims to bring free water refill for every community in need.</h4>
                     <div class="col-xs-12 text-center margin-top-lg ">
                         <a href="{{ route('donate' )}}"><button type="button" class="btn btn-success btn-lg btn-custom">Make a Kandi Trade</button></a>
                     </div>

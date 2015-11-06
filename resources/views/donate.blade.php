@@ -45,8 +45,11 @@
                 <input type="number" class="form-control" id="inputTotal" value="1.00" disabled>
               </div>
             </div>
-            <p class="text-justify texto-blanco text-shadow">* Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. For this reason is impossible  donate more than 4 lts daily.</p>
-            <div class="checkbox">
+            <div class="form-group col-xs-12">
+              <p class="text-justify texto-blanco text-shadow">* Our research about the average of water that a raver drinks on a festival day is 3.7 lts of water. For this reason is impossible  donate more than 4 lts daily.</p>
+            </div>
+            
+            <div class="checkbox form-group col-xs-12">
              <label>
                 <input type="checkbox" id="terms"><span class="texto-blanco text-shadow">I have read and agree to the</span> <a class="text-shadow a-color" href="{{ route('terms')}}">Terms of Use</a>.
               </label>
