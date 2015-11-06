@@ -46,8 +46,8 @@
     </div>
     <div class="container">
       <div class="row margin-bottom-lg" id="team">
-        <h2 class="textdj visible-md visible-lg">Which kind of birthday  wishes the DJs can ask?</h2>
-        <h3 class="textdj visible-xs visible-sm ">Which kind of birthday  wishes the DJs can ask?</h3>
+        <h2 class="textdj visible-md visible-lg">Which kind of Birthday  wishes the DJs can ask for?</h2>
+        <h3 class="textdj visible-xs visible-sm ">Which kind of Birthday  wishes the DJs can ask for?</h3>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 visible-md visible-lg">
           <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4">
             <div class="card center-block" id="card1">
