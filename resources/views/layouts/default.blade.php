@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<!-- METAS FACEBOOK -->
+	<meta content='International Ravers Charity' property='og:title'/>
+	<meta content='https://internationalravers.org/img/logo_1.png' property='og:image'/>
+	<meta content='International Ravers Charity represents the EDM Community worldwide to help in solving one of the most critical problems on the planet today: Water Scarcity in Developing Countries' property='og:description'/>
 	<link rel="icon" href="{{ asset('favicon.ico') }}">
 	<title>{{$title}} | International Ravers Charity.</title>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
